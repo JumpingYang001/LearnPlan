@@ -41,7 +41,7 @@ WinDbg is a powerful debugger for Windows applications and operating system comp
 - Implement debugging with extensions
 
 ### 6. WinDbg Preview and Time Travel Debugging (2 weeks)
-[See details in 06_WinDbg_Preview_TTD.md](04_WinDbg_Perfetto/06_WinDbg_Preview_TTD.md)
+[See details in 06_WinDbg_Preview_and_Time_Travel_Debugging.md](04_WinDbg_Perfetto/06_WinDbg_Preview_and_Time_Travel_Debugging.md)
 - Master the modern WinDbg Preview interface
 - Learn about Time Travel Debugging (TTD)
 - Study TTD trace recording and playback
@@ -85,41 +85,40 @@ WinDbg is a powerful debugger for Windows applications and operating system comp
 ## Projects
 
 1. **Windows Application Debugger**
+   [See project details in project_01_Windows_Application_Debugger.md](04_WinDbg_Perfetto/project_01_Windows_Application_Debugger.md)
    - Build a front-end for WinDbg with simplified workflows
    - Implement automated analysis for common issues
    - Create reporting and visualization features
 
-   [See project details](04_WinDbg_Perfetto/Projects/Project1_Windows_Application_Debugger.md)
 
-   [See project details](04_WinDbg_Perfetto/Projects/Project1_Windows_Application_Debugger.md)
 
 2. **Crash Analysis System**
+   [See project details in project_02_Crash_Analysis_System.md](04_WinDbg_Perfetto/project_02_Crash_Analysis_System.md)
    - Develop a system for analyzing crash dumps
    - Implement pattern recognition for common failures
    - Create a knowledge base of solutions
 
-   [See project details](04_WinDbg_Perfetto/Projects/Project2_Crash_Analysis_System.md)
 
 3. **Performance Monitoring Dashboard**
+   [See project details in project_03_Performance_Monitoring_Dashboard.md](04_WinDbg_Perfetto/project_03_Performance_Monitoring_Dashboard.md)
    - Build a dashboard for visualizing Perfetto traces
    - Implement automated analysis for performance issues
    - Create alerting and recommendation system
 
-   [See project details](04_WinDbg_Perfetto/Projects/Project3_Performance_Monitoring_Dashboard.md)
 
 4. **Cross-Platform Debugging Toolkit**
+   [See project details in project_04_Cross-Platform_Debugging_Toolkit.md](04_WinDbg_Perfetto/project_04_Cross-Platform_Debugging_Toolkit.md)
    - Develop a toolkit that integrates WinDbg and Perfetto
    - Implement common workflows for both platforms
    - Create unified reporting and visualization
 
-   [See project details](04_WinDbg_Perfetto/Projects/Project4_Cross_Platform_Debugging_Toolkit.md)
 
 5. **Automated Performance Regression Testing**
+   [See project details in project_05_Automated_Performance_Regression_Testing.md](04_WinDbg_Perfetto/project_05_Automated_Performance_Regression_Testing.md)
    - Build a system for detecting performance regressions
    - Implement integration with CI/CD pipelines
    - Create detailed regression analysis reports
 
-   [See project details](04_WinDbg_Perfetto/Projects/Project5_Automated_Performance_Regression_Testing.md)
 
 ## Resources
 

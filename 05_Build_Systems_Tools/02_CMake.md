@@ -293,31 +293,31 @@ CMake is a cross-platform build system generator that simplifies the process of 
 ## Projects
 
 1. **Cross-Platform Library**
-   [See project details in project_01_Cross-Platform_Library.md](02_CMake/project_01_Cross-Platform_Library.md)
+   [See project details](02_CMake/Project_01_Cross-Platform_Library.md)
    - Create a library with CMake build system
    - Support multiple platforms and compilers
    - Implement proper package export
 
 2. **Multi-Component Application**
-   [See project details in project_02_Multi-Component_Application.md](02_CMake/project_02_Multi-Component_Application.md)
+   [See project details](02_CMake/Project_02_Multi-Component_Application.md)
    - Build a complex application with multiple components
    - Manage internal and external dependencies
    - Create installation and packaging
 
 3. **Custom Build Tool Integration**
-   [See project details in project_03_Custom_Build_Tool_Integration.md](02_CMake/project_03_Custom_Build_Tool_Integration.md)
+   [See project details](02_CMake/Project_03_Custom_Build_Tool_Integration.md)
    - Integrate code generation tools
    - Create custom build steps
    - Ensure proper dependency tracking
 
 4. **Cross-Compilation Toolchain**
-   [See project details in project_04_Cross-Compilation_Toolchain.md](02_CMake/project_04_Cross-Compilation_Toolchain.md)
+   [See project details](02_CMake/Project_04_Cross-Compilation_Toolchain.md)
    - Create toolchain files for different platforms
    - Test cross-compilation workflow
    - Implement platform-specific optimizations
 
 5. **CI/CD Integration**
-   [See project details in project_05_CICD_Integration.md](02_CMake/project_05_CICD_Integration.md)
+   [See project details](02_CMake/Project_05_CICD_Integration.md)
    - Set up CMake project for continuous integration
    - Implement multi-platform testing
    - Create automated deployment with CPack

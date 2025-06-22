@@ -92,31 +92,31 @@ Compiler optimization techniques improve the efficiency of code by enhancing exe
 ## Projects
 
 1. **Compiler Optimization Explorer**
-   [See project details in project_01_Compiler_Optimization_Explorer.md](04_Compiler_Optimization_Techniques/project_01_Compiler_Optimization_Explorer.md)
+   [See project details](04_Compiler_Optimization_Techniques/Project_01_Compiler_Optimization_Explorer.md)
    - Build a tool to visualize different optimization levels
    - Implement comparison of assembly output
    - Create benchmarking for different optimization strategies
 
 2. **Domain-Specific Optimizer**
-   [See project details in project_02_Domain-Specific_Optimizer.md](04_Compiler_Optimization_Techniques/project_02_Domain-Specific_Optimizer.md)
+   [See project details](04_Compiler_Optimization_Techniques/Project_02_Domain-Specific_Optimizer.md)
    - Develop optimization passes for a specific domain
    - Implement custom LLVM passes or GCC plugins
    - Create performance analysis and validation tools
 
 3. **Embedded Systems Optimization Toolkit**
-   [See project details in project_03_Embedded_Systems_Optimization_Toolkit.md](04_Compiler_Optimization_Techniques/project_03_Embedded_Systems_Optimization_Toolkit.md)
+   [See project details](04_Compiler_Optimization_Techniques/Project_03_Embedded_Systems_Optimization_Toolkit.md)
    - Build optimization tools for resource-constrained systems
    - Implement size and power consumption optimizations
    - Create cross-compiler optimization configurations
 
 4. **Auto-Vectorization Helper**
-   [See project details in project_04_Auto-Vectorization_Helper.md](04_Compiler_Optimization_Techniques/project_04_Auto-Vectorization_Helper.md)
+   [See project details](04_Compiler_Optimization_Techniques/Project_04_Auto-Vectorization_Helper.md)
    - Develop a tool to assist in code vectorization
    - Implement code transformations for better auto-vectorization
    - Create analysis of vectorization success/failure
 
 5. **Profile-Guided Optimization Framework**
-   [See project details in project_05_Profile-Guided_Optimization_Framework.md](04_Compiler_Optimization_Techniques/project_05_Profile-Guided_Optimization_Framework.md)
+   [See project details](04_Compiler_Optimization_Techniques/Project_05_Profile-Guided_Optimization_Framework.md)
    - Build a framework for PGO workflow automation
    - Implement instrumentation and profile collection
    - Create visualization of hot paths and optimization opportunities

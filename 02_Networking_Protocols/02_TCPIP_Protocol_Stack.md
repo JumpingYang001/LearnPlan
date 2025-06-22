@@ -138,27 +138,27 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
 ## Projects
 
 1. **TCP/IP Protocol Analyzer**
-   [See project details in project_01_TCPIP_Protocol_Analyzer.md](02_TCPIP_Protocol_Stack/project_01_TCPIP_Protocol_Analyzer.md)
+   [See project details](02_TCPIP_Protocol_Stack/projects/Project1_TCPIP_Protocol_Analyzer.md)
    - Implement a tool to capture and analyze TCP/IP packets
    - Display protocol headers and interpret fields
 
 2. **Custom Protocol Implementation**
-   [See project details in project_02_Custom_Protocol_Implementation.md](02_TCPIP_Protocol_Stack/project_02_Custom_Protocol_Implementation.md)
+   [See project details](02_TCPIP_Protocol_Stack/projects/Project2_Custom_Protocol_Implementation.md)
    - Design and implement a simple application protocol over TCP
    - Document the protocol specification
 
 3. **Network Stack Simulation**
-   [See project details in project_03_Network_Stack_Simulation.md](02_TCPIP_Protocol_Stack/project_03_Network_Stack_Simulation.md)
+   [See project details](02_TCPIP_Protocol_Stack/projects/Project3_Network_Stack_Simulation.md)
    - Create a simplified TCP/IP stack simulation
    - Demonstrate encapsulation and protocol operation
 
 4. **TCP Congestion Control Visualization**
-   [See project details in project_04_TCP_Congestion_Control_Visualization.md](02_TCPIP_Protocol_Stack/project_04_TCP_Congestion_Control_Visualization.md)
+   [See project details](02_TCPIP_Protocol_Stack/projects/Project4_TCP_Congestion_Control_Visualization.md)
    - Build a tool to visualize TCP congestion control algorithms
    - Show window size changes during transmission
 
 5. **IP Routing Simulator**
-   [See project details in project_05_IP_Routing_Simulator.md](02_TCPIP_Protocol_Stack/project_05_IP_Routing_Simulator.md)
+   [See project details](02_TCPIP_Protocol_Stack/projects/Project5_IP_Routing_Simulator.md)
    - Implement a basic IP routing algorithm
    - Demonstrate path selection and forwarding
 

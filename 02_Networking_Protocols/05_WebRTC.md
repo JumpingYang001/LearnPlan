@@ -50,35 +50,35 @@ WebRTC (Web Real-Time Communication) is an open-source project that provides web
 ## Projects
 
 1. **Video Chat Application**
-   [See project details in project_01_Video_Chat_Application.md](05_WebRTC/project_01_Video_Chat_Application.md)
+   [See project details](05_WebRTC/projects/Project1_Video_Chat_Application.md)
    - Build a one-to-one video chat application
    - Implement camera and microphone controls
    - Create UI for call management
    - Add screen sharing capabilities
 
 2. **Multi-Party Conference System**
-   [See project details in project_02_Multi-Party_Conference_System.md](05_WebRTC/project_02_Multi-Party_Conference_System.md)
+   [See project details](05_WebRTC/projects/Project2_Multi-Party_Conference_System.md)
    - Develop a system supporting multiple participants
    - Implement speaker detection
    - Create bandwidth management features
    - Add recording functionality
 
 3. **WebRTC File Sharing Application**
-   [See project details in project_03_WebRTC_File_Sharing_Application.md](05_WebRTC/project_03_WebRTC_File_Sharing_Application.md)
+   [See project details](05_WebRTC/projects/Project3_WebRTC_File_Sharing_Application.md)
    - Build a peer-to-peer file sharing solution
    - Implement progress tracking
    - Create resume functionality for large files
    - Add encryption for secure transfers
 
 4. **Live Streaming Platform**
-   [See project details in project_04_Live_Streaming_Platform.md](05_WebRTC/project_04_Live_Streaming_Platform.md)
+   [See project details](05_WebRTC/projects/Project4_Live_Streaming_Platform.md)
    - Develop a system for one-to-many streaming
    - Implement viewer metrics and analytics
    - Create adaptive quality features
    - Add chat functionality alongside streams
 
 5. **WebRTC Gaming Platform**
-   [See project details in project_05_WebRTC_Gaming_Platform.md](05_WebRTC/project_05_WebRTC_Gaming_Platform.md)
+   [See project details](05_WebRTC/projects/Project5_WebRTC_Gaming_Platform.md)
    - Build a real-time multiplayer game using data channels
    - Implement state synchronization
    - Create latency management strategies

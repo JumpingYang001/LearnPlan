@@ -179,9 +179,42 @@ def generate_project_link(project_num, project_title, folder_name):
     clean_title = re.sub(r'[^\w\s-]', '', project_title)
     clean_title = re.sub(r'\s+', '_', clean_title.strip())
     
-    filename = f"project_{project_num:02d}_{clean_title}.md"
-    link = f"[See project details in {filename}]({folder_name}/{filename})"
-    return link
+    # Check if this is one of the sections that uses Projects/ subfolder with ProjectX_ naming
+    sections_with_capital_projects_folder = [
+        '01_C_Multithreading', '02_CPP_11_14_17_Features', '03_STL', '04_Boost_Library'
+    ]
+    
+    # Check if this is one of the sections that uses projects/ subfolder (lowercase)
+    sections_with_lowercase_projects_folder = [
+        '01_Socket_Programming', '02_TCPIP_Protocol_Stack', '03_HTTP_Protocol', 
+        '04_Protocol_Buffers', '05_WebRTC', '06_BRPC_Thrift'
+    ]
+    
+    # Check if this is one of the sections that uses Project_XX_ naming in main folder
+    sections_with_project_prefix = [
+        '01_GCC_LLVM', '02_CMake', '03_Bazel_Other_Build_Tools', '04_Compiler_Optimization_Techniques'
+    ]
+    
+    if folder_name in sections_with_capital_projects_folder:
+        # Use format: Projects/ProjectX_Title.md
+        filename = f"Project{project_num}_{clean_title}.md"
+        link = f"[See project details]({folder_name}/Projects/{filename})"
+        return link
+    elif folder_name in sections_with_lowercase_projects_folder:
+        # Use format: projects/ProjectX_Title.md  
+        filename = f"Project{project_num}_{clean_title}.md"
+        link = f"[See project details]({folder_name}/projects/{filename})"
+        return link
+    elif folder_name in sections_with_project_prefix:
+        # Use format: Project_XX_Title.md (in main folder)
+        filename = f"Project_{project_num:02d}_{clean_title}.md"
+        link = f"[See project details]({folder_name}/{filename})"
+        return link
+    else:
+        # Use the new standardized format: project_XX_title.md
+        filename = f"project_{project_num:02d}_{clean_title}.md"
+        link = f"[See project details in {filename}]({folder_name}/{filename})"
+        return link
 
 def update_md_file_links(content, sections, projects, folder_name):
     """Update the markdown content with missing links."""

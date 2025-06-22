@@ -78,31 +78,31 @@ Protocol Buffers (protobuf) is a language-neutral, platform-neutral, extensible 
 ## Projects
 
 1. **Data Serialization Library**
-   [See project details in project_01_Data_Serialization_Library.md](04_Protocol_Buffers/project_01_Data_Serialization_Library.md)
+   [See project details](04_Protocol_Buffers/projects/Project1_Data_Serialization_Library.md)
    - Build a library that provides a common interface for multiple serialization formats
    - Implement Protocol Buffers as the primary format
    - Create benchmarks comparing with JSON and XML
 
 2. **gRPC Microservices System**
-   [See project details in project_02_gRPC_Microservices_System.md](04_Protocol_Buffers/project_02_gRPC_Microservices_System.md)
+   [See project details](04_Protocol_Buffers/projects/Project2_gRPC_Microservices_System.md)
    - Develop a set of microservices communicating via gRPC
    - Implement Protocol Buffers for service definitions
    - Create a service registry and discovery mechanism
 
 3. **Cross-Language Data Exchange System**
-   [See project details in project_03_Cross-Language_Data_Exchange_System.md](04_Protocol_Buffers/project_03_Cross-Language_Data_Exchange_System.md)
+   [See project details](04_Protocol_Buffers/projects/Project3_Cross-Language_Data_Exchange_System.md)
    - Build a system where multiple components in different languages exchange data
    - Implement Protocol Buffers as the common data format
    - Create adapters for each language
 
 4. **Real-time Data Streaming Application**
-   [See project details in project_04_Real-time_Data_Streaming_Application.md](04_Protocol_Buffers/project_04_Real-time_Data_Streaming_Application.md)
+   [See project details](04_Protocol_Buffers/projects/Project4_Real-time_Data_Streaming_Application.md)
    - Develop an application that processes streams of data
    - Implement Protocol Buffers for efficient serialization
    - Create visualization of streaming data
 
 5. **Mobile-Backend Communication Framework**
-   [See project details in project_05_Mobile-Backend_Communication_Framework.md](04_Protocol_Buffers/project_05_Mobile-Backend_Communication_Framework.md)
+   [See project details](04_Protocol_Buffers/projects/Project5_Mobile-Backend_Communication_Framework.md)
    - Build a framework for mobile-to-backend communication
    - Implement Protocol Buffers for data exchange
    - Create code generation tools for mobile platforms

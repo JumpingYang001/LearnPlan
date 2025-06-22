@@ -92,31 +92,31 @@ Bazel is an open-source build and test tool that enables fast, reproducible buil
 ## Projects
 
 1. **Multi-language Monorepo**
-   [See project details in project_01_Multi-language_Monorepo.md](03_Bazel_Other_Build_Tools/project_01_Multi-language_Monorepo.md)
+   [See project details](03_Bazel_Other_Build_Tools/Project_01_Multi-language_Monorepo.md)
    - Build a monorepo structure with multiple languages
    - Implement Bazel configuration for all components
    - Create shared dependencies and cross-language integration
 
 2. **Custom Toolchain Integration**
-   [See project details in project_02_Custom_Toolchain_Integration.md](03_Bazel_Other_Build_Tools/project_02_Custom_Toolchain_Integration.md)
+   [See project details](03_Bazel_Other_Build_Tools/Project_02_Custom_Toolchain_Integration.md)
    - Develop custom toolchain definitions for specialized compilers
    - Implement toolchain resolution and configuration
    - Create documentation and examples
 
 3. **Build Performance Optimization**
-   [See project details in project_03_Build_Performance_Optimization.md](03_Bazel_Other_Build_Tools/project_03_Build_Performance_Optimization.md)
+   [See project details](03_Bazel_Other_Build_Tools/Project_03_Build_Performance_Optimization.md)
    - Analyze and optimize build performance for a large project
    - Implement caching and remote execution
    - Create performance comparison with other build systems
 
 4. **Cross-platform Build System**
-   [See project details in project_04_Cross-platform_Build_System.md](03_Bazel_Other_Build_Tools/project_04_Cross-platform_Build_System.md)
+   [See project details](03_Bazel_Other_Build_Tools/Project_04_Cross-platform_Build_System.md)
    - Build a system that works across multiple operating systems
    - Implement conditional compilation and platform-specific code
    - Create unified testing and packaging
 
 5. **Build System Migration Tool**
-   [See project details in project_05_Build_System_Migration_Tool.md](03_Bazel_Other_Build_Tools/project_05_Build_System_Migration_Tool.md)
+   [See project details](03_Bazel_Other_Build_Tools/Project_05_Build_System_Migration_Tool.md)
    - Develop a tool to migrate from other build systems to Bazel
    - Implement BUILD file generation from existing configurations
    - Create validation and verification tools

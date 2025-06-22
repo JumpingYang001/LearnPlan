@@ -107,31 +107,31 @@ The Standard Template Library (STL) is a powerful set of C++ template classes to
 ## Projects
 
 1. **Custom Allocator Implementation**
-   [See project details in project_01_Custom_Allocator_Implementation.md](03_STL/project_01_Custom_Allocator_Implementation.md)
+   [See project details](03_STL/Projects/Project1_Custom_Allocator_Implementation.md)
    *(Project file not found)*
    - Create a memory tracking allocator
    - Benchmark against standard allocator
 
 2. **Generic Algorithm Implementation**
-   [See project details in project_02_Generic_Algorithm_Implementation.md](03_STL/project_02_Generic_Algorithm_Implementation.md)
+   [See project details](03_STL/Projects/Project2_Generic_Algorithm_Implementation.md)
    *(Project file not found)*
    - Implement algorithms not in the STL
    - Ensure STL compatibility
 
 3. **Data Processing Pipeline**
-   [See project details in project_03_Data_Processing_Pipeline.md](03_STL/project_03_Data_Processing_Pipeline.md)
+   [See project details](03_STL/Projects/Project3_Data_Processing_Pipeline.md)
    *(Project file not found)*
    - Create a data processing system using STL algorithms
    - Process large datasets efficiently
 
 4. **Custom Container with STL Integration**
-   [See project details in project_04_Custom_Container_with_STL_Integration.md](03_STL/project_04_Custom_Container_with_STL_Integration.md)
+   [See project details](03_STL/Projects/Project4_Custom_Container_with_STL_Integration.md)
    *(Project file not found)*
    - Implement a specialized container
    - Ensure compatibility with STL algorithms
 
 5. **STL-based Text Processing Tool**
-   [See project details in project_05_STL-based_Text_Processing_Tool.md](03_STL/project_05_STL-based_Text_Processing_Tool.md)
+   [See project details](03_STL/Projects/Project5_STL-based_Text_Processing_Tool.md)
    *(Project file not found)*
    - Build a tool for text analysis
    - Leverage STL for efficient implementation

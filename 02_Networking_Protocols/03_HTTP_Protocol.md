@@ -132,28 +132,28 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 ## Projects
 
 1. **HTTP Protocol Analyzer**
-   [See project details in project_01_HTTP_Protocol_Analyzer.md](03_HTTP_Protocol/project_01_HTTP_Protocol_Analyzer.md)
+   [See project details](03_HTTP_Protocol/projects/Project1_HTTP_Protocol_Analyzer.md)
    - Implement a tool to parse and display HTTP messages
    - Support HTTP/1.1 and HTTP/2 formats
 
 2. **Simple HTTP Server**
-   [See project details in project_02_Simple_HTTP_Server.md](03_HTTP_Protocol/project_02_Simple_HTTP_Server.md)
+   [See project details](03_HTTP_Protocol/projects/Project2_Simple_HTTP_Server.md)
    - Create a basic HTTP/1.1 server in C/C++
    - Support multiple concurrent clients
    - Implement common request methods
 
 3. **RESTful API Client**
-   [See project details in project_03_RESTful_API_Client.md](03_HTTP_Protocol/project_03_RESTful_API_Client.md)
+   [See project details](03_HTTP_Protocol/projects/Project3_RESTful_API_Client.md)
    - Build a client library for interacting with RESTful APIs
    - Support authentication and content negotiation
 
 4. **HTTP/2 Server Implementation**
-   [See project details in project_04_HTTP2_Server_Implementation.md](03_HTTP_Protocol/project_04_HTTP2_Server_Implementation.md)
+   [See project details](03_HTTP_Protocol/projects/Project4_HTTP2_Server_Implementation.md)
    - Extend the HTTP server to support HTTP/2
    - Implement stream multiplexing and header compression
 
 5. **Secure API Gateway**
-   [See project details in project_05_Secure_API_Gateway.md](03_HTTP_Protocol/project_05_Secure_API_Gateway.md)
+   [See project details](03_HTTP_Protocol/projects/Project5_Secure_API_Gateway.md)
    - Create a proxy server that adds security headers
    - Implement rate limiting and authentication
 

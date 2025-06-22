@@ -76,27 +76,27 @@ Multi-threading in C allows for concurrent execution of code, enabling efficient
 ## Projects
 
 1. **Simple Thread Creation**  
-   [See project details in project_01_Simple_Thread_Creation.md](01_C_Multithreading/project_01_Simple_Thread_Creation.md)
+   [See project details](01_C_Multithreading/Projects/Project1_Simple_Thread_Creation.md)
    - Create multiple threads that print their IDs
    - Join all threads before program exit
 
 2. **Thread-Safe Data Structure**  
-   [See project details in project_02_Thread-Safe_Data_Structure.md](01_C_Multithreading/project_02_Thread-Safe_Data_Structure.md)
+   [See project details](01_C_Multithreading/Projects/Project2_Thread-Safe_Data_Structure.md)
    - Implement a thread-safe linked list
    - Support concurrent add/remove/search operations
 
 3. **Producer-Consumer Queue**  
-   [See project details in project_03_Producer-Consumer_Queue.md](01_C_Multithreading/project_03_Producer-Consumer_Queue.md)
+   [See project details](01_C_Multithreading/Projects/Project3_Producer-Consumer_Queue.md)
    - Implement using condition variables
    - Handle multiple producers and consumers
 
 4. **Thread Pool Implementation**  
-   [See project details in project_04_Thread_Pool_Implementation.md](01_C_Multithreading/project_04_Thread_Pool_Implementation.md)
+   [See project details](01_C_Multithreading/Projects/Project4_Thread_Pool_Implementation.md)
    - Create a reusable thread pool
    - Implement work queue and task submission API
 
 5. **Parallel Computation**  
-   [See project details in project_05_Parallel_Computation.md](01_C_Multithreading/project_05_Parallel_Computation.md)
+   [See project details](01_C_Multithreading/Projects/Project5_Parallel_Computation.md)
    - Implement parallel merge sort or matrix multiplication
    - Compare performance with single-threaded version
 

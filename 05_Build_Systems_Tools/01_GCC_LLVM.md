@@ -264,31 +264,31 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
 ## Projects
 
 1. **Custom GCC/Clang Plugin**
-   [See project details in project_01_Custom_GCCClang_Plugin.md](01_GCC_LLVM/project_01_Custom_GCCClang_Plugin.md)
+   [See project details](01_GCC_LLVM/Project_01_Custom_GCCClang_Plugin.md)
    - Implement a compiler plugin for static analysis
    - Focus on detecting a specific class of bugs
 
 
 2. **Domain-Specific Optimization Pass**
-   [See project details in project_02_Domain-Specific_Optimization_Pass.md](01_GCC_LLVM/project_02_Domain-Specific_Optimization_Pass.md)
+   [See project details](01_GCC_LLVM/Project_02_Domain-Specific_Optimization_Pass.md)
    - Create an LLVM optimization pass for a specific domain
    - Benchmark performance improvements
 
 
 3. **Cross-Compilation Toolchain**
-   [See project details in project_03_Cross-Compilation_Toolchain.md](01_GCC_LLVM/project_03_Cross-Compilation_Toolchain.md)
+   [See project details](01_GCC_LLVM/Project_03_Cross-Compilation_Toolchain.md)
    - Build a complete cross-compilation toolchain
    - Support multiple target architectures
 
 
 4. **JIT Compiler Integration**
-   [See project details in project_04_JIT_Compiler_Integration.md](01_GCC_LLVM/project_04_JIT_Compiler_Integration.md)
+   [See project details](01_GCC_LLVM/Project_04_JIT_Compiler_Integration.md)
    - Integrate LLVM JIT capabilities into an application
    - Implement runtime code generation and execution
 
 
 5. **Compiler Performance Analysis**
-   [See project details in project_05_Compiler_Performance_Analysis.md](01_GCC_LLVM/project_05_Compiler_Performance_Analysis.md)
+   [See project details](01_GCC_LLVM/Project_05_Compiler_Performance_Analysis.md)
    - Analyze and optimize compilation time
    - Create tools for compiler performance profiling
 

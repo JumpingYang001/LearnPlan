@@ -112,27 +112,27 @@ Socket programming is the foundation of network communications, enabling applica
 ## Projects
 
 1. **Simple Echo Server/Client**  
-   [See project details in project_01_Simple_Echo_ServerClient.md](01_Socket_Programming/project_01_Simple_Echo_ServerClient.md)
+   [See project details](01_Socket_Programming/projects/Project1_Simple_Echo_ServerClient.md)
    - Implement TCP echo server and client
    - Handle multiple clients concurrently
 
 2. **Chat Application**  
-   [See project details in project_02_Chat_Application.md](01_Socket_Programming/project_02_Chat_Application.md)
+   [See project details](01_Socket_Programming/projects/Project2_Chat_Application.md)
    - Build a multi-user chat server and client
    - Support private and broadcast messages
 
 3. **UDP File Transfer**  
-   [See project details in project_03_UDP_File_Transfer.md](01_Socket_Programming/project_03_UDP_File_Transfer.md)
+   [See project details](01_Socket_Programming/projects/Project3_UDP_File_Transfer.md)
    - Implement reliable file transfer over UDP
    - Handle packet loss and reordering
 
 4. **High-Performance Server**  
-   [See project details in project_04_High-Performance_Server.md](01_Socket_Programming/project_04_High-Performance_Server.md)
+   [See project details](01_Socket_Programming/projects/Project4_High-Performance_Server.md)
    - Create an event-driven server using epoll/IOCP
    - Benchmark performance under load
 
 5. **Network Protocol Analyzer**  
-   [See project details in project_05_Network_Protocol_Analyzer.md](01_Socket_Programming/project_05_Network_Protocol_Analyzer.md)
+   [See project details](01_Socket_Programming/projects/Project5_Network_Protocol_Analyzer.md)
    - Use raw sockets to capture and analyze network packets
    - Display protocol headers and payload data
 

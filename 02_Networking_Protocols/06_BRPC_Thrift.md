@@ -50,35 +50,35 @@ BRPC (Baidu RPC) and Apache Thrift are powerful RPC (Remote Procedure Call) fram
 ## Projects
 
 1. **Multi-language Service Ecosystem**
-   [See project details in project_01_Multi-language_Service_Ecosystem.md](06_BRPC_Thrift/project_01_Multi-language_Service_Ecosystem.md)
+   [See project details](06_BRPC_Thrift/projects/Project1_Multi-language_Service_Ecosystem.md)
    - Build services in different languages (C++, Java, Python)
    - Implement RPC communication between them
    - Create service discovery mechanism
    - Measure cross-language performance
 
 2. **High-throughput Data Processing Pipeline**
-   [See project details in project_02_High-throughput_Data_Processing_Pipeline.md](06_BRPC_Thrift/project_02_High-throughput_Data_Processing_Pipeline.md)
+   [See project details](06_BRPC_Thrift/projects/Project2_High-throughput_Data_Processing_Pipeline.md)
    - Develop a system for processing large datasets
    - Implement parallel processing with RPC
    - Create monitoring and metrics collection
    - Optimize for maximum throughput
 
 3. **Fault-tolerant Distributed Application**
-   [See project details in project_03_Fault-tolerant_Distributed_Application.md](06_BRPC_Thrift/project_03_Fault-tolerant_Distributed_Application.md)
+   [See project details](06_BRPC_Thrift/projects/Project3_Fault-tolerant_Distributed_Application.md)
    - Build a system with automatic failover
    - Implement timeout and retry mechanisms
    - Create circuit breaker patterns
    - Test resilience under various failure conditions
 
 4. **RPC Gateway Service**
-   [See project details in project_04_RPC_Gateway_Service.md](06_BRPC_Thrift/project_04_RPC_Gateway_Service.md)
+   [See project details](06_BRPC_Thrift/projects/Project4_RPC_Gateway_Service.md)
    - Develop a gateway for multiple backend services
    - Implement protocol translation
    - Create request routing and load balancing
    - Add monitoring and request tracing
 
 5. **Benchmarking Suite**
-   [See project details in project_05_Benchmarking_Suite.md](06_BRPC_Thrift/project_05_Benchmarking_Suite.md)
+   [See project details](06_BRPC_Thrift/projects/Project5_Benchmarking_Suite.md)
    - Build tools to compare different RPC frameworks
    - Implement various testing scenarios
    - Create performance visualization
