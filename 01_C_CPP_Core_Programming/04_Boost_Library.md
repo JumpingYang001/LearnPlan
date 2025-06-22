@@ -139,27 +139,27 @@ The Boost C++ Libraries are a collection of open-source libraries that extend th
 ## Projects
 
 1. **Multi-Indexed Database**  
-   [See project details](04_Boost_Library/Projects/Project1_Multi-Indexed_Database.md)
+   [See project details](04_Boost_Library\Project_01_Multi_Indexed_Database.md)
    - Create a database with multiple access patterns using Boost.MultiIndex
    - Implement complex queries and indices
 
 2. **Asynchronous Network Service**  
-   [See project details](04_Boost_Library/Projects/Project2_Asynchronous_Network_Service.md)
+   [See project details](4_Boost_Library\Project_02_Asynchronous_Network_Service.md)
    - Build a server using Boost.Asio
    - Implement asynchronous request handling
 
 3. **Cross-Platform File Processing Tool**  
-   [See project details](04_Boost_Library/Projects/Project3_Cross-Platform_File_Processing_Tool.md)
+   [See project details](04_Boost_Library\Project_03_Cross_Platform_File_Processing_Tool.md)
    - Use Boost.Filesystem for portable file operations
    - Process files recursively with proper error handling
 
 4. **Interprocess Communication System**  
-   [See project details](04_Boost_Library/Projects/Project4_Interprocess_Communication_System.md)
+   [See project details](04_Boost_Library\Project_04_Interprocess_Communication_System.md)
    - Create a shared memory communication mechanism with Boost.Interprocess
    - Implement synchronization between processes
 
 5. **Expression Parser with Boost.Spirit**  
-   [See project details](04_Boost_Library/Projects/Project5_Expression_Parser_with_BoostSpirit.md)
+   [See project details](04_Boost_Library\Project_05_Expression_Parser_Boost_Spirit.md)
    - Build a mathematical expression parser
    - Evaluate expressions at runtime
 

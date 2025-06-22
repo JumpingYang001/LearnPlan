@@ -117,8 +117,7 @@ class SmartMDTool:
         
         md_files = [f for f in os.listdir(search_dir) 
                    if f.endswith('.md') and f.lower() != 'readme.md']
-        
-        # First, try to find files with the same number prefix
+          # First, try to find files with the same number prefix
         if expected_number:
             same_number_files = []
             for f in md_files:
@@ -142,6 +141,55 @@ class SmartMDTool:
         
         return search_dir / best_match if best_match else None
     
+    def is_likely_markdown_link(self, link_text: str, link_url: str, line: str) -> bool:
+        """Check if a matched pattern is likely a real markdown link vs code."""
+        # Skip if inside code blocks or inline code
+        if '`' in line:
+            # Check if the match is inside backticks
+            match_pos = line.find(f'[{link_text}]({link_url})')
+            if match_pos != -1:
+                before_match = line[:match_pos]
+                after_match = line[match_pos + len(f'[{link_text}]({link_url})'):]
+                
+                # Count backticks before and after the match
+                backticks_before = before_match.count('`')
+                backticks_after = after_match.count('`')
+                
+                # If odd number of backticks before, we're inside inline code
+                if backticks_before % 2 == 1:
+                    return False
+        
+        # URLs, file paths, and anchors are definitely real links
+        if any(link_url.startswith(prefix) for prefix in ['http://', 'https://', 'ftp://', 'mailto:', '#', './', '../', '/']):
+            return True
+        
+        # File extensions indicate real links
+        if any(link_url.endswith(ext) for ext in ['.md', '.html', '.pdf', '.txt', '.doc', '.docx', '.png', '.jpg', '.gif']):
+            return True
+        
+        # If it looks like a file path (contains / or \)
+        if '/' in link_url or '\\' in link_url:
+            return True
+        
+        # If link_url contains spaces AND commas/multiple words, it's probably code parameters
+        if ' ' in link_url and (',' in link_url or len(link_url.split()) > 2):
+            return False
+        
+        # Skip obvious code patterns
+        code_patterns = [
+            r'^int\s+\w+',  # int variable declarations
+            r'^\w+\s*\(',   # function calls at start
+            r'^\w+::\w+',   # C++ scope resolution at start
+            r'^[a-zA-Z_]\w*\s*[&*]',  # C/C++ reference/pointer at start
+        ]
+        
+        for pattern in code_patterns:
+            if re.match(pattern, link_url):
+                return False
+        
+        # Default to True for other cases
+        return True
+    
     def analyze_file(self, file_path: Path) -> FileAnalysis:
         """Analyze a single markdown file for issues."""
         try:
@@ -163,14 +211,29 @@ class SmartMDTool:
         invalid_format = 0
         
         lines = content.split('\n')
+        in_code_block = False
         
         # Analyze links
         for pattern in self.config['link_patterns']:
             for line_num, line in enumerate(lines, 1):
+                # Track code blocks
+                if line.strip().startswith('```'):
+                    in_code_block = not in_code_block
+                    continue
+                
+                # Skip lines inside code blocks
+                if in_code_block:
+                    continue
+                
                 for match in re.finditer(pattern, line):
-                    total_links += 1
                     link_text = match.group(1) if match.groups() else ""
                     link_url = match.group(2) if len(match.groups()) > 1 else match.group(1)
+                    
+                    # Filter out non-link patterns
+                    if not self.is_likely_markdown_link(link_text, link_url, line):
+                        continue
+                    
+                    total_links += 1
                     
                     # Check if link is broken
                     full_target_path = self.resolve_link_path(file_path, link_url)
