@@ -98,7 +98,7 @@ Compiler optimization techniques improve the efficiency of code by enhancing exe
    - Create benchmarking for different optimization strategies
 
 2. **Domain-Specific Optimizer**
-   [See project details](04_Compiler_Optimization_Techniques/Project_02_Domain-Specific_Optimizer.md)
+   [See project details](04_Compiler_Optimization_Techniques/Project_02_Domain_Specific_Optimizer.md)
    - Develop optimization passes for a specific domain
    - Implement custom LLVM passes or GCC plugins
    - Create performance analysis and validation tools
@@ -110,13 +110,13 @@ Compiler optimization techniques improve the efficiency of code by enhancing exe
    - Create cross-compiler optimization configurations
 
 4. **Auto-Vectorization Helper**
-   [See project details](04_Compiler_Optimization_Techniques/Project_04_Auto-Vectorization_Helper.md)
+   [See project details](04_Compiler_Optimization_Techniques/Project_04_Auto_Vectorization_Helper.md)
    - Develop a tool to assist in code vectorization
    - Implement code transformations for better auto-vectorization
    - Create analysis of vectorization success/failure
 
 5. **Profile-Guided Optimization Framework**
-   [See project details](04_Compiler_Optimization_Techniques/Project_05_Profile-Guided_Optimization_Framework.md)
+   [See project details](04_Compiler_Optimization_Techniques/Project_05_Profile_Guided_Optimization_Framework.md)
    - Build a framework for PGO workflow automation
    - Implement instrumentation and profile collection
    - Create visualization of hot paths and optimization opportunities

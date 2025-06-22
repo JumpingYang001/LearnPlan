@@ -112,27 +112,27 @@ Socket programming is the foundation of network communications, enabling applica
 ## Projects
 
 1. **Simple Echo Server/Client**  
-   [See project details](01_Socket_Programming/projects/Project1_Simple_Echo_ServerClient.md)
+   [See project details](01_Socket_Programming/projects/01_Simple_Echo_Server_Client.md)
    - Implement TCP echo server and client
    - Handle multiple clients concurrently
 
 2. **Chat Application**  
-   [See project details](01_Socket_Programming/projects/Project2_Chat_Application.md)
+   [See project details](01_Socket_Programming/projects/02_Chat_Application.md)
    - Build a multi-user chat server and client
    - Support private and broadcast messages
 
 3. **UDP File Transfer**  
-   [See project details](01_Socket_Programming/projects/Project3_UDP_File_Transfer.md)
+   [See project details](01_Socket_Programming/projects/03_UDP_File_Transfer.md)
    - Implement reliable file transfer over UDP
    - Handle packet loss and reordering
 
 4. **High-Performance Server**  
-   [See project details](01_Socket_Programming/projects/Project4_High-Performance_Server.md)
+   [See project details](01_Socket_Programming/projects/04_High_Performance_Server.md)
    - Create an event-driven server using epoll/IOCP
    - Benchmark performance under load
 
 5. **Network Protocol Analyzer**  
-   [See project details](01_Socket_Programming/projects/Project5_Network_Protocol_Analyzer.md)
+   [See project details](01_Socket_Programming/projects/05_Network_Protocol_Analyzer.md)
    - Use raw sockets to capture and analyze network packets
    - Display protocol headers and payload data
 

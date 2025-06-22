@@ -264,19 +264,19 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
 ## Projects
 
 1. **Custom GCC/Clang Plugin**
-   [See project details](01_GCC_LLVM/Project_01_Custom_GCCClang_Plugin.md)
+   [See project details](01_GCC_LLVM/Project_01_Custom_GCC_Clang_Plugin.md)
    - Implement a compiler plugin for static analysis
    - Focus on detecting a specific class of bugs
 
 
 2. **Domain-Specific Optimization Pass**
-   [See project details](01_GCC_LLVM/Project_02_Domain-Specific_Optimization_Pass.md)
+   [See project details](01_GCC_LLVM/Project_02_Domain_Specific_Optimization_Pass.md)
    - Create an LLVM optimization pass for a specific domain
    - Benchmark performance improvements
 
 
 3. **Cross-Compilation Toolchain**
-   [See project details](01_GCC_LLVM/Project_03_Cross-Compilation_Toolchain.md)
+   [See project details](01_GCC_LLVM/Project_03_Cross_Compilation_Toolchain.md)
    - Build a complete cross-compilation toolchain
    - Support multiple target architectures
 

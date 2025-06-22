@@ -293,13 +293,13 @@ CMake is a cross-platform build system generator that simplifies the process of 
 ## Projects
 
 1. **Cross-Platform Library**
-   [See project details](02_CMake/Project_01_Cross-Platform_Library.md)
+   [See project details](02_CMake/Project_01_Cross_Platform_Library.md)
    - Create a library with CMake build system
    - Support multiple platforms and compilers
    - Implement proper package export
 
 2. **Multi-Component Application**
-   [See project details](02_CMake/Project_02_Multi-Component_Application.md)
+   [See project details](02_CMake/Project_02_Multi_Component_Application.md)
    - Build a complex application with multiple components
    - Manage internal and external dependencies
    - Create installation and packaging
@@ -311,13 +311,13 @@ CMake is a cross-platform build system generator that simplifies the process of 
    - Ensure proper dependency tracking
 
 4. **Cross-Compilation Toolchain**
-   [See project details](02_CMake/Project_04_Cross-Compilation_Toolchain.md)
+   [See project details](02_CMake/Project_04_Cross_Compilation_Toolchain.md)
    - Create toolchain files for different platforms
    - Test cross-compilation workflow
    - Implement platform-specific optimizations
 
 5. **CI/CD Integration**
-   [See project details](02_CMake/Project_05_CICD_Integration.md)
+   [See project details](02_CMake/Project_05_CI_CD_Integration.md)
    - Set up CMake project for continuous integration
    - Implement multi-platform testing
    - Create automated deployment with CPack

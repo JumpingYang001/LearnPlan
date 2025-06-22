@@ -100,27 +100,27 @@ Modern C++ (C++11, C++14, and C++17) introduced significant improvements to the 
 ## Projects
 
 1. **Move Semantics Implementation**  
-   [See project details](02_CPP_11_14_17_Features/Projects/Project1_Move_Semantics_Implementation.md)
+   [See project details](02_CPP_11_14_17_Features/Projects/01_Move_Semantics_Implementation.md)
    - Create a resource-owning class with proper move semantics
    - Demonstrate performance improvements
 
 2. **Thread Pool with Modern C++**  
-   [See project details](02_CPP_11_14_17_Features/Projects/Project2_Thread_Pool_with_Modern_C.md)
+   [See project details](02_CPP_11_14_17_Features/Projects/02_Thread_Pool_Modern_CPP.md)
    - Implement a thread pool using std::thread
    - Use futures and promises for task results
 
 3. **Type-Safe Configuration System**  
-   [See project details](02_CPP_11_14_17_Features/Projects/Project3_Type-Safe_Configuration_System.md)
+   [See project details](02_CPP_11_14_17_Features/Projects/03_Type_Safe_Configuration_System.md)
    - Use variant and optional for type-safe configuration
    - Implement visitors for configuration processing
 
 4. **File System Explorer**  
-   [See project details](02_CPP_11_14_17_Features/Projects/Project4_File_System_Explorer.md)
+   [See project details](02_CPP_11_14_17_Features/Projects/04_File_System_Explorer.md)
    - Use std::filesystem to create a simple file explorer
    - Implement recursive directory traversal
 
 5. **Template Metaprogramming Library**  
-   [See project details](02_CPP_11_14_17_Features/Projects/Project5_Template_Metaprogramming_Library.md)
+   [See project details](02_CPP_11_14_17_Features/Projects/05_Template_Metaprogramming_Library.md)
    - Create compile-time utilities using C++11/14/17 features
    - Implement type-safe containers or algorithms
 

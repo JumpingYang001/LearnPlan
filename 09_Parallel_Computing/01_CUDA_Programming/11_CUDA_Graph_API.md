@@ -1215,4 +1215,4 @@ void cuda_graph_examples() {
 
 ## Next Steps
 
-Proceed to [Advanced Topics and Emerging Trends](12_Advanced_Topics_and_Emerging_Trends.md) to explore cutting-edge CUDA features and future directions in GPU computing.
+Proceed to [Advanced Topics and Emerging Trends](12_Advanced_Topics_Emerging_Trends.md) to explore cutting-edge CUDA features and future directions in GPU computing.

@@ -92,7 +92,7 @@ Bazel is an open-source build and test tool that enables fast, reproducible buil
 ## Projects
 
 1. **Multi-language Monorepo**
-   [See project details](03_Bazel_Other_Build_Tools/Project_01_Multi-language_Monorepo.md)
+   [See project details](03_Bazel_Other_Build_Tools/Project_01_Multi_language_Monorepo.md)
    - Build a monorepo structure with multiple languages
    - Implement Bazel configuration for all components
    - Create shared dependencies and cross-language integration
@@ -110,7 +110,7 @@ Bazel is an open-source build and test tool that enables fast, reproducible buil
    - Create performance comparison with other build systems
 
 4. **Cross-platform Build System**
-   [See project details](03_Bazel_Other_Build_Tools/Project_04_Cross-platform_Build_System.md)
+   [See project details](03_Bazel_Other_Build_Tools/Project_04_Cross_platform_Build_System.md)
    - Build a system that works across multiple operating systems
    - Implement conditional compilation and platform-specific code
    - Create unified testing and packaging

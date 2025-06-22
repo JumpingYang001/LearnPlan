@@ -81,17 +81,17 @@ Multi-threading in C allows for concurrent execution of code, enabling efficient
    - Join all threads before program exit
 
 2. **Thread-Safe Data Structure**  
-   [See project details](01_C_Multithreading/Projects/Project2_Thread-Safe_Data_Structure.md)
+   [See project details](01_C_Multithreading/Projects/Project2_ThreadSafe_DataStructure.md)
    - Implement a thread-safe linked list
    - Support concurrent add/remove/search operations
 
 3. **Producer-Consumer Queue**  
-   [See project details](01_C_Multithreading/Projects/Project3_Producer-Consumer_Queue.md)
+   [See project details](01_C_Multithreading/Projects/Project3_Producer_Consumer_Queue.md)
    - Implement using condition variables
    - Handle multiple producers and consumers
 
 4. **Thread Pool Implementation**  
-   [See project details](01_C_Multithreading/Projects/Project4_Thread_Pool_Implementation.md)
+   [See project details](01_C_Multithreading/Projects/Project4_Thread_Pool.md)
    - Create a reusable thread pool
    - Implement work queue and task submission API
 
