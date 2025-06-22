@@ -6,48 +6,56 @@ Argo Workflow is a container-native workflow engine for orchestrating parallel j
 ## Learning Path
 
 ### 1. Argo Workflow Fundamentals (1 week)
+[See details in 01_Argo_Workflow_Fundamentals.md](03_Argo_Workflow/01_Argo_Workflow_Fundamentals.md)
 - Understand Argo Workflow architecture and components
 - Learn the basic concepts of workflows, templates, and steps
 - Study Kubernetes CRDs and operator pattern
 - Set up Argo Workflow in a Kubernetes cluster
 
 ### 2. Workflow Definition Language (2 weeks)
+[See details in 02_Workflow_Definition_Language.md](03_Argo_Workflow/02_Workflow_Definition_Language.md)
 - Master YAML-based workflow definitions
 - Learn about templates, steps, and DAG (Directed Acyclic Graph)
 - Study parameters and arguments
 - Create basic workflows with multiple steps
 
 ### 3. Template Types and Execution Models (2 weeks)
+[See details in 03_Template_Types_and_Execution_Models.md](03_Argo_Workflow/03_Template_Types_and_Execution_Models.md)
 - Understand container, script, and resource templates
 - Learn about DAG templates for complex dependencies
 - Study suspend templates and human interaction
 - Implement different template types in workflows
 
 ### 4. Workflow Control Flow (2 weeks)
+[See details in 04_Workflow_Control_Flow.md](03_Argo_Workflow/04_Workflow_Control_Flow.md)
 - Master conditional execution
 - Learn about loops and recursion
 - Study error handling and retries
 - Implement complex control flows in workflows
 
 ### 5. Artifacts and Results (1 week)
+[See details in 05_Artifacts_and_Results.md](03_Argo_Workflow/05_Artifacts_and_Results.md)
 - Understand input and output artifacts
 - Learn about artifact repositories
 - Study result passing between steps
 - Implement workflows with artifact management
 
 ### 6. Parameterization and Variables (1 week)
+[See details in 06_Parameterization_and_Variables.md](03_Argo_Workflow/06_Parameterization_and_Variables.md)
 - Master workflow and template parameters
 - Learn about expression evaluation
 - Study variable substitution and manipulation
 - Create parameterized and reusable workflows
 
 ### 7. Workflow Optimization (1 week)
+[See details in 07_Workflow_Optimization.md](03_Argo_Workflow/07_Workflow_Optimization.md)
 - Understand resource allocation and requests
 - Learn about parallelism and synchronization
 - Study workflow and pod garbage collection
 - Optimize workflows for performance
 
 ### 8. Integration with Other Systems (2 weeks)
+[See details in 08_Integration_with_Other_Systems.md](03_Argo_Workflow/08_Integration_with_Other_Systems.md)
 - Learn about Argo Events for event-driven workflows
 - Understand integration with CI/CD systems
 - Study Argo CD integration
@@ -56,26 +64,31 @@ Argo Workflow is a container-native workflow engine for orchestrating parallel j
 ## Projects
 
 1. **Data Processing Pipeline**
+   [See project details in project_01_Data_Processing_Pipeline.md](03_Argo_Workflow/project_01_Data_Processing_Pipeline.md)
    - Build a scalable data processing workflow
    - Implement parallel data processing steps
    - Create artifact management for data files
 
 2. **Machine Learning Training Pipeline**
+   [See project details in project_02_Machine_Learning_Training_Pipeline.md](03_Argo_Workflow/project_02_Machine_Learning_Training_Pipeline.md)
    - Develop a workflow for ML model training
    - Implement hyperparameter tuning with parallel runs
    - Create model versioning and artifact management
 
 3. **CI/CD Workflow System**
+   [See project details in project_03_CICD_Workflow_System.md](03_Argo_Workflow/project_03_CICD_Workflow_System.md)
    - Build a complete CI/CD system with Argo Workflows
    - Implement build, test, and deployment steps
    - Create approval gates and rollback mechanisms
 
 4. **ETL Workflow Platform**
+   [See project details in project_04_ETL_Workflow_Platform.md](03_Argo_Workflow/project_04_ETL_Workflow_Platform.md)
    - Develop a platform for defining ETL workflows
    - Implement data validation and transformation steps
    - Create monitoring and error handling
 
 5. **Scientific Computing Workflow**
+   [See project details in project_05_Scientific_Computing_Workflow.md](03_Argo_Workflow/project_05_Scientific_Computing_Workflow.md)
    - Build workflows for scientific computations
    - Implement checkpointing and resume capability
    - Create visualization of workflow results

@@ -9,6 +9,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
 ## Learning Path
 
 ### 1. GTK+ Introduction and Setup (1 week)
+[See details in 01_GTK_Introduction_and_Setup.md](02_GTK_Plus/01_GTK_Introduction_and_Setup.md)
 - **GTK+ Overview**
   - History and evolution
   - GTK3 vs. GTK4
@@ -28,6 +29,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - Hello World example
 
 ### 2. GObject System (2 weeks)
+[See details in 02_GObject_System.md](02_GTK_Plus/02_GObject_System.md)
 - **GObject Fundamentals**
   - Type system
   - Object-oriented programming in C
@@ -52,6 +54,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - API documentation generation
 
 ### 3. Basic GTK+ Widgets (2 weeks)
+[See details in 03_Basic_GTK_Widgets.md](02_GTK_Plus/03_Basic_GTK_Widgets.md)
 - **Window and Container Widgets**
   - GtkWindow
   - GtkBox (horizontal/vertical)
@@ -86,6 +89,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - Constraint-based layout (GTK4)
 
 ### 4. GTK+ CSS Styling (1 week)
+[See details in 04_GTK_CSS_Styling.md](02_GTK_Plus/04_GTK_CSS_Styling.md)
 - **GTK+ CSS System**
   - CSS selector syntax
   - Style properties
@@ -104,6 +108,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - Canvas widgets
 
 ### 5. Model-View-Controller Pattern (2 weeks)
+[See details in 05_Model-View-Controller_Pattern.md](02_GTK_Plus/05_Model-View-Controller_Pattern.md)
 - **GtkTreeModel and GtkTreeView**
   - List and tree models
   - Custom models
@@ -123,6 +128,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - Performance considerations
 
 ### 6. Event Handling and Signals (1 week)
+[See details in 06_Event_Handling_and_Signals.md](02_GTK_Plus/06_Event_Handling_and_Signals.md)
 - **Event System**
   - Event types
   - Event propagation
@@ -139,6 +145,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - Signal accumulation
 
 ### 7. Advanced Widgets and UI Patterns (2 weeks)
+[See details in 07_Advanced_Widgets_and_UI_Patterns.md](02_GTK_Plus/07_Advanced_Widgets_and_UI_Patterns.md)
 - **Complex Widgets**
   - GtkHeaderBar
   - GtkSearchBar
@@ -165,6 +172,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - Keyboard navigation
 
 ### 8. UI Design with Glade/Builder (1 week)
+[See details in 08_UI_Design_with_GladeBuilder.md](02_GTK_Plus/08_UI_Design_with_GladeBuilder.md)
 - **UI Definition Files**
   - XML format
   - Object hierarchies
@@ -187,6 +195,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - Reusable components
 
 ### 9. GIO and Asynchronous Programming (1 week)
+[See details in 09_GIO_and_Asynchronous_Programming.md](02_GTK_Plus/09_GIO_and_Asynchronous_Programming.md)
 - **GIO Basics**
   - File operations
   - Input/output streams
@@ -204,6 +213,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - Thread synchronization
 
 ### 10. GTK+ Application Development (2 weeks)
+[See details in 10_GTK_Application_Development.md](02_GTK_Plus/10_GTK_Application_Development.md)
 - **Application Structure**
   - GtkApplication
   - Command line handling
@@ -228,6 +238,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - Distribution considerations
 
 ### 11. Advanced GTK+ Topics (2 weeks)
+[See details in 11_Advanced_GTK_Topics.md](02_GTK_Plus/11_Advanced_GTK_Topics.md)
 - **Custom Widgets**
   - Widget subclassing
   - Drawing and size allocation
@@ -250,6 +261,7 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
   - Memory management
 
 ### 12. Integration with Other Libraries (1 week)
+[See details in 12_Integration_with_Other_Libraries.md](02_GTK_Plus/12_Integration_with_Other_Libraries.md)
 - **Cairo Graphics**
   - Drawing context
   - Paths and shapes
@@ -272,26 +284,31 @@ GTK+ (GIMP Toolkit) is a multi-platform GUI toolkit used for creating graphical 
 ## Projects
 
 1. **Desktop Utility Application**
+   [See project details in project_01_Desktop_Utility_Application.md](02_GTK_Plus/project_01_Desktop_Utility_Application.md)
    - Create a file management tool
    - Implement drag and drop support
    - Use GIO for file operations
 
 2. **Data Visualization Tool**
+   [See project details in project_02_Data_Visualization_Tool.md](02_GTK_Plus/project_02_Data_Visualization_Tool.md)
    - Build a chart/graph display application
    - Use Cairo for custom drawing
    - Implement interactive elements
 
 3. **Media Player**
+   [See project details in project_03_Media_Player.md](02_GTK_Plus/project_03_Media_Player.md)
    - Create a simple media player with GStreamer
    - Design a modern UI with HeaderBar
    - Implement playlist management
 
 4. **Document Editor**
+   [See project details in project_04_Document_Editor.md](02_GTK_Plus/project_04_Document_Editor.md)
    - Build a text editor with syntax highlighting
    - Implement file operations and printing
    - Add search and replace functionality
 
 5. **GNOME Shell Extension**
+   [See project details in project_05_GNOME_Shell_Extension.md](02_GTK_Plus/project_05_GNOME_Shell_Extension.md)
    - Create an extension for the GNOME desktop
    - Integrate with system services
    - Follow GNOME Human Interface Guidelines

@@ -6,60 +6,70 @@ Protocol Buffers (protobuf) is a language-neutral, platform-neutral, extensible 
 ## Learning Path
 
 ### 1. Protocol Buffers Basics (1 week)
+[See details in 01_Protocol_Buffers_Basics.md](04_Protocol_Buffers/01_Protocol_Buffers_Basics.md)
 - Understand the purpose and benefits of Protocol Buffers
 - Learn about the .proto file format and syntax
 - Study the different versions (proto2 vs. proto3)
 - Compare Protocol Buffers with other serialization formats (JSON, XML, etc.)
 
 ### 2. Message Definition (1 week)
+[See details in 02_Message_Definition.md](04_Protocol_Buffers/02_Message_Definition.md)
 - Master message structure and field definitions
 - Learn about field numbers and types
 - Study nested messages and imports
 - Implement basic message definitions
 
 ### 3. Data Types and Fields (1 week)
+[See details in 03_Data_Types_and_Fields.md](04_Protocol_Buffers/03_Data_Types_and_Fields.md)
 - Understand scalar value types
 - Learn about repeated fields and maps
 - Study oneof and optional fields
 - Implement messages with different field types
 
 ### 4. Protocol Buffers in C++ (2 weeks)
+[See details in 04_Protocol_Buffers_in_C.md](04_Protocol_Buffers/04_Protocol_Buffers_in_C.md)
 - Master Protocol Buffer compilation for C++
 - Learn about generated code structure
 - Study message manipulation in C++
 - Implement C++ applications using Protocol Buffers
 
 ### 5. Protocol Buffers in Python (1 week)
+[See details in 05_Protocol_Buffers_in_Python.md](04_Protocol_Buffers/05_Protocol_Buffers_in_Python.md)
 - Understand Protocol Buffer usage in Python
 - Learn about Python-specific features
 - Study integration with Python applications
 - Implement Python applications using Protocol Buffers
 
 ### 6. Protocol Buffers in Java/Kotlin (1 week)
+[See details in 06_Protocol_Buffers_in_JavaKotlin.md](04_Protocol_Buffers/06_Protocol_Buffers_in_JavaKotlin.md)
 - Master Protocol Buffer usage in Java/Kotlin
 - Learn about Java-specific features
 - Study integration with Java applications
 - Implement Java applications using Protocol Buffers
 
 ### 7. Protocol Buffers with gRPC (2 weeks)
+[See details in 07_Protocol_Buffers_with_gRPC.md](04_Protocol_Buffers/07_Protocol_Buffers_with_gRPC.md)
 - Understand gRPC service definitions with Protocol Buffers
 - Learn about service and RPC declarations
 - Study client and server code generation
 - Implement gRPC services using Protocol Buffers
 
 ### 8. Advanced Protocol Buffer Features (2 weeks)
+[See details in 08_Advanced_Protocol_Buffer_Features.md](04_Protocol_Buffers/08_Advanced_Protocol_Buffer_Features.md)
 - Master extensions and reserved fields
 - Learn about unknown field handling
 - Study backward and forward compatibility
 - Implement versioned Protocol Buffer messages
 
 ### 9. Performance Optimization (1 week)
+[See details in 09_Performance_Optimization.md](04_Protocol_Buffers/09_Performance_Optimization.md)
 - Understand serialization/deserialization performance
 - Learn about memory optimization techniques
 - Study message size optimization
 - Implement performance-optimized Protocol Buffers
 
 ### 10. Protocol Buffers in Production (1 week)
+[See details in 10_Protocol_Buffers_in_Production.md](04_Protocol_Buffers/10_Protocol_Buffers_in_Production.md)
 - Master schema evolution strategies
 - Learn about Protocol Buffer best practices
 - Study integration with build systems
@@ -68,26 +78,31 @@ Protocol Buffers (protobuf) is a language-neutral, platform-neutral, extensible 
 ## Projects
 
 1. **Data Serialization Library**
+   [See project details in project_01_Data_Serialization_Library.md](04_Protocol_Buffers/project_01_Data_Serialization_Library.md)
    - Build a library that provides a common interface for multiple serialization formats
    - Implement Protocol Buffers as the primary format
    - Create benchmarks comparing with JSON and XML
 
 2. **gRPC Microservices System**
+   [See project details in project_02_gRPC_Microservices_System.md](04_Protocol_Buffers/project_02_gRPC_Microservices_System.md)
    - Develop a set of microservices communicating via gRPC
    - Implement Protocol Buffers for service definitions
    - Create a service registry and discovery mechanism
 
 3. **Cross-Language Data Exchange System**
+   [See project details in project_03_Cross-Language_Data_Exchange_System.md](04_Protocol_Buffers/project_03_Cross-Language_Data_Exchange_System.md)
    - Build a system where multiple components in different languages exchange data
    - Implement Protocol Buffers as the common data format
    - Create adapters for each language
 
 4. **Real-time Data Streaming Application**
+   [See project details in project_04_Real-time_Data_Streaming_Application.md](04_Protocol_Buffers/project_04_Real-time_Data_Streaming_Application.md)
    - Develop an application that processes streams of data
    - Implement Protocol Buffers for efficient serialization
    - Create visualization of streaming data
 
 5. **Mobile-Backend Communication Framework**
+   [See project details in project_05_Mobile-Backend_Communication_Framework.md](04_Protocol_Buffers/project_05_Mobile-Backend_Communication_Framework.md)
    - Build a framework for mobile-to-backend communication
    - Implement Protocol Buffers for data exchange
    - Create code generation tools for mobile platforms

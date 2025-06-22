@@ -9,6 +9,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
 ## Learning Path
 
 ### 1. TCP/IP Fundamentals (1 week)
+[See details in 01_TCPIP_Fundamentals.md](02_TCPIP_Protocol_Stack/01_TCPIP_Fundamentals.md)
 - TCP/IP protocol stack layers
 - OSI model comparison
 - Encapsulation and decapsulation
@@ -16,6 +17,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
 - Header formats and fields
 
 ### 2. Network Access Layer (1 week)
+[See details in 02_Network_Access_Layer.md](02_TCPIP_Protocol_Stack/02_Network_Access_Layer.md)
 - **Ethernet Protocol**
   - Frame format
   - MAC addressing
@@ -29,6 +31,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
   - NIC programming
 
 ### 3. Internet Layer (2 weeks)
+[See details in 03_Internet_Layer.md](02_TCPIP_Protocol_Stack/03_Internet_Layer.md)
 - **IPv4 Protocol**
   - Packet structure
   - Addressing and subnetting
@@ -52,6 +55,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
   - Interior vs. exterior gateway protocols
 
 ### 4. Transport Layer (3 weeks)
+[See details in 04_Transport_Layer.md](02_TCPIP_Protocol_Stack/04_Transport_Layer.md)
 - **TCP Protocol**
   - Segment structure
   - Connection establishment (3-way handshake)
@@ -76,6 +80,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
   - Socket pairs
 
 ### 5. Application Layer Protocols Overview (1 week)
+[See details in 05_Application_Layer_Protocols_Overview.md](02_TCPIP_Protocol_Stack/05_Application_Layer_Protocols_Overview.md)
 - DNS (Domain Name System)
 - DHCP (Dynamic Host Configuration Protocol)
 - FTP (File Transfer Protocol)
@@ -83,6 +88,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
 - Basic HTTP concepts (detailed in separate track)
 
 ### 6. TCP/IP Implementation (3 weeks)
+[See details in 06_TCPIP_Implementation.md](02_TCPIP_Protocol_Stack/06_TCPIP_Implementation.md)
 - **Socket API and TCP/IP**
   - Socket creation for different protocols
   - Address structures
@@ -98,6 +104,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
   - Protocol control blocks
 
 ### 7. Network Diagnostics and Analysis (1 week)
+[See details in 07_Network_Diagnostics_and_Analysis.md](02_TCPIP_Protocol_Stack/07_Network_Diagnostics_and_Analysis.md)
 - **Diagnostic Tools**
   - ping
   - traceroute/tracert
@@ -110,6 +117,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
   - Analyzing handshakes and data transfer
 
 ### 8. Advanced TCP/IP Topics (2 weeks)
+[See details in 08_Advanced_TCPIP_Topics.md](02_TCPIP_Protocol_Stack/08_Advanced_TCPIP_Topics.md)
 - **TCP Performance Tuning**
   - Buffer sizes
   - Congestion window
@@ -130,22 +138,27 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
 ## Projects
 
 1. **TCP/IP Protocol Analyzer**
+   [See project details in project_01_TCPIP_Protocol_Analyzer.md](02_TCPIP_Protocol_Stack/project_01_TCPIP_Protocol_Analyzer.md)
    - Implement a tool to capture and analyze TCP/IP packets
    - Display protocol headers and interpret fields
 
 2. **Custom Protocol Implementation**
+   [See project details in project_02_Custom_Protocol_Implementation.md](02_TCPIP_Protocol_Stack/project_02_Custom_Protocol_Implementation.md)
    - Design and implement a simple application protocol over TCP
    - Document the protocol specification
 
 3. **Network Stack Simulation**
+   [See project details in project_03_Network_Stack_Simulation.md](02_TCPIP_Protocol_Stack/project_03_Network_Stack_Simulation.md)
    - Create a simplified TCP/IP stack simulation
    - Demonstrate encapsulation and protocol operation
 
 4. **TCP Congestion Control Visualization**
+   [See project details in project_04_TCP_Congestion_Control_Visualization.md](02_TCPIP_Protocol_Stack/project_04_TCP_Congestion_Control_Visualization.md)
    - Build a tool to visualize TCP congestion control algorithms
    - Show window size changes during transmission
 
 5. **IP Routing Simulator**
+   [See project details in project_05_IP_Routing_Simulator.md](02_TCPIP_Protocol_Stack/project_05_IP_Routing_Simulator.md)
    - Implement a basic IP routing algorithm
    - Demonstrate path selection and forwarding
 

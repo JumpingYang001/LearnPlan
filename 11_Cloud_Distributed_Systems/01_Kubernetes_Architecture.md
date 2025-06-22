@@ -9,6 +9,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
 ## Learning Path
 
 ### 1. Kubernetes Fundamentals (2 weeks)
+[See details in 01_Kubernetes_Fundamentals.md](01_Kubernetes_Architecture/01_Kubernetes_Fundamentals.md)
 - **Container Orchestration Concepts**
   - Containerization basics
   - Container orchestration needs
@@ -32,6 +33,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Troubleshooting basics
 
 ### 2. Kubernetes Cluster Architecture (2 weeks)
+[See details in 02_Kubernetes_Cluster_Architecture.md](01_Kubernetes_Architecture/02_Kubernetes_Cluster_Architecture.md)
 - **Control Plane Components**
   - kube-apiserver
   - etcd
@@ -55,6 +57,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Failure domains
 
 ### 3. Kubernetes Networking (2 weeks)
+[See details in 03_Kubernetes_Networking.md](01_Kubernetes_Architecture/03_Kubernetes_Networking.md)
 - **Kubernetes Network Model**
   - Pod network connectivity
   - Service networking
@@ -77,6 +80,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Traffic management patterns
 
 ### 4. Kubernetes Storage (1 week)
+[See details in 04_Kubernetes_Storage.md](01_Kubernetes_Architecture/04_Kubernetes_Storage.md)
 - **Kubernetes Storage Concepts**
   - Volumes
   - PersistentVolumes
@@ -99,6 +103,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Storage snapshots
 
 ### 5. Workload Management (2 weeks)
+[See details in 05_Workload_Management.md](01_Kubernetes_Architecture/05_Workload_Management.md)
 - **Deployment Strategies**
   - Rolling updates
   - Blue/green deployments
@@ -121,6 +126,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Completion handling
 
 ### 6. Resource Management (1 week)
+[See details in 06_Resource_Management.md](01_Kubernetes_Architecture/06_Resource_Management.md)
 - **Resource Requests and Limits**
   - CPU and memory specification
   - QoS classes
@@ -143,6 +149,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Provider-specific implementations
 
 ### 7. Security Architecture (2 weeks)
+[See details in 07_Security_Architecture.md](01_Kubernetes_Architecture/07_Security_Architecture.md)
 - **Kubernetes Security Model**
   - Defense in depth approach
   - Security boundaries
@@ -165,6 +172,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Secrets rotation
 
 ### 8. Advanced Networking (1 week)
+[See details in 08_Advanced_Networking.md](01_Kubernetes_Architecture/08_Advanced_Networking.md)
 - **Ingress Controllers**
   - Ingress resource architecture
   - NGINX, Traefik, Contour
@@ -187,6 +195,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Packet capture techniques
 
 ### 9. Multi-tenancy and Isolation (1 week)
+[See details in 09_Multi-tenancy_and_Isolation.md](01_Kubernetes_Architecture/09_Multi-tenancy_and_Isolation.md)
 - **Namespace-based Isolation**
   - Namespace resource quotas
   - Network policies
@@ -209,6 +218,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Tenant cost allocation
 
 ### 10. Observability Architecture (1 week)
+[See details in 10_Observability_Architecture.md](01_Kubernetes_Architecture/10_Observability_Architecture.md)
 - **Kubernetes Monitoring**
   - Metrics architecture
   - Prometheus integration
@@ -231,6 +241,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - SLO/SLI monitoring
 
 ### 11. Cluster Operations (2 weeks)
+[See details in 11_Cluster_Operations.md](01_Kubernetes_Architecture/11_Cluster_Operations.md)
 - **Cluster Lifecycle Management**
   - Cluster creation tools
   - Upgrades and updates
@@ -253,6 +264,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Application problems
 
 ### 12. Advanced Kubernetes Patterns (2 weeks)
+[See details in 12_Advanced_Kubernetes_Patterns.md](01_Kubernetes_Architecture/12_Advanced_Kubernetes_Patterns.md)
 - **Operators Pattern**
   - Operator framework
   - Custom resource definitions
@@ -277,30 +289,35 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
 ## Projects
 
 1. **Production-Grade Kubernetes Cluster**
+   [See project details in project_01_Production-Grade_Kubernetes_Cluster.md](01_Kubernetes_Architecture/project_01_Production-Grade_Kubernetes_Cluster.md)
    - Design and deploy a highly available cluster
    - Implement security best practices
    - Set up monitoring and logging
    - Create disaster recovery procedures
 
 2. **Microservices Platform**
+   [See project details in project_02_Microservices_Platform.md](01_Kubernetes_Architecture/project_02_Microservices_Platform.md)
    - Design a platform for microservices deployment
    - Implement CI/CD pipelines
    - Create service mesh integration
    - Establish developer self-service capabilities
 
 3. **Multi-tenant Kubernetes Environment**
+   [See project details in project_03_Multi-tenant_Kubernetes_Environment.md](01_Kubernetes_Architecture/project_03_Multi-tenant_Kubernetes_Environment.md)
    - Design isolation mechanisms
    - Implement resource quotas and limits
    - Create tenant onboarding processes
    - Establish monitoring per tenant
 
 4. **Custom Kubernetes Operator**
+   [See project details in project_04_Custom_Kubernetes_Operator.md](01_Kubernetes_Architecture/project_04_Custom_Kubernetes_Operator.md)
    - Design a custom resource
    - Implement controller logic
    - Create reconciliation loops
    - Test and package the operator
 
 5. **Kubernetes-based Data Platform**
+   [See project details in project_05_Kubernetes-based_Data_Platform.md](01_Kubernetes_Architecture/project_05_Kubernetes-based_Data_Platform.md)
    - Deploy stateful services on Kubernetes
    - Implement backup and recovery
    - Create scaling mechanisms

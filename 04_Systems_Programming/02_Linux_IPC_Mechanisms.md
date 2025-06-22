@@ -9,6 +9,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
 ## Learning Path
 
 ### 1. IPC Fundamentals (1 week)
+[See details in 01_IPC_Fundamentals.md](02_Linux_IPC_Mechanisms/01_IPC_Fundamentals.md)
 - **IPC Concepts**
   - Process isolation and communication needs
   - Local vs. distributed IPC
@@ -28,6 +29,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Namespace isolation
 
 ### 2. Pipes and FIFOs (1 week)
+[See details in 02_Pipes_and_FIFOs.md](02_Linux_IPC_Mechanisms/02_Pipes_and_FIFOs.md)
 - **Anonymous Pipes**
   - Creation with pipe() system call
   - Parent-child communication
@@ -50,6 +52,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Producer-consumer patterns
 
 ### 3. System V IPC Mechanisms (2 weeks)
+[See details in 03_System_V_IPC_Mechanisms.md](02_Linux_IPC_Mechanisms/03_System_V_IPC_Mechanisms.md)
 - **System V Message Queues**
   - Queue creation and access
   - Message sending and receiving
@@ -77,6 +80,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Monitoring and managing IPC resources
 
 ### 4. POSIX IPC (2 weeks)
+[See details in 04_POSIX_IPC.md](02_Linux_IPC_Mechanisms/04_POSIX_IPC.md)
 - **POSIX Message Queues**
   - mq_open(), mq_send(), mq_receive()
   - Message priorities
@@ -100,6 +104,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Persistence characteristics
 
 ### 5. Socket-Based IPC (2 weeks)
+[See details in 05_Socket-Based_IPC.md](02_Linux_IPC_Mechanisms/05_Socket-Based_IPC.md)
 - **Unix Domain Sockets**
   - Socket creation and addressing
   - Connection-oriented communication
@@ -124,6 +129,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - X Window System communication
 
 ### 6. Memory-Mapped Files (1 week)
+[See details in 06_Memory-Mapped_Files.md](02_Linux_IPC_Mechanisms/06_Memory-Mapped_Files.md)
 - **Basic Memory Mapping**
   - mmap() system call
   - File-backed vs. anonymous mappings
@@ -143,6 +149,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Swapping considerations
 
 ### 7. Futexes and Synchronization Primitives (1 week)
+[See details in 07_Futexes_and_Synchronization_Primitives.md](02_Linux_IPC_Mechanisms/07_Futexes_and_Synchronization_Primitives.md)
 - **Futex System Call**
   - Fast user-space mutex concept
   - futex() operations
@@ -163,6 +170,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Kernel transition costs
 
 ### 8. Signals (1 week)
+[See details in 08_Signals.md](02_Linux_IPC_Mechanisms/08_Signals.md)
 - **Signal Basics**
   - Standard signals
   - Real-time signals
@@ -182,6 +190,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Race conditions and reentrancy issues
 
 ### 9. Event Notification Mechanisms (1 week)
+[See details in 09_Event_Notification_Mechanisms.md](02_Linux_IPC_Mechanisms/09_Event_Notification_Mechanisms.md)
 - **File Descriptor Monitoring**
   - select() and poll()
   - epoll API
@@ -199,6 +208,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Recursive monitoring
 
 ### 10. D-Bus and High-Level IPC (1 week)
+[See details in 10_D-Bus_and_High-Level_IPC.md](02_Linux_IPC_Mechanisms/10_D-Bus_and_High-Level_IPC.md)
 - **D-Bus Architecture**
   - Message bus daemon
   - System and session buses
@@ -218,6 +228,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Hardware event notification
 
 ### 11. Advanced Topics and Patterns (2 weeks)
+[See details in 11_Advanced_Topics_and_Patterns.md](02_Linux_IPC_Mechanisms/11_Advanced_Topics_and_Patterns.md)
 - **Shared Memory Techniques**
   - Lock-free data structures
   - Memory barriers and ordering
@@ -242,24 +253,34 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
 ## Projects
 
 1. **IPC Benchmark Suite**
+   [See project details in project_01_IPC_Benchmark_Suite.md](02_Linux_IPC_Mechanisms/project_01_IPC_Benchmark_Suite.md)
    - Implement performance tests for various IPC mechanisms
    - Compare throughput, latency, and resource usage
 
+
 2. **Lock-Free IPC Library**
+   [See project details in project_02_Lock-Free_IPC_Library.md](02_Linux_IPC_Mechanisms/project_02_Lock-Free_IPC_Library.md)
    - Create a shared memory IPC library using lock-free techniques
    - Ensure correct synchronization without mutexes
 
+
 3. **Multi-Process Application Framework**
+   [See project details in project_03_Multi-Process_Application_Framework.md](02_Linux_IPC_Mechanisms/project_03_Multi-Process_Application_Framework.md)
    - Design a framework for creating multi-process applications
    - Implement process management and communication facilities
 
+
 4. **Custom IPC Protocol**
+   [See project details in project_04_Custom_IPC_Protocol.md](02_Linux_IPC_Mechanisms/project_04_Custom_IPC_Protocol.md)
    - Design and implement a custom IPC protocol for a specific use case
    - Optimize for performance and reliability
 
+
 5. **IPC Monitoring Tool**
+   [See project details in project_05_IPC_Monitoring_Tool.md](02_Linux_IPC_Mechanisms/project_05_IPC_Monitoring_Tool.md)
    - Create a tool for visualizing IPC usage in a system
    - Track resource usage and detect potential issues
+
 
 ## Resources
 

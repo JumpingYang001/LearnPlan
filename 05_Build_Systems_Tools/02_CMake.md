@@ -9,6 +9,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
 ## Learning Path
 
 ### 1. CMake Fundamentals (1 week)
+[See details in 01_CMake_Fundamentals.md](02_CMake/01_CMake_Fundamentals.md)
 - **Build System Concepts**
   - Build system vs. build system generator
   - Build configurations (Debug, Release)
@@ -31,6 +32,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - Generator selection
 
 ### 2. CMake Language Basics (1 week)
+[See details in 02_CMake_Language_Basics.md](02_CMake/02_CMake_Language_Basics.md)
 - **Variables and Properties**
   - Setting and accessing variables
   - Cache variables
@@ -54,6 +56,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - Documenting custom modules
 
 ### 3. Building C/C++ Projects (2 weeks)
+[See details in 03_Building_CC_Projects.md](02_CMake/03_Building_CC_Projects.md)
 - **Project Structure**
   - Single vs. multi-directory projects
   - Subprojects and subdirectories
@@ -81,6 +84,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - Compiler-specific options
 
 ### 4. Modern CMake Best Practices (1 week)
+[See details in 04_Modern_CMake_Best_Practices.md](02_CMake/04_Modern_CMake_Best_Practices.md)
 - **Target-Based Design**
   - Targets as self-contained units
   - Target properties vs. global settings
@@ -103,6 +107,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - Inefficient dependency handling
 
 ### 5. Finding and Using Packages (2 weeks)
+[See details in 05_Finding_and_Using_Packages.md](02_CMake/05_Finding_and_Using_Packages.md)
 - **find_package Command**
   - Module mode vs. Config mode
   - VERSION and COMPONENTS
@@ -125,6 +130,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - Version constraints
 
 ### 6. File System and I/O Operations (1 week)
+[See details in 06_File_System_and_IO_Operations.md](02_CMake/06_File_System_and_IO_Operations.md)
 - **File System Commands**
   - file(GLOB)
   - file(READ/WRITE)
@@ -147,6 +153,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - Custom commands for files
 
 ### 7. Testing with CTest (1 week)
+[See details in 07_Testing_with_CTest.md](02_CMake/07_Testing_with_CTest.md)
 - **CTest Basics**
   - enable_testing
   - add_test
@@ -169,6 +176,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - Coverage analysis with CTest
 
 ### 8. Packaging with CPack (1 week)
+[See details in 08_Packaging_with_CPack.md](02_CMake/08_Packaging_with_CPack.md)
 - **CPack Basics**
   - include(CPack)
   - Package generators
@@ -191,6 +199,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - Post-install scripts
 
 ### 9. Cross-Compilation and Toolchains (1 week)
+[See details in 09_Cross-Compilation_and_Toolchains.md](02_CMake/09_Cross-Compilation_and_Toolchains.md)
 - **Toolchain Files**
   - Structure and components
   - Compiler selection
@@ -213,6 +222,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - CTest configuration
 
 ### 10. Advanced CMake Features (2 weeks)
+[See details in 10_Advanced_CMake_Features.md](02_CMake/10_Advanced_CMake_Features.md)
 - **Custom Commands and Targets**
   - add_custom_command
   - add_custom_target
@@ -235,6 +245,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - Optimization strategies
 
 ### 11. CMake Extensions and Modules (1 week)
+[See details in 11_CMake_Extensions_and_Modules.md](02_CMake/11_CMake_Extensions_and_Modules.md)
 - **Writing CMake Modules**
   - Module structure
   - Namespacing
@@ -257,6 +268,7 @@ CMake is a cross-platform build system generator that simplifies the process of 
   - Automation with CMake scripts
 
 ### 12. Modern C++ and CMake (1 week)
+[See details in 12_Modern_C_and_CMake.md](02_CMake/12_Modern_C_and_CMake.md)
 - **C++ Standard Selection**
   - target_compile_features
   - CMAKE_CXX_STANDARD
@@ -281,26 +293,31 @@ CMake is a cross-platform build system generator that simplifies the process of 
 ## Projects
 
 1. **Cross-Platform Library**
+   [See project details in project_01_Cross-Platform_Library.md](02_CMake/project_01_Cross-Platform_Library.md)
    - Create a library with CMake build system
    - Support multiple platforms and compilers
    - Implement proper package export
 
 2. **Multi-Component Application**
+   [See project details in project_02_Multi-Component_Application.md](02_CMake/project_02_Multi-Component_Application.md)
    - Build a complex application with multiple components
    - Manage internal and external dependencies
    - Create installation and packaging
 
 3. **Custom Build Tool Integration**
+   [See project details in project_03_Custom_Build_Tool_Integration.md](02_CMake/project_03_Custom_Build_Tool_Integration.md)
    - Integrate code generation tools
    - Create custom build steps
    - Ensure proper dependency tracking
 
 4. **Cross-Compilation Toolchain**
+   [See project details in project_04_Cross-Compilation_Toolchain.md](02_CMake/project_04_Cross-Compilation_Toolchain.md)
    - Create toolchain files for different platforms
    - Test cross-compilation workflow
    - Implement platform-specific optimizations
 
 5. **CI/CD Integration**
+   [See project details in project_05_CICD_Integration.md](02_CMake/project_05_CICD_Integration.md)
    - Set up CMake project for continuous integration
    - Implement multi-platform testing
    - Create automated deployment with CPack

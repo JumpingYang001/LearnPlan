@@ -9,6 +9,7 @@ Performance profiling and optimization are essential skills for developing effic
 ## Learning Path
 
 ### 1. Performance Profiling Fundamentals (1 week)
+[See details in 01_Performance_Profiling_Fundamentals.md](03_Performance_Profiling/01_Performance_Profiling_Fundamentals.md)
 - **Profiling Concepts**
   - CPU profiling vs. memory profiling
   - Sampling vs. instrumentation
@@ -24,6 +25,7 @@ Performance profiling and optimization are essential skills for developing effic
   - I/O operations
 
 ### 2. Profiling Tools on Linux (2 weeks)
+[See details in 02_Profiling_Tools_on_Linux.md](03_Performance_Profiling/02_Profiling_Tools_on_Linux.md)
 - **perf**
   - CPU performance counters
   - Event-based sampling
@@ -47,6 +49,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Off-CPU analysis
 
 ### 3. Profiling Tools on Windows (2 weeks)
+[See details in 03_Profiling_Tools_on_Windows.md](03_Performance_Profiling/03_Profiling_Tools_on_Windows.md)
 - **Windows Performance Analyzer (WPA)**
   - Event Tracing for Windows (ETW)
   - Collection and analysis workflows
@@ -69,6 +72,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Analysis with WPA
 
 ### 4. Cross-Platform Profiling Tools (1 week)
+[See details in 04_Cross-Platform_Profiling_Tools.md](03_Performance_Profiling/04_Cross-Platform_Profiling_Tools.md)
 - **Intel VTune Profiler**
   - Hotspot analysis
   - Microarchitecture analysis
@@ -90,6 +94,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Custom zones and plots
 
 ### 5. CPU Optimization Techniques (2 weeks)
+[See details in 05_CPU_Optimization_Techniques.md](03_Performance_Profiling/05_CPU_Optimization_Techniques.md)
 - **Algorithm Optimization**
   - Algorithmic complexity analysis
   - Choosing appropriate algorithms
@@ -114,6 +119,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Function attributes (hot, cold, noreturn)
 
 ### 6. Memory Optimization (1 week)
+[See details in 06_Memory_Optimization.md](03_Performance_Profiling/06_Memory_Optimization.md)
 - **Cache Optimization**
   - Cache hierarchy awareness
   - Prefetching
@@ -131,6 +137,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Small object optimization
 
 ### 7. I/O and System Call Optimization (1 week)
+[See details in 07_IO_and_System_Call_Optimization.md](03_Performance_Profiling/07_IO_and_System_Call_Optimization.md)
 - **File I/O Optimization**
   - Buffering strategies
   - Memory-mapped I/O
@@ -147,6 +154,7 @@ Performance profiling and optimization are essential skills for developing effic
   - System call avoidance techniques
 
 ### 8. Multithreading Optimization (2 weeks)
+[See details in 08_Multithreading_Optimization.md](03_Performance_Profiling/08_Multithreading_Optimization.md)
 - **Thread Scaling Analysis**
   - Amdahl's Law and scaling limits
   - Thread creation overhead
@@ -165,6 +173,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Memory barriers and ordering
 
 ### 9. Database and SQLite Optimization (1 week)
+[See details in 09_Database_and_SQLite_Optimization.md](03_Performance_Profiling/09_Database_and_SQLite_Optimization.md)
 - **SQLite Performance Tuning**
   - Indexing strategies
   - Query optimization
@@ -180,6 +189,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Result set handling
 
 ### 10. Advanced Optimization Topics (2 weeks)
+[See details in 10_Advanced_Optimization_Topics.md](03_Performance_Profiling/10_Advanced_Optimization_Topics.md)
 - **Benchmarking Techniques**
   - Microbenchmarks
   - Realistic workloads
@@ -201,24 +211,39 @@ Performance profiling and optimization are essential skills for developing effic
 ## Projects
 
 1. **Custom Profiling Tool**
+   [See project details in project_01_Custom_Profiling_Tool.md](03_Performance_Profiling/project_01_Custom_Profiling_Tool.md)
    - Create a specialized profiler for a specific use case
    - Visualize performance data effectively
 
+
+
 2. **Performance Optimization Case Study**
+   [See project details in project_02_Performance_Optimization_Case_Study.md](03_Performance_Profiling/project_02_Performance_Optimization_Case_Study.md)
    - Analyze and optimize a real-world application
    - Document methodology and results
 
+
+
 3. **Benchmark Suite Development**
+   [See project details in project_03_Benchmark_Suite_Development.md](03_Performance_Profiling/project_03_Benchmark_Suite_Development.md)
    - Design comprehensive benchmarks for a library or system
    - Create automated performance regression testing
 
+
+
 4. **SQLite Performance Analyzer**
+   [See project details in project_04_SQLite_Performance_Analyzer.md](03_Performance_Profiling/project_04_SQLite_Performance_Analyzer.md)
    - Build a tool to analyze and optimize SQLite usage
    - Implement automatic index suggestion
 
+
+
 5. **Threading Pattern Library**
+   [See project details in project_05_Threading_Pattern_Library.md](03_Performance_Profiling/project_05_Threading_Pattern_Library.md)
    - Implement and benchmark different concurrency patterns
    - Create guidelines for pattern selection
+
+
 
 ## Resources
 

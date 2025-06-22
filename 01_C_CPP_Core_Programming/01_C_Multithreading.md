@@ -9,12 +9,14 @@ Multi-threading in C allows for concurrent execution of code, enabling efficient
 ## Learning Path
 
 ### 1. Fundamentals of Threading Concepts (1 week)
+[See details in 01_Fundamentals_of_Threading_Concepts.md](01_C_Multithreading/01_Fundamentals_of_Threading_Concepts.md)
 - Process vs Thread
 - Thread creation and termination
 - Thread states and lifecycle
 - Benefits and challenges of multi-threading
 
 ### 2. POSIX Threads (pthreads) (2 weeks)
+[See details in 02_POSIX_Threads.md](01_C_Multithreading/02_POSIX_Threads.md)
 - Thread creation with `pthread_create()`
 - Thread joining with `pthread_join()`
 - Thread detachment with `pthread_detach()`
@@ -22,6 +24,7 @@ Multi-threading in C allows for concurrent execution of code, enabling efficient
 - Thread attributes
 
 ### 3. Thread Synchronization Mechanisms (2 weeks)
+[See details in 03_Thread_Synchronization_Mechanisms.md](01_C_Multithreading/03_Thread_Synchronization_Mechanisms.md)
 - Race conditions and critical sections
 - Mutex locks (`pthread_mutex_t`)
   - Creation, locking, unlocking
@@ -32,17 +35,20 @@ Multi-threading in C allows for concurrent execution of code, enabling efficient
 - Barriers for thread coordination
 
 ### 4. Condition Variables (1 week)
+[See details in 04_Condition_Variables.md](01_C_Multithreading/04_Condition_Variables.md)
 - Concept and usage patterns
 - `pthread_cond_wait()`, `pthread_cond_signal()`, `pthread_cond_broadcast()`
 - Producer-consumer problems
 - Implementing thread-safe queues
 
 ### 5. Thread Local Storage (1 week)
+[See details in 05_Thread_Local_Storage.md](01_C_Multithreading/05_Thread_Local_Storage.md)
 - Thread-specific data
 - `pthread_key_create()`, `pthread_setspecific()`, `pthread_getspecific()`
 - Use cases and best practices
 
 ### 6. Advanced Threading Patterns (2 weeks)
+[See details in 06_Advanced_Threading_Patterns.md](01_C_Multithreading/06_Advanced_Threading_Patterns.md)
 - Thread pools
   - Design and implementation
   - Work queue management
@@ -52,6 +58,7 @@ Multi-threading in C allows for concurrent execution of code, enabling efficient
 - Threadpool libraries
 
 ### 7. Performance Considerations (1 week)
+[See details in 07_Performance_Considerations.md](01_C_Multithreading/07_Performance_Considerations.md)
 - Thread overhead
 - Context switching costs
 - Cache coherency issues
@@ -59,6 +66,7 @@ Multi-threading in C allows for concurrent execution of code, enabling efficient
 - Scalability analysis
 
 ### 8. Debugging Threaded Applications (1 week)
+[See details in 08_Debugging_Threaded_Applications.md](01_C_Multithreading/08_Debugging_Threaded_Applications.md)
 - Common threading bugs
 - Deadlocks, livelocks, and starvation
 - Race condition detection
@@ -67,23 +75,28 @@ Multi-threading in C allows for concurrent execution of code, enabling efficient
 
 ## Projects
 
-1. **Simple Thread Creation**
+1. **Simple Thread Creation**  
+   [See project details in project_01_Simple_Thread_Creation.md](01_C_Multithreading/project_01_Simple_Thread_Creation.md)
    - Create multiple threads that print their IDs
    - Join all threads before program exit
 
-2. **Thread-Safe Data Structure**
+2. **Thread-Safe Data Structure**  
+   [See project details in project_02_Thread-Safe_Data_Structure.md](01_C_Multithreading/project_02_Thread-Safe_Data_Structure.md)
    - Implement a thread-safe linked list
    - Support concurrent add/remove/search operations
 
-3. **Producer-Consumer Queue**
+3. **Producer-Consumer Queue**  
+   [See project details in project_03_Producer-Consumer_Queue.md](01_C_Multithreading/project_03_Producer-Consumer_Queue.md)
    - Implement using condition variables
    - Handle multiple producers and consumers
 
-4. **Thread Pool Implementation**
+4. **Thread Pool Implementation**  
+   [See project details in project_04_Thread_Pool_Implementation.md](01_C_Multithreading/project_04_Thread_Pool_Implementation.md)
    - Create a reusable thread pool
    - Implement work queue and task submission API
 
-5. **Parallel Computation**
+5. **Parallel Computation**  
+   [See project details in project_05_Parallel_Computation.md](01_C_Multithreading/project_05_Parallel_Computation.md)
    - Implement parallel merge sort or matrix multiplication
    - Compare performance with single-threaded version
 

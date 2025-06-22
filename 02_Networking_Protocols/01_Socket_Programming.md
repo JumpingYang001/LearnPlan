@@ -9,6 +9,7 @@ Socket programming is the foundation of network communications, enabling applica
 ## Learning Path
 
 ### 1. Socket Programming Fundamentals (1 week)
+[See details in 01_Socket_Programming_Fundamentals.md](01_Socket_Programming/01_Socket_Programming_Fundamentals.md)
 - Socket API overview
 - Socket address structures
 - Network byte order and endianness
@@ -16,13 +17,14 @@ Socket programming is the foundation of network communications, enabling applica
 - Error handling in socket programming
 
 ### 2. TCP Socket Programming (2 weeks)
-- **Client-Side TCP Programming**
+[See details in 02_TCP_Socket_Programming.md](01_Socket_Programming/02_TCP_Socket_Programming.md)
+- **Client-Side TCP Programming**  
   - Creating TCP sockets
   - Connecting to servers
   - Sending and receiving data
   - Connection termination
   - Handling connection errors
-- **Server-Side TCP Programming**
+- **Server-Side TCP Programming**  
   - Socket creation and binding
   - Listening for connections
   - Accepting client connections
@@ -30,6 +32,7 @@ Socket programming is the foundation of network communications, enabling applica
   - Server scaling patterns
 
 ### 3. UDP Socket Programming (1 week)
+[See details in 03_UDP_Socket_Programming.md](01_Socket_Programming/03_UDP_Socket_Programming.md)
 - Creating UDP sockets
 - Sending and receiving datagrams
 - Connectionless communication patterns
@@ -37,6 +40,7 @@ Socket programming is the foundation of network communications, enabling applica
 - Implementing reliability over UDP
 
 ### 4. Socket I/O Models (2 weeks)
+[See details in 04_Socket_IO_Models.md](01_Socket_Programming/04_Socket_IO_Models.md)
 - **Blocking I/O**
   - Synchronous communication patterns
   - Timeout handling
@@ -54,6 +58,7 @@ Socket programming is the foundation of network communications, enabling applica
   - Event notification mechanisms
 
 ### 5. Advanced Socket Topics (2 weeks)
+[See details in 05_Advanced_Socket_Topics.md](01_Socket_Programming/05_Advanced_Socket_Topics.md)
 - **Socket Options**
   - Performance tuning
   - Buffer sizes
@@ -72,6 +77,7 @@ Socket programming is the foundation of network communications, enabling applica
   - Packet sniffing and injection
 
 ### 6. Cross-Platform Socket Programming (1 week)
+[See details in 06_Cross-Platform_Socket_Programming.md](01_Socket_Programming/06_Cross-Platform_Socket_Programming.md)
 - Windows Socket API (Winsock)
 - POSIX socket API
 - Abstraction layers for portability
@@ -79,6 +85,7 @@ Socket programming is the foundation of network communications, enabling applica
 - Error code handling across platforms
 
 ### 7. Socket Programming Patterns (2 weeks)
+[See details in 07_Socket_Programming_Patterns.md](01_Socket_Programming/07_Socket_Programming_Patterns.md)
 - **Client Patterns**
   - Reconnection strategies
   - Connection pooling
@@ -94,6 +101,7 @@ Socket programming is the foundation of network communications, enabling applica
   - Protocol translation
 
 ### 8. Security Considerations (1 week)
+[See details in 08_Security_Considerations.md](01_Socket_Programming/08_Security_Considerations.md)
 - Socket vulnerabilities
 - Preventing buffer overflows
 - Input validation
@@ -103,23 +111,28 @@ Socket programming is the foundation of network communications, enabling applica
 
 ## Projects
 
-1. **Simple Echo Server/Client**
+1. **Simple Echo Server/Client**  
+   [See project details in project_01_Simple_Echo_ServerClient.md](01_Socket_Programming/project_01_Simple_Echo_ServerClient.md)
    - Implement TCP echo server and client
    - Handle multiple clients concurrently
 
-2. **Chat Application**
+2. **Chat Application**  
+   [See project details in project_02_Chat_Application.md](01_Socket_Programming/project_02_Chat_Application.md)
    - Build a multi-user chat server and client
    - Support private and broadcast messages
 
-3. **UDP File Transfer**
+3. **UDP File Transfer**  
+   [See project details in project_03_UDP_File_Transfer.md](01_Socket_Programming/project_03_UDP_File_Transfer.md)
    - Implement reliable file transfer over UDP
    - Handle packet loss and reordering
 
-4. **High-Performance Server**
+4. **High-Performance Server**  
+   [See project details in project_04_High-Performance_Server.md](01_Socket_Programming/project_04_High-Performance_Server.md)
    - Create an event-driven server using epoll/IOCP
    - Benchmark performance under load
 
-5. **Network Protocol Analyzer**
+5. **Network Protocol Analyzer**  
+   [See project details in project_05_Network_Protocol_Analyzer.md](01_Socket_Programming/project_05_Network_Protocol_Analyzer.md)
    - Use raw sockets to capture and analyze network packets
    - Display protocol headers and payload data
 

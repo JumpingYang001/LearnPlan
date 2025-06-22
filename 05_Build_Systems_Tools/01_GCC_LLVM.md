@@ -9,6 +9,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
 ## Learning Path
 
 ### 1. Compiler Fundamentals (1 week)
+[See details in 01_Compiler_Fundamentals.md](01_GCC_LLVM/01_Compiler_Fundamentals.md)
 - **Compilation Process Overview**
   - Preprocessing
   - Parsing and AST generation
@@ -25,6 +26,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Target abstraction
 
 ### 2. GCC Architecture and Usage (2 weeks)
+[See details in 02_GCC_Architecture_and_Usage.md](01_GCC_LLVM/02_GCC_Architecture_and_Usage.md)
 - **GCC History and Evolution**
   - Major versions and features
   - Language support evolution
@@ -45,6 +47,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Sysroot configuration
 
 ### 3. LLVM Architecture and Usage (2 weeks)
+[See details in 03_LLVM_Architecture_and_Usage.md](01_GCC_LLVM/03_LLVM_Architecture_and_Usage.md)
 - **LLVM Project Overview**
   - Core components (LLVM Core, Clang, lld, etc.)
   - Design philosophy
@@ -66,6 +69,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - llvm-objdump and related tools
 
 ### 4. Compiler Flags and Optimizations (2 weeks)
+[See details in 04_Compiler_Flags_and_Optimizations.md](01_GCC_LLVM/04_Compiler_Flags_and_Optimizations.md)
 - **Basic Compilation Flags**
   - Debug information (-g)
   - Warning levels (-Wall, -Wextra)
@@ -88,6 +92,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Tuning options
 
 ### 5. GCC Extensions and Internals (2 weeks)
+[See details in 05_GCC_Extensions_and_Internals.md](01_GCC_LLVM/05_GCC_Extensions_and_Internals.md)
 - **GCC Language Extensions**
   - Statement expressions
   - Attributes
@@ -111,6 +116,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Extending GCC
 
 ### 6. Clang/LLVM Extensions and Internals (2 weeks)
+[See details in 06_ClangLLVM_Extensions_and_Internals.md](01_GCC_LLVM/06_ClangLLVM_Extensions_and_Internals.md)
 - **Clang Language Extensions**
   - Attributes
   - Pragmas
@@ -132,6 +138,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Pass registration and execution
 
 ### 7. Cross-Compilation and Toolchains (1 week)
+[See details in 07_Cross-Compilation_and_Toolchains.md](01_GCC_LLVM/07_Cross-Compilation_and_Toolchains.md)
 - **Cross-Compilation Concepts**
   - Target triples
   - Sysroot configuration
@@ -152,6 +159,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Toolchain configuration
 
 ### 8. Static Analysis and Sanitizers (2 weeks)
+[See details in 08_Static_Analysis_and_Sanitizers.md](01_GCC_LLVM/08_Static_Analysis_and_Sanitizers.md)
 - **Clang Static Analyzer**
   - Checker types
   - Running the analyzer
@@ -175,6 +183,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Result filtering and reporting
 
 ### 9. Just-In-Time Compilation (1 week)
+[See details in 09_Just-In-Time_Compilation.md](01_GCC_LLVM/09_Just-In-Time_Compilation.md)
 - **JIT Compilation Concepts**
   - Dynamic code generation
   - Lazy compilation
@@ -194,6 +203,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Optimization trade-offs
 
 ### 10. Advanced Compiler Topics (2 weeks)
+[See details in 10_Advanced_Compiler_Topics.md](01_GCC_LLVM/10_Advanced_Compiler_Topics.md)
 - **Whole Program Optimization**
   - Link-time optimization (LTO)
   - Interprocedural optimization (IPO)
@@ -213,6 +223,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Runtime libraries
 
 ### 11. Build System Integration (1 week)
+[See details in 11_Build_System_Integration.md](01_GCC_LLVM/11_Build_System_Integration.md)
 - **Autotools Integration**
   - Compiler detection
   - Feature testing
@@ -233,6 +244,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Compiler launcher creation
 
 ### 12. Compiler Development and Contribution (1 week)
+[See details in 12_Compiler_Development_and_Contribution.md](01_GCC_LLVM/12_Compiler_Development_and_Contribution.md)
 - **GCC Development Process**
   - Source organization
   - Building from source
@@ -252,24 +264,34 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
 ## Projects
 
 1. **Custom GCC/Clang Plugin**
+   [See project details in project_01_Custom_GCCClang_Plugin.md](01_GCC_LLVM/project_01_Custom_GCCClang_Plugin.md)
    - Implement a compiler plugin for static analysis
    - Focus on detecting a specific class of bugs
 
+
 2. **Domain-Specific Optimization Pass**
+   [See project details in project_02_Domain-Specific_Optimization_Pass.md](01_GCC_LLVM/project_02_Domain-Specific_Optimization_Pass.md)
    - Create an LLVM optimization pass for a specific domain
    - Benchmark performance improvements
 
+
 3. **Cross-Compilation Toolchain**
+   [See project details in project_03_Cross-Compilation_Toolchain.md](01_GCC_LLVM/project_03_Cross-Compilation_Toolchain.md)
    - Build a complete cross-compilation toolchain
    - Support multiple target architectures
 
+
 4. **JIT Compiler Integration**
+   [See project details in project_04_JIT_Compiler_Integration.md](01_GCC_LLVM/project_04_JIT_Compiler_Integration.md)
    - Integrate LLVM JIT capabilities into an application
    - Implement runtime code generation and execution
 
+
 5. **Compiler Performance Analysis**
+   [See project details in project_05_Compiler_Performance_Analysis.md](01_GCC_LLVM/project_05_Compiler_Performance_Analysis.md)
    - Analyze and optimize compilation time
    - Create tools for compiler performance profiling
+
 
 ## Resources
 

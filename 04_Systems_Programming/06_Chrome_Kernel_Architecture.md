@@ -6,42 +6,49 @@ Chrome's architecture is built around a multi-process model with a sophisticated
 ## Learning Path
 
 ### 1. Chrome Process Architecture (2 weeks)
+[See details in 01_Chrome_Process_Architecture.md](06_Chrome_Kernel_Architecture/01_Chrome_Process_Architecture.md)
 - Understand the multi-process architecture
 - Learn about browser, renderer, plugin, and utility processes
 - Study process communication mechanisms
 - Explore Chrome's task scheduling system
 
 ### 2. Rendering Pipeline (2 weeks)
+[See details in 02_Rendering_Pipeline.md](06_Chrome_Kernel_Architecture/02_Rendering_Pipeline.md)
 - Master the rendering process flow
 - Learn about the DOM, CSSOM, and render tree
 - Study layout, painting, and compositing
 - Implement performance optimizations for rendering
 
 ### 3. V8 JavaScript Engine (2 weeks)
+[See details in 03_V8_JavaScript_Engine.md](06_Chrome_Kernel_Architecture/03_V8_JavaScript_Engine.md)
 - Understand V8's architecture and components
 - Learn about JIT compilation and optimization
 - Study garbage collection mechanisms
 - Explore JavaScript performance profiling
 
 ### 4. Blink Rendering Engine (2 weeks)
+[See details in 04_Blink_Rendering_Engine.md](06_Chrome_Kernel_Architecture/04_Blink_Rendering_Engine.md)
 - Master Blink's architecture and capabilities
 - Learn about DOM implementation
 - Study CSS parsing and application
 - Implement custom rendering optimizations
 
 ### 5. Chrome Security Model (1 week)
+[See details in 05_Chrome_Security_Model.md](06_Chrome_Kernel_Architecture/05_Chrome_Security_Model.md)
 - Understand the sandbox architecture
 - Learn about site isolation and process separation
 - Study Chrome's security mechanisms
 - Implement secure web applications
 
 ### 6. Chrome Extensions and APIs (1 week)
+[See details in 06_Chrome_Extensions_and_APIs.md](06_Chrome_Kernel_Architecture/06_Chrome_Extensions_and_APIs.md)
 - Master extension architecture and components
 - Learn about content scripts and background pages
 - Study extension API capabilities
 - Implement browser extensions
 
 ### 7. Chrome DevTools Internals (1 week)
+[See details in 07_Chrome_DevTools_Internals.md](06_Chrome_Kernel_Architecture/07_Chrome_DevTools_Internals.md)
 - Understand DevTools architecture
 - Learn about protocol debugging
 - Study performance analysis tools
@@ -50,34 +57,44 @@ Chrome's architecture is built around a multi-process model with a sophisticated
 ## Projects
 
 1. **Chrome Extension with Performance Analysis**
+   [See project details in project_01_Chrome_Extension_with_Performance_Analysis.md](06_Chrome_Kernel_Architecture/project_01_Chrome_Extension_with_Performance_Analysis.md)
    - Build an extension that analyzes page performance
    - Implement visualization of rendering metrics
    - Create recommendations for optimization
    - Add support for comparing multiple pages
 
+
 2. **Custom DOM Inspector**
+   [See project details in project_02_Custom_DOM_Inspector.md](06_Chrome_Kernel_Architecture/project_02_Custom_DOM_Inspector.md)
    - Develop a specialized DOM inspection tool
    - Implement features beyond standard DevTools
    - Create custom visualization of DOM structure
    - Add performance impact analysis
 
+
 3. **Chrome Process Monitor**
+   [See project details in project_03_Chrome_Process_Monitor.md](06_Chrome_Kernel_Architecture/project_03_Chrome_Process_Monitor.md)
    - Build a tool to visualize Chrome's process model
    - Implement resource usage tracking
    - Create visualization of inter-process communication
    - Add anomaly detection and alerting
 
+
 4. **Renderer Performance Optimizer**
+   [See project details in project_04_Renderer_Performance_Optimizer.md](06_Chrome_Kernel_Architecture/project_04_Renderer_Performance_Optimizer.md)
    - Develop a system to detect rendering bottlenecks
    - Implement automated optimization suggestions
    - Create before/after comparisons
    - Add machine learning for prediction of performance issues
 
+
 5. **Chrome Security Analyzer**
+   [See project details in project_05_Chrome_Security_Analyzer.md](06_Chrome_Kernel_Architecture/project_05_Chrome_Security_Analyzer.md)
    - Build a tool to analyze security aspects of Chrome
    - Implement checks for sandbox integrity
    - Create visualization of security boundaries
    - Add detection of potential security issues
+
 
 ## Resources
 

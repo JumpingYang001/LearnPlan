@@ -6,72 +6,84 @@ Compiler optimization techniques improve the efficiency of code by enhancing exe
 ## Learning Path
 
 ### 1. Compiler Optimization Fundamentals (2 weeks)
+[See details in 01_Compiler_Optimization_Fundamentals.md](04_Compiler_Optimization_Techniques/01_Compiler_Optimization_Fundamentals.md)
 - Understand the compilation pipeline and optimization phases
 - Learn about intermediate representations (IR)
 - Study optimization levels and their trade-offs
 - Grasp the relationship between source code and generated code
 
 ### 2. Basic Optimizations (2 weeks)
+[See details in 02_Basic_Optimizations.md](04_Compiler_Optimization_Techniques/02_Basic_Optimizations.md)
 - Master constant folding and propagation
 - Learn about common subexpression elimination
 - Study dead code elimination and unreachable code
 - Implement code to leverage these optimizations
 
 ### 3. Loop Optimizations (2 weeks)
+[See details in 03_Loop_Optimizations.md](04_Compiler_Optimization_Techniques/03_Loop_Optimizations.md)
 - Understand loop unrolling and fusion
 - Learn about loop-invariant code motion
 - Study loop tiling and interchange
 - Implement loop optimizations in practical code
 
 ### 4. Function and Procedure Optimizations (2 weeks)
+[See details in 04_Function_and_Procedure_Optimizations.md](04_Compiler_Optimization_Techniques/04_Function_and_Procedure_Optimizations.md)
 - Master inlining and procedure integration
 - Learn about tail call optimization
 - Study interprocedural optimization
 - Implement code leveraging function optimizations
 
 ### 5. Instruction-Level Parallelism (2 weeks)
+[See details in 05_Instruction-Level_Parallelism.md](04_Compiler_Optimization_Techniques/05_Instruction-Level_Parallelism.md)
 - Understand instruction scheduling
 - Learn about software pipelining
 - Study superscalar and VLIW architectures
 - Implement code that benefits from instruction parallelism
 
 ### 6. Data-Level Parallelism (2 weeks)
+[See details in 06_Data-Level_Parallelism.md](04_Compiler_Optimization_Techniques/06_Data-Level_Parallelism.md)
 - Master SIMD instruction generation
 - Learn about auto-vectorization
 - Study alignment and memory access patterns
 - Implement vectorizable code and intrinsics
 
 ### 7. Memory Hierarchy Optimizations (2 weeks)
+[See details in 07_Memory_Hierarchy_Optimizations.md](04_Compiler_Optimization_Techniques/07_Memory_Hierarchy_Optimizations.md)
 - Understand cache-conscious programming
 - Learn about prefetching and software cache management
 - Study locality optimizations and data layout
 - Implement memory-efficient data structures
 
 ### 8. GCC-Specific Optimizations (1 week)
+[See details in 08_GCC-Specific_Optimizations.md](04_Compiler_Optimization_Techniques/08_GCC-Specific_Optimizations.md)
 - Master GCC optimization flags and pragmas
 - Learn about GCC-specific attributes
 - Study link-time optimization (LTO)
 - Implement GCC-optimized code
 
 ### 9. LLVM/Clang Optimizations (1 week)
+[See details in 09_LLVMClang_Optimizations.md](04_Compiler_Optimization_Techniques/09_LLVMClang_Optimizations.md)
 - Understand LLVM optimization passes
 - Learn about Clang-specific features
 - Study profile-guided optimization (PGO)
 - Implement LLVM-optimized code
 
 ### 10. MSVC Compiler Optimizations (1 week)
+[See details in 10_MSVC_Compiler_Optimizations.md](04_Compiler_Optimization_Techniques/10_MSVC_Compiler_Optimizations.md)
 - Master Visual C++ optimization options
 - Learn about MSVC-specific directives
 - Study whole program optimization (WPO)
 - Implement MSVC-optimized code
 
 ### 11. Embedded and Real-time Optimizations (2 weeks)
+[See details in 11_Embedded_and_Real-time_Optimizations.md](04_Compiler_Optimization_Techniques/11_Embedded_and_Real-time_Optimizations.md)
 - Understand size optimizations
 - Learn about specialized embedded compiler features
 - Study deterministic execution optimizations
 - Implement optimized code for embedded systems
 
 ### 12. Compiler-Assisted Parallelism (2 weeks)
+[See details in 12_Compiler-Assisted_Parallelism.md](04_Compiler_Optimization_Techniques/12_Compiler-Assisted_Parallelism.md)
 - Master OpenMP and auto-parallelization
 - Learn about task-based parallelism
 - Study offloading to accelerators
@@ -80,26 +92,31 @@ Compiler optimization techniques improve the efficiency of code by enhancing exe
 ## Projects
 
 1. **Compiler Optimization Explorer**
+   [See project details in project_01_Compiler_Optimization_Explorer.md](04_Compiler_Optimization_Techniques/project_01_Compiler_Optimization_Explorer.md)
    - Build a tool to visualize different optimization levels
    - Implement comparison of assembly output
    - Create benchmarking for different optimization strategies
 
 2. **Domain-Specific Optimizer**
+   [See project details in project_02_Domain-Specific_Optimizer.md](04_Compiler_Optimization_Techniques/project_02_Domain-Specific_Optimizer.md)
    - Develop optimization passes for a specific domain
    - Implement custom LLVM passes or GCC plugins
    - Create performance analysis and validation tools
 
 3. **Embedded Systems Optimization Toolkit**
+   [See project details in project_03_Embedded_Systems_Optimization_Toolkit.md](04_Compiler_Optimization_Techniques/project_03_Embedded_Systems_Optimization_Toolkit.md)
    - Build optimization tools for resource-constrained systems
    - Implement size and power consumption optimizations
    - Create cross-compiler optimization configurations
 
 4. **Auto-Vectorization Helper**
+   [See project details in project_04_Auto-Vectorization_Helper.md](04_Compiler_Optimization_Techniques/project_04_Auto-Vectorization_Helper.md)
    - Develop a tool to assist in code vectorization
    - Implement code transformations for better auto-vectorization
    - Create analysis of vectorization success/failure
 
 5. **Profile-Guided Optimization Framework**
+   [See project details in project_05_Profile-Guided_Optimization_Framework.md](04_Compiler_Optimization_Techniques/project_05_Profile-Guided_Optimization_Framework.md)
    - Build a framework for PGO workflow automation
    - Implement instrumentation and profile collection
    - Create visualization of hot paths and optimization opportunities

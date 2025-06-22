@@ -9,6 +9,8 @@ The GNU Debugger (GDB) is a powerful debugging tool that allows developers to se
 ## Learning Path
 
 ### 1. GDB Fundamentals (1 week)
+[See details in 01_GDB_Fundamentals.md](01_GDB_Debugging/01_GDB_Fundamentals.md)
+
 - Installing and configuring GDB
 - Compiling programs with debugging information (-g flag)
 - Starting GDB with a program
@@ -17,6 +19,8 @@ The GNU Debugger (GDB) is a powerful debugging tool that allows developers to se
 - Command completion and history
 
 ### 2. Basic Debugging Techniques (1 week)
+[See details in 02_Basic_Debugging_Techniques.md](01_GDB_Debugging/02_Basic_Debugging_Techniques.md)
+
 - **Running Programs in GDB**
   - Starting, stopping, continuing execution
   - Running with arguments
@@ -36,6 +40,8 @@ The GNU Debugger (GDB) is a powerful debugging tool that allows developers to se
   - Pretty printing complex data structures
 
 ### 3. Controlling Program Execution (1 week)
+[See details in 03_Controlling_Program_Execution.md](01_GDB_Debugging/03_Controlling_Program_Execution.md)
+
 - **Stepping Through Code**
   - Single stepping (step, next)
   - Stepping into functions
@@ -53,6 +59,8 @@ The GNU Debugger (GDB) is a powerful debugging tool that allows developers to se
   - Configuring signal actions
 
 ### 4. Advanced GDB Features (2 weeks)
+[See details in 04_Advanced_GDB_Features.md](01_GDB_Debugging/04_Advanced_GDB_Features.md)
+
 - **Scripting and Automation**
   - GDB command files
   - User-defined commands
@@ -76,6 +84,8 @@ The GNU Debugger (GDB) is a powerful debugging tool that allows developers to se
   - Post-mortem debugging techniques
 
 ### 5. Debugging Multi-threaded Programs (2 weeks)
+[See details in 05_Debugging_Multi-threaded_Programs.md](01_GDB_Debugging/05_Debugging_Multi-threaded_Programs.md)
+
 - Thread creation and termination detection
 - Listing and selecting threads
 - Thread-specific breakpoints
@@ -87,6 +97,8 @@ The GNU Debugger (GDB) is a powerful debugging tool that allows developers to se
 - Scheduler locking
 
 ### 6. Memory Debugging with GDB (1 week)
+[See details in 06_Memory_Debugging_with_GDB.md](01_GDB_Debugging/06_Memory_Debugging_with_GDB.md)
+
 - Finding memory leaks
 - Detecting buffer overflows
 - Tracking heap allocations
@@ -95,6 +107,8 @@ The GNU Debugger (GDB) is a powerful debugging tool that allows developers to se
 - Integration with AddressSanitizer
 
 ### 7. C++ Specific Debugging (1 week)
+[See details in 07_C_Specific_Debugging.md](01_GDB_Debugging/07_C_Specific_Debugging.md)
+
 - Dealing with templates
 - Setting breakpoints in overloaded functions
 - Inspecting STL containers
@@ -104,6 +118,8 @@ The GNU Debugger (GDB) is a powerful debugging tool that allows developers to se
 - Name demangling
 
 ### 8. GDB TUI and GUIs (1 week)
+[See details in 08_GDB_TUI_and_GUIs.md](01_GDB_Debugging/08_GDB_TUI_and_GUIs.md)
+
 - **Text User Interface (TUI)**
   - Source window
   - Assembly window
@@ -119,24 +135,34 @@ The GNU Debugger (GDB) is a powerful debugging tool that allows developers to se
 ## Projects
 
 1. **Custom GDB Script Library**
+   [See project details in project_01_Custom_GDB_Script_Library.md](01_GDB_Debugging/project_01_Custom_GDB_Script_Library.md)
    - Create a collection of useful GDB scripts
    - Implement pretty printers for common data structures
 
+
 2. **Automated Debugging Tool**
+   [See project details in project_02_Automated_Debugging_Tool.md](01_GDB_Debugging/project_02_Automated_Debugging_Tool.md)
    - Build a tool that automates common debugging tasks with GDB
    - Support batch analysis of programs
 
+
 3. **Memory Leak Detector**
+   [See project details in project_03_Memory_Leak_Detector.md](01_GDB_Debugging/project_03_Memory_Leak_Detector.md)
    - Create a GDB-based tool to identify memory leaks
    - Generate reports of allocation sites
 
+
 4. **Thread Analysis Tool**
+   [See project details in project_04_Thread_Analysis_Tool.md](01_GDB_Debugging/project_04_Thread_Analysis_Tool.md)
    - Implement a GDB script for analyzing thread interactions
    - Detect potential deadlocks or race conditions
 
+
 5. **GDB Frontend Extension**
+   [See project details in project_05_GDB_Frontend_Extension.md](01_GDB_Debugging/project_05_GDB_Frontend_Extension.md)
    - Extend an existing GDB frontend with new features
    - Improve visualization of complex data structures
+
 
 ## Resources
 

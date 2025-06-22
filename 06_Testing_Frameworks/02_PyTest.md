@@ -6,42 +6,49 @@ PyTest is a robust Python testing framework that makes it easy to write simple a
 ## Learning Path
 
 ### 1. PyTest Basics (1 week)
+[See details in 01_PyTest_Basics.md](02_PyTest/01_PyTest_Basics.md)
 - Understand the PyTest philosophy and advantages
 - Learn to write basic test functions
 - Run tests with PyTest command-line interface
 - Interpret test results and reports
 
 ### 2. Assertions and Test Organization (1 week)
+[See details in 02_Assertions_and_Test_Organization.md](02_PyTest/02_Assertions_and_Test_Organization.md)
 - Master PyTest's powerful assertion capabilities
 - Use markers to categorize tests
 - Organize tests in classes and modules
 - Skip tests and mark tests as expected to fail
 
 ### 3. Fixtures (2 weeks)
+[See details in 03_Fixtures.md](02_PyTest/03_Fixtures.md)
 - Understand the fixture concept in PyTest
 - Create and use function and module-level fixtures
 - Implement fixture factories
 - Use built-in fixtures like `capsys`, `monkeypatch`, and `tmpdir`
 
 ### 4. Parameterization (1 week)
+[See details in 04_Parameterization.md](02_PyTest/04_Parameterization.md)
 - Implement parameterized tests
 - Use `@pytest.mark.parametrize` for multiple test cases
 - Create custom parameter generators
 - Test with different combinations of parameters
 
 ### 5. Mocking and Patching (1 week)
+[See details in 05_Mocking_and_Patching.md](02_PyTest/05_Mocking_and_Patching.md)
 - Use `monkeypatch` for runtime modifications
 - Integrate with the `unittest.mock` library
 - Implement spy objects and verify call counts
 - Mock complex objects and behaviors
 
 ### 6. Plugins and Extensions (1 week)
+[See details in 06_Plugins_and_Extensions.md](02_PyTest/06_Plugins_and_Extensions.md)
 - Discover and use community plugins
 - Implement custom hooks and plugins
 - Use coverage plugins to measure test coverage
 - Integrate with CI/CD tools using PyTest plugins
 
 ### 7. Advanced PyTest Features (1 week)
+[See details in 07_Advanced_PyTest_Features.md](02_PyTest/07_Advanced_PyTest_Features.md)
 - Master fixture scopes and dependencies
 - Use parallel test execution
 - Implement custom test collection strategies
@@ -50,26 +57,31 @@ PyTest is a robust Python testing framework that makes it easy to write simple a
 ## Projects
 
 1. **API Testing Framework**
+   [See project details in project_01_API_Testing_Framework.md](02_PyTest/project_01_API_Testing_Framework.md)
    - Build a test suite for a REST API
    - Implement fixtures for authentication and session management
    - Create parameterized tests for different API endpoints
 
 2. **Database Testing Project**
+   [See project details in project_02_Database_Testing_Project.md](02_PyTest/project_02_Database_Testing_Project.md)
    - Implement tests for database operations
    - Use fixtures for database setup and teardown
    - Test complex queries and transactions
 
 3. **Web Application Testing**
+   [See project details in project_03_Web_Application_Testing.md](02_PyTest/project_03_Web_Application_Testing.md)
    - Create tests for a web application using PyTest and Selenium
    - Implement page object patterns with PyTest fixtures
    - Create a test report dashboard
 
 4. **Microservices Testing Suite**
+   [See project details in project_04_Microservices_Testing_Suite.md](02_PyTest/project_04_Microservices_Testing_Suite.md)
    - Build tests for a microservices architecture
    - Mock service dependencies
    - Implement contract tests between services
 
 5. **Data Processing Pipeline Tests**
+   [See project details in project_05_Data_Processing_Pipeline_Tests.md](02_PyTest/project_05_Data_Processing_Pipeline_Tests.md)
    - Create tests for a data pipeline
    - Implement property-based testing
    - Test with different data sets using parameterization

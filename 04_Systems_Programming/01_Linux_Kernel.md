@@ -9,6 +9,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
 ## Learning Path
 
 ### 1. Linux Kernel Fundamentals (2 weeks)
+[See details in 01_Linux_Kernel_Fundamentals.md](01_Linux_Kernel/01_Linux_Kernel_Fundamentals.md)
 - **Kernel Architecture**
   - Monolithic kernel design
   - Kernel space vs. user space
@@ -28,6 +29,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - Documentation system
 
 ### 2. Building and Booting the Kernel (1 week)
+[See details in 02_Building_and_Booting_the_Kernel.md](01_Linux_Kernel/02_Building_and_Booting_the_Kernel.md)
 - **Kernel Configuration**
   - menuconfig, xconfig, gconfig tools
   - Kconfig system
@@ -45,6 +47,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - init systems (SysVinit, systemd)
 
 ### 3. Kernel Module Programming (3 weeks)
+[See details in 03_Kernel_Module_Programming.md](01_Linux_Kernel/03_Kernel_Module_Programming.md)
 - **Module Basics**
   - Module vs. built-in components
   - Module infrastructure
@@ -69,6 +72,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - User-space interfaces
 
 ### 4. Kernel Data Structures (2 weeks)
+[See details in 04_Kernel_Data_Structures.md](01_Linux_Kernel/04_Kernel_Data_Structures.md)
 - **Common Kernel Data Structures**
   - Lists, queues, and maps
   - Radix trees
@@ -88,6 +92,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - memory pools
 
 ### 5. Kernel Synchronization (2 weeks)
+[See details in 05_Kernel_Synchronization.md](01_Linux_Kernel/05_Kernel_Synchronization.md)
 - **Atomic Operations**
   - Atomic integers and bitops
   - Memory barriers
@@ -109,6 +114,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - Percpu counters
 
 ### 6. Kernel-User Space Interface (2 weeks)
+[See details in 06_Kernel-User_Space_Interface.md](01_Linux_Kernel/06_Kernel-User_Space_Interface.md)
 - **System Calls**
   - System call mechanism
   - System call table
@@ -133,6 +139,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - Message formats
 
 ### 7. Device Drivers (4 weeks)
+[See details in 07_Device_Drivers.md](01_Linux_Kernel/07_Device_Drivers.md)
 - **Device Driver Basics**
   - Character devices
   - Block devices
@@ -170,6 +177,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - Ethtool support
 
 ### 8. Memory Management (3 weeks)
+[See details in 08_Memory_Management.md](01_Linux_Kernel/08_Memory_Management.md)
 - **Physical Memory Management**
   - Page frame allocation
   - Buddy system
@@ -196,6 +204,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - OOM adjustment
 
 ### 9. Process Management (2 weeks)
+[See details in 09_Process_Management.md](01_Linux_Kernel/09_Process_Management.md)
 - **Process Creation and Termination**
   - fork, exec, exit internals
   - Process descriptor (task_struct)
@@ -219,6 +228,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - Futexes
 
 ### 10. Linux IPC Mechanisms (2 weeks)
+[See details in 10_Linux_IPC_Mechanisms.md](01_Linux_Kernel/10_Linux_IPC_Mechanisms.md)
 - **Traditional System V IPC**
   - Message queues
   - Semaphore arrays
@@ -246,6 +256,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - Huge pages
 
 ### 11. Kernel Debugging and Tracing (2 weeks)
+[See details in 11_Kernel_Debugging_and_Tracing.md](01_Linux_Kernel/11_Kernel_Debugging_and_Tracing.md)
 - **Kernel Debugging Tools**
   - kgdb
   - kdump/kexec
@@ -270,24 +281,34 @@ The Linux kernel is the core component of Linux operating systems, managing syst
 ## Projects
 
 1. **Simple Kernel Module**
+   [See project details in project_01_Simple_Kernel_Module.md](01_Linux_Kernel/project_01_Simple_Kernel_Module.md)
    - Develop a "Hello World" kernel module
    - Implement module parameters and procfs interface
 
+
 2. **Character Device Driver**
+   [See project details in project_02_Character_Device_Driver.md](01_Linux_Kernel/project_02_Character_Device_Driver.md)
    - Create a character device with read/write operations
    - Implement ioctl commands
 
+
 3. **Kernel Data Structure Implementation**
+   [See project details in project_03_Kernel_Data_Structure_Implementation.md](01_Linux_Kernel/project_03_Kernel_Data_Structure_Implementation.md)
    - Implement a specialized data structure for kernel use
    - Ensure proper synchronization and memory management
 
+
 4. **System Call Addition**
+   [See project details in project_04_System_Call_Addition.md](01_Linux_Kernel/project_04_System_Call_Addition.md)
    - Add a new system call to the kernel
    - Create user-space programs to test the system call
 
+
 5. **IPC Mechanism Implementation**
+   [See project details in project_05_IPC_Mechanism_Implementation.md](01_Linux_Kernel/project_05_IPC_Mechanism_Implementation.md)
    - Design and implement a custom IPC mechanism
    - Benchmark against existing IPC methods
+
 
 ## Resources
 

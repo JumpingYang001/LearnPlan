@@ -6,48 +6,56 @@ The GNU C Library (glibc) is the GNU Project's implementation of the C standard 
 ## Learning Path
 
 ### 1. C Standard Library Overview (1 week)
+[See details in 01_C_Standard_Library_Overview.md](05_GLibc_Internals/01_C_Standard_Library_Overview.md)
 - Understand the role of the C standard library
 - Learn about C11/C17 standard features
 - Study glibc's relationship with the kernel
 - Compare glibc with other implementations (musl, uClibc)
 
 ### 2. Memory Management (2 weeks)
+[See details in 02_Memory_Management.md](05_GLibc_Internals/02_Memory_Management.md)
 - Master glibc's malloc implementation
 - Learn about memory allocation algorithms (ptmalloc2)
 - Study memory debugging tools
 - Implement custom allocators
 
 ### 3. Threading and Synchronization (2 weeks)
+[See details in 03_Threading_and_Synchronization.md](05_GLibc_Internals/03_Threading_and_Synchronization.md)
 - Understand POSIX threads implementation
 - Learn about thread-local storage
 - Study synchronization primitives
 - Implement thread-safe data structures
 
 ### 4. I/O and File Operations (2 weeks)
+[See details in 04_IO_and_File_Operations.md](05_GLibc_Internals/04_IO_and_File_Operations.md)
 - Master file descriptor management
 - Learn about buffered I/O implementation
 - Study memory-mapped I/O
 - Implement efficient I/O patterns
 
 ### 5. System Call Interface (1 week)
+[See details in 05_System_Call_Interface.md](05_GLibc_Internals/05_System_Call_Interface.md)
 - Understand glibc's system call wrappers
 - Learn about system call conventions
 - Study the vDSO mechanism
 - Implement direct system calls
 
 ### 6. Process Management (1 week)
+[See details in 06_Process_Management.md](05_GLibc_Internals/06_Process_Management.md)
 - Master process creation (fork, exec)
 - Learn about program loading and dynamic linking
 - Study process termination and cleanup
 - Implement process management utilities
 
 ### 7. Signal Handling (1 week)
+[See details in 07_Signal_Handling.md](05_GLibc_Internals/07_Signal_Handling.md)
 - Understand signal delivery mechanisms
 - Learn about async-signal-safe functions
 - Study real-time signals
 - Implement robust signal handlers
 
 ### 8. Advanced Features and Optimization (2 weeks)
+[See details in 08_Advanced_Features_and_Optimization.md](05_GLibc_Internals/08_Advanced_Features_and_Optimization.md)
 - Master glibc extensions and GNU-specific features
 - Learn about function hooking and interposition
 - Study performance optimization techniques
@@ -56,34 +64,44 @@ The GNU C Library (glibc) is the GNU Project's implementation of the C standard 
 ## Projects
 
 1. **Custom Memory Allocator**
+   [See project details in project_01_Custom_Memory_Allocator.md](05_GLibc_Internals/project_01_Custom_Memory_Allocator.md)
    - Implement a specialized allocator for specific workloads
    - Compare performance with standard malloc
    - Create debugging and profiling features
    - Optimize for different use cases
 
+
 2. **Thread Pool Implementation**
+   [See project details in project_02_Thread_Pool_Implementation.md](05_GLibc_Internals/project_02_Thread_Pool_Implementation.md)
    - Build a thread pool using pthreads
    - Implement work queue and task scheduling
    - Create monitoring and management features
    - Optimize for different workloads
 
+
 3. **I/O Performance Tool**
+   [See project details in project_03_IO_Performance_Tool.md](05_GLibc_Internals/project_03_IO_Performance_Tool.md)
    - Develop a tool to analyze I/O patterns
    - Implement various I/O strategies
    - Create performance comparison visualizations
    - Recommend optimal I/O approaches for different scenarios
 
+
 4. **System Call Tracer and Analyzer**
+   [See project details in project_04_System_Call_Tracer_and_Analyzer.md](05_GLibc_Internals/project_04_System_Call_Tracer_and_Analyzer.md)
    - Build a tool similar to strace but with specialized features
    - Implement performance analysis capabilities
    - Create system call statistics and visualization
    - Add recommendations for optimization
 
+
 5. **Library Function Interposer**
+   [See project details in project_05_Library_Function_Interposer.md](05_GLibc_Internals/project_05_Library_Function_Interposer.md)
    - Develop a framework for intercepting glibc function calls
    - Implement monitoring and debugging capabilities
    - Create performance enhancement features
    - Demonstrate use cases for security and profiling
+
 
 ## Resources
 

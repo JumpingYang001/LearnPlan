@@ -9,6 +9,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
 ## Learning Path
 
 ### 1. Qt Framework Fundamentals (2 weeks)
+[See details in 01_Qt_Framework_Fundamentals.md](01_Qt_QML/01_Qt_Framework_Fundamentals.md)
 - **Qt Architecture**
   - Qt modules and organization
   - Class hierarchy
@@ -34,6 +35,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Application lifecycle
 
 ### 2. Qt Widgets (3 weeks)
+[See details in 02_Qt_Widgets.md](01_Qt_QML/02_Qt_Widgets.md)
 - **Basic Widgets**
   - QLabel, QPushButton, QLineEdit
   - QCheckBox, QRadioButton
@@ -65,6 +67,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Platform-specific styling
 
 ### 3. Qt Core Concepts (2 weeks)
+[See details in 03_Qt_Core_Concepts.md](01_Qt_QML/03_Qt_Core_Concepts.md)
 - **Qt Object Model**
   - QObject hierarchy
   - Object ownership
@@ -94,6 +97,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Thread pools
 
 ### 4. QML Fundamentals (2 weeks)
+[See details in 04_QML_Fundamentals.md](01_Qt_QML/04_QML_Fundamentals.md)
 - **QML Language Basics**
   - Syntax and structure
   - Object declarations
@@ -125,6 +129,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Context properties
 
 ### 5. Qt Quick Controls and Layouts (2 weeks)
+[See details in 05_Qt_Quick_Controls_and_Layouts.md](01_Qt_QML/05_Qt_Quick_Controls_and_Layouts.md)
 - **Qt Quick Controls**
   - Button, CheckBox, RadioButton
   - TextField, TextArea
@@ -150,6 +155,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Responsive layouts
 
 ### 6. QML Animation and Effects (2 weeks)
+[See details in 06_QML_Animation_and_Effects.md](01_Qt_QML/06_QML_Animation_and_Effects.md)
 - **Animation Types**
   - PropertyAnimation
   - NumberAnimation
@@ -174,6 +180,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Shader effects
 
 ### 7. Qt Quick Advanced Concepts (2 weeks)
+[See details in 07_Qt_Quick_Advanced_Concepts.md](01_Qt_QML/07_Qt_Quick_Advanced_Concepts.md)
 - **Canvas Element**
   - 2D drawing API
   - Paths and shapes
@@ -200,6 +207,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Resource management
 
 ### 8. Qt Multimedia and Sensors (1 week)
+[See details in 08_Qt_Multimedia_and_Sensors.md](01_Qt_QML/08_Qt_Multimedia_and_Sensors.md)
 - **Audio and Video**
   - MediaPlayer element
   - Audio output
@@ -214,6 +222,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Position and GPS
 
 ### 9. Networking in Qt (2 weeks)
+[See details in 09_Networking_in_Qt.md](01_Qt_QML/09_Networking_in_Qt.md)
 - **HTTP Communication**
   - QNetworkAccessManager
   - GET/POST requests
@@ -238,6 +247,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Zero-configuration networking
 
 ### 10. Data Storage and Persistence (1 week)
+[See details in 10_Data_Storage_and_Persistence.md](01_Qt_QML/10_Data_Storage_and_Persistence.md)
 - **Settings Management**
   - QSettings
   - Application configuration
@@ -261,6 +271,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Persistence patterns
 
 ### 11. Qt Quick Performance Optimization (1 week)
+[See details in 11_Qt_Quick_Performance_Optimization.md](01_Qt_QML/11_Qt_Quick_Performance_Optimization.md)
 - **Rendering Optimization**
   - SceneGraph understanding
   - Batching and caching
@@ -283,6 +294,7 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
   - Reducing JavaScript usage
 
 ### 12. Deployment and Packaging (1 week)
+[See details in 12_Deployment_and_Packaging.md](01_Qt_QML/12_Deployment_and_Packaging.md)
 - **Desktop Deployment**
   - Windows deployment
   - macOS deployment
@@ -307,26 +319,31 @@ Qt is a comprehensive C++ framework for creating cross-platform applications wit
 ## Projects
 
 1. **Desktop Application**
+   [See project details in project_01_Desktop_Application.md](01_Qt_QML/project_01_Desktop_Application.md)
    - Create a feature-rich desktop application
    - Implement both widget and QML interfaces
    - Support multiple platforms
 
 2. **Mobile Application**
+   [See project details in project_02_Mobile_Application.md](01_Qt_QML/project_02_Mobile_Application.md)
    - Build a mobile app for Android/iOS
    - Utilize mobile-specific features
    - Optimize for touch interfaces
 
 3. **Data Visualization Tool**
+   [See project details in project_03_Data_Visualization_Tool.md](01_Qt_QML/project_03_Data_Visualization_Tool.md)
    - Implement interactive data visualizations
    - Use Canvas and custom QML components
    - Connect to data sources via networking
 
 4. **Multimedia Player**
+   [See project details in project_04_Multimedia_Player.md](01_Qt_QML/project_04_Multimedia_Player.md)
    - Create a media player with custom controls
    - Support various media formats
    - Implement playlist management
 
 5. **Cross-Platform Game**
+   [See project details in project_05_Cross-Platform_Game.md](01_Qt_QML/project_05_Cross-Platform_Game.md)
    - Develop a simple game using Qt Quick
    - Implement animations and effects
    - Support desktop and mobile platforms

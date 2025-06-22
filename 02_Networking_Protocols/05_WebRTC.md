@@ -6,36 +6,42 @@ WebRTC (Web Real-Time Communication) is an open-source project that provides web
 ## Learning Path
 
 ### 1. WebRTC Fundamentals (2 weeks)
+[See details in 01_WebRTC_Fundamentals.md](05_WebRTC/01_WebRTC_Fundamentals.md)
 - Understand WebRTC architecture and components
 - Learn about media capture and constraints
 - Study signaling mechanisms and protocols
 - Implement basic peer connection
 
 ### 2. Media Handling (2 weeks)
+[See details in 02_Media_Handling.md](05_WebRTC/02_Media_Handling.md)
 - Master audio and video capture and processing
 - Learn about codecs and compression techniques
 - Study media quality optimization
 - Implement adaptive streaming solutions
 
 ### 3. NAT Traversal and Networking (2 weeks)
+[See details in 03_NAT_Traversal_and_Networking.md](05_WebRTC/03_NAT_Traversal_and_Networking.md)
 - Understand ICE, STUN, and TURN
 - Learn about network address translation (NAT)
 - Study connection establishment techniques
 - Implement reliable connectivity solutions
 
 ### 4. Data Channels (1 week)
+[See details in 04_Data_Channels.md](05_WebRTC/04_Data_Channels.md)
 - Master RTCDataChannel API
 - Learn about reliable and unreliable data transfer
 - Study data channel use cases
 - Implement file transfer and messaging
 
 ### 5. Scalable WebRTC Applications (2 weeks)
+[See details in 05_Scalable_WebRTC_Applications.md](05_WebRTC/05_Scalable_WebRTC_Applications.md)
 - Understand scaling limitations of peer-to-peer
 - Learn about SFU (Selective Forwarding Unit) and MCU (Multipoint Control Unit)
 - Study load balancing and failover strategies
 - Implement scalable WebRTC solutions
 
 ### 6. Security and Privacy (1 week)
+[See details in 06_Security_and_Privacy.md](05_WebRTC/06_Security_and_Privacy.md)
 - Master DTLS and SRTP for encryption
 - Learn about security best practices
 - Study privacy considerations
@@ -44,30 +50,35 @@ WebRTC (Web Real-Time Communication) is an open-source project that provides web
 ## Projects
 
 1. **Video Chat Application**
+   [See project details in project_01_Video_Chat_Application.md](05_WebRTC/project_01_Video_Chat_Application.md)
    - Build a one-to-one video chat application
    - Implement camera and microphone controls
    - Create UI for call management
    - Add screen sharing capabilities
 
 2. **Multi-Party Conference System**
+   [See project details in project_02_Multi-Party_Conference_System.md](05_WebRTC/project_02_Multi-Party_Conference_System.md)
    - Develop a system supporting multiple participants
    - Implement speaker detection
    - Create bandwidth management features
    - Add recording functionality
 
 3. **WebRTC File Sharing Application**
+   [See project details in project_03_WebRTC_File_Sharing_Application.md](05_WebRTC/project_03_WebRTC_File_Sharing_Application.md)
    - Build a peer-to-peer file sharing solution
    - Implement progress tracking
    - Create resume functionality for large files
    - Add encryption for secure transfers
 
 4. **Live Streaming Platform**
+   [See project details in project_04_Live_Streaming_Platform.md](05_WebRTC/project_04_Live_Streaming_Platform.md)
    - Develop a system for one-to-many streaming
    - Implement viewer metrics and analytics
    - Create adaptive quality features
    - Add chat functionality alongside streams
 
 5. **WebRTC Gaming Platform**
+   [See project details in project_05_WebRTC_Gaming_Platform.md](05_WebRTC/project_05_WebRTC_Gaming_Platform.md)
    - Build a real-time multiplayer game using data channels
    - Implement state synchronization
    - Create latency management strategies

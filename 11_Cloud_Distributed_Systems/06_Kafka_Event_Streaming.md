@@ -6,36 +6,42 @@ Apache Kafka is a distributed event streaming platform capable of handling trill
 ## Learning Path
 
 ### 1. Kafka Fundamentals (2 weeks)
+[See details in 01_Kafka_Fundamentals.md](06_Kafka_Event_Streaming/01_Kafka_Fundamentals.md)
 - Understand Kafka's architecture and components
 - Learn about topics, partitions, and offsets
 - Study producers and consumers
 - Understand message delivery semantics
 
 ### 2. Kafka Cluster Setup and Administration (2 weeks)
+[See details in 02_Kafka_Cluster_Setup_and_Administration.md](06_Kafka_Event_Streaming/02_Kafka_Cluster_Setup_and_Administration.md)
 - Master Kafka cluster setup and configuration
 - Learn about ZooKeeper's role in Kafka
 - Study broker configuration and tuning
 - Implement cluster monitoring and management
 
 ### 3. Kafka Streams and KSQL (2 weeks)
+[See details in 03_Kafka_Streams_and_KSQL.md](06_Kafka_Event_Streaming/03_Kafka_Streams_and_KSQL.md)
 - Understand stream processing concepts
 - Learn Kafka Streams API for stream processing
 - Study KSQL for SQL-like stream processing
 - Implement stream processing applications
 
 ### 4. Kafka Connect and Integration (2 weeks)
+[See details in 04_Kafka_Connect_and_Integration.md](06_Kafka_Event_Streaming/04_Kafka_Connect_and_Integration.md)
 - Master Kafka Connect framework
 - Learn about source and sink connectors
 - Study integration patterns with databases and other systems
 - Implement data pipelines using Kafka Connect
 
 ### 5. Event-Driven Architecture with Kafka (2 weeks)
+[See details in 05_Event-Driven_Architecture_with_Kafka.md](06_Kafka_Event_Streaming/05_Event-Driven_Architecture_with_Kafka.md)
 - Understand event-driven architecture principles
 - Learn event sourcing and CQRS with Kafka
 - Study domain events and integration events
 - Implement event-driven microservices
 
 ### 6. Advanced Kafka Security and Operations (1 week)
+[See details in 06_Advanced_Kafka_Security_and_Operations.md](06_Kafka_Event_Streaming/06_Advanced_Kafka_Security_and_Operations.md)
 - Master Kafka security (authentication, authorization)
 - Learn about encryption and SSL in Kafka
 - Study disaster recovery and multi-datacenter Kafka
@@ -44,26 +50,31 @@ Apache Kafka is a distributed event streaming platform capable of handling trill
 ## Projects
 
 1. **Real-time Analytics Dashboard**
+   [See project details in project_01_Real-time_Analytics_Dashboard.md](06_Kafka_Event_Streaming/project_01_Real-time_Analytics_Dashboard.md)
    - Build a system that processes real-time data streams
    - Implement stream processing with Kafka Streams
    - Create real-time visualization of metrics
 
 2. **Event-Sourced Microservices Platform**
+   [See project details in project_02_Event-Sourced_Microservices_Platform.md](06_Kafka_Event_Streaming/project_02_Event-Sourced_Microservices_Platform.md)
    - Develop a system using Kafka as an event store
    - Implement event sourcing and CQRS patterns
    - Create event-driven workflows between services
 
 3. **Data Integration Platform**
+   [See project details in project_03_Data_Integration_Platform.md](06_Kafka_Event_Streaming/project_03_Data_Integration_Platform.md)
    - Build a comprehensive data pipeline using Kafka Connect
    - Implement CDC (Change Data Capture) from databases
    - Create transformations and routing of events
 
 4. **IoT Data Processing Platform**
+   [See project details in project_04_IoT_Data_Processing_Platform.md](06_Kafka_Event_Streaming/project_04_IoT_Data_Processing_Platform.md)
    - Develop a platform that ingests IoT device data
    - Implement processing and enrichment of sensor data
    - Create alerting and monitoring systems
 
 5. **Multi-Region Kafka Deployment**
+   [See project details in project_05_Multi-Region_Kafka_Deployment.md](06_Kafka_Event_Streaming/project_05_Multi-Region_Kafka_Deployment.md)
    - Build a multi-datacenter Kafka cluster
    - Implement disaster recovery procedures
    - Create monitoring and failover mechanisms

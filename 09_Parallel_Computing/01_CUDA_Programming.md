@@ -9,6 +9,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
 ## Learning Path
 
 ### 1. GPU Architecture and Parallel Computing (1 week)
+[See details in 01_GPU_Architecture_and_Parallel_Computing.md](01_CUDA_Programming/01_GPU_Architecture_and_Parallel_Computing.md)
 - **GPU vs. CPU Architecture**
   - Architectural differences
   - SIMD vs. SIMT execution models
@@ -28,6 +29,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Race conditions and deadlocks
 
 ### 2. CUDA Programming Fundamentals (2 weeks)
+[See details in 02_CUDA_Programming_Fundamentals.md](01_CUDA_Programming/02_CUDA_Programming_Fundamentals.md)
 - **CUDA Development Environment**
   - CUDA Toolkit installation
   - NVIDIA drivers and compatibility
@@ -52,6 +54,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Error handling
 
 ### 3. CUDA Optimization Techniques (2 weeks)
+[See details in 03_CUDA_Optimization_Techniques.md](01_CUDA_Programming/03_CUDA_Optimization_Techniques.md)
 - **Memory Coalescing**
   - Global memory access patterns
   - Strided access optimization
@@ -79,6 +82,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Cooperative groups
 
 ### 4. Advanced CUDA Programming (2 weeks)
+[See details in 04_Advanced_CUDA_Programming.md](01_CUDA_Programming/04_Advanced_CUDA_Programming.md)
 - **CUDA Streams**
   - Asynchronous execution
   - Stream creation and management
@@ -106,6 +110,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Long-running kernels
 
 ### 5. CUDA Libraries and Tools (2 weeks)
+[See details in 05_CUDA_Libraries_and_Tools.md](01_CUDA_Programming/05_CUDA_Libraries_and_Tools.md)
 - **CUDA Math Libraries**
   - cuBLAS (Basic Linear Algebra Subroutines)
   - cuSPARSE (Sparse Matrix Operations)
@@ -125,6 +130,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Bottleneck identification
 
 ### 6. CUDA and OpenCV (2 weeks)
+[See details in 06_CUDA_and_OpenCV.md](01_CUDA_Programming/06_CUDA_and_OpenCV.md)
 - **CUDA-Accelerated OpenCV**
   - OpenCV CUDA module
   - GPU mat operations
@@ -147,6 +153,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Memory management
 
 ### 7. Deep Learning with CUDA (3 weeks)
+[See details in 07_Deep_Learning_with_CUDA.md](01_CUDA_Programming/07_Deep_Learning_with_CUDA.md)
 - **cuDNN (CUDA Deep Neural Network Library)**
   - Architecture and capabilities
   - Tensor formats and layouts
@@ -171,6 +178,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Benchmarking against libraries
 
 ### 8. CUDA Programming Patterns (2 weeks)
+[See details in 08_CUDA_Programming_Patterns.md](01_CUDA_Programming/08_CUDA_Programming_Patterns.md)
 - **Reduction Patterns**
   - Parallel reduction
   - Tree-based reduction
@@ -193,6 +201,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Performance characteristics
 
 ### 9. Memory Management Techniques (1 week)
+[See details in 09_Memory_Management_Techniques.md](01_CUDA_Programming/09_Memory_Management_Techniques.md)
 - **Unified Memory Advanced Features**
   - Memory advising
   - Prefetching
@@ -215,6 +224,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Fragmentation handling
 
 ### 10. Heterogeneous Programming (2 weeks)
+[See details in 10_Heterogeneous_Programming.md](01_CUDA_Programming/10_Heterogeneous_Programming.md)
 - **CPU-GPU Cooperation**
   - Task distribution
   - Load balancing
@@ -237,6 +247,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Zero-copy transfers
 
 ### 11. CUDA Graph API (1 week)
+[See details in 11_CUDA_Graph_API.md](01_CUDA_Programming/11_CUDA_Graph_API.md)
 - **Graph Creation and Execution**
   - Explicit graph creation
   - Capture-based creation
@@ -254,6 +265,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Bottleneck identification
 
 ### 12. Advanced Topics and Emerging Trends (2 weeks)
+[See details in 12_Advanced_Topics_and_Emerging_Trends.md](01_CUDA_Programming/12_Advanced_Topics_and_Emerging_Trends.md)
 - **CUDA C++ Standard Library**
   - STL-like functionality
   - Parallel algorithms
@@ -278,26 +290,31 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
 ## Projects
 
 1. **Image Processing Application**
+   [See project details in project_01_Image_Processing_Application.md](01_CUDA_Programming/project_01_Image_Processing_Application.md)
    - Implement various image filters with CUDA
    - Create a pipeline for real-time processing
    - Compare performance with CPU implementation
 
 2. **N-Body Simulation**
+   [See project details in project_02_N-Body_Simulation.md](01_CUDA_Programming/project_02_N-Body_Simulation.md)
    - Create a CUDA-accelerated n-body simulation
    - Implement different algorithms (direct, Barnes-Hut)
    - Visualize results with OpenGL interop
 
 3. **Custom Deep Learning Framework**
+   [See project details in project_03_Custom_Deep_Learning_Framework.md](01_CUDA_Programming/project_03_Custom_Deep_Learning_Framework.md)
    - Implement basic neural network layers in CUDA
    - Create forward and backward passes
    - Benchmark against established frameworks
 
 4. **Video Processing System**
+   [See project details in project_04_Video_Processing_System.md](01_CUDA_Programming/project_04_Video_Processing_System.md)
    - Build a real-time video processing pipeline
    - Implement motion detection and tracking
    - Optimize for low latency
 
 5. **Scientific Computing Application**
+   [See project details in project_05_Scientific_Computing_Application.md](01_CUDA_Programming/project_05_Scientific_Computing_Application.md)
    - Create a fluid dynamics or electromagnetic simulation
    - Implement domain-specific algorithms in CUDA
    - Visualize and analyze results

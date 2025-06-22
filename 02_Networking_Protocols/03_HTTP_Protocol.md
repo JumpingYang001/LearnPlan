@@ -9,6 +9,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 ## Learning Path
 
 ### 1. HTTP Fundamentals (1 week)
+[See details in 01_HTTP_Fundamentals.md](03_HTTP_Protocol/01_HTTP_Fundamentals.md)
 - Client-server architecture
 - Stateless nature of HTTP
 - Request-response cycle
@@ -16,6 +17,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 - URI structure and components
 
 ### 2. HTTP/1.1 Protocol Details (2 weeks)
+[See details in 02_HTTP11_Protocol_Details.md](03_HTTP_Protocol/02_HTTP11_Protocol_Details.md)
 - **Message Format**
   - Request line and response status line
   - Headers
@@ -39,6 +41,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
   - Custom headers
 
 ### 3. HTTP/1.1 Features (1 week)
+[See details in 03_HTTP11_Features.md](03_HTTP_Protocol/03_HTTP11_Features.md)
 - Persistent connections (keep-alive)
 - Pipelining
 - Chunked transfer encoding
@@ -50,6 +53,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 - Cookies and state management
 
 ### 4. HTTP/2 Protocol (2 weeks)
+[See details in 04_HTTP2_Protocol.md](03_HTTP_Protocol/04_HTTP2_Protocol.md)
 - Differences from HTTP/1.1
 - Binary framing layer
 - Multiplexed streams
@@ -61,6 +65,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 - Migration strategies from HTTP/1.1
 
 ### 5. HTTP/3 and QUIC (1 week)
+[See details in 05_HTTP3_and_QUIC.md](03_HTTP_Protocol/05_HTTP3_and_QUIC.md)
 - QUIC transport protocol
 - UDP-based implementation
 - Connection establishment
@@ -70,6 +75,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 - Migration from HTTP/2
 
 ### 6. RESTful API Design with HTTP (2 weeks)
+[See details in 06_RESTful_API_Design_with_HTTP.md](03_HTTP_Protocol/06_RESTful_API_Design_with_HTTP.md)
 - REST architectural principles
 - Resource identification with URIs
 - HTTP methods for CRUD operations
@@ -81,6 +87,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 - Rate limiting and throttling
 
 ### 7. HTTP Security (2 weeks)
+[See details in 07_HTTP_Security.md](03_HTTP_Protocol/07_HTTP_Security.md)
 - **HTTPS (HTTP Secure)**
   - TLS/SSL handshake
   - Certificate validation
@@ -103,6 +110,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
   - API keys
 
 ### 8. HTTP Implementations in C/C++ (2 weeks)
+[See details in 08_HTTP_Implementations_in_CC.md](03_HTTP_Protocol/08_HTTP_Implementations_in_CC.md)
 - **HTTP Client Implementation**
   - Creating HTTP requests
   - Handling responses
@@ -124,23 +132,28 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 ## Projects
 
 1. **HTTP Protocol Analyzer**
+   [See project details in project_01_HTTP_Protocol_Analyzer.md](03_HTTP_Protocol/project_01_HTTP_Protocol_Analyzer.md)
    - Implement a tool to parse and display HTTP messages
    - Support HTTP/1.1 and HTTP/2 formats
 
 2. **Simple HTTP Server**
+   [See project details in project_02_Simple_HTTP_Server.md](03_HTTP_Protocol/project_02_Simple_HTTP_Server.md)
    - Create a basic HTTP/1.1 server in C/C++
    - Support multiple concurrent clients
    - Implement common request methods
 
 3. **RESTful API Client**
+   [See project details in project_03_RESTful_API_Client.md](03_HTTP_Protocol/project_03_RESTful_API_Client.md)
    - Build a client library for interacting with RESTful APIs
    - Support authentication and content negotiation
 
 4. **HTTP/2 Server Implementation**
+   [See project details in project_04_HTTP2_Server_Implementation.md](03_HTTP_Protocol/project_04_HTTP2_Server_Implementation.md)
    - Extend the HTTP server to support HTTP/2
    - Implement stream multiplexing and header compression
 
 5. **Secure API Gateway**
+   [See project details in project_05_Secure_API_Gateway.md](03_HTTP_Protocol/project_05_Secure_API_Gateway.md)
    - Create a proxy server that adds security headers
    - Implement rate limiting and authentication
 

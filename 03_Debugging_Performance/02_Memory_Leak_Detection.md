@@ -9,6 +9,7 @@ Memory leaks and inefficient memory usage can severely impact application perfor
 ## Learning Path
 
 ### 1. Memory Management Fundamentals (1 week)
+[See details in 01_Memory_Management_Fundamentals.md](02_Memory_Leak_Detection/01_Memory_Management_Fundamentals.md)
 - **Memory Allocation in C/C++**
   - Stack vs. heap allocation
   - malloc/free, new/delete mechanics
@@ -28,6 +29,7 @@ Memory leaks and inefficient memory usage can severely impact application perfor
   - Object pools
 
 ### 2. Memory Profiling Tools (2 weeks)
+[See details in 02_Memory_Profiling_Tools.md](02_Memory_Leak_Detection/02_Memory_Profiling_Tools.md)
 - **Valgrind Suite**
   - Memcheck for leak detection
   - Massif for heap profiling
@@ -53,6 +55,7 @@ Memory leaks and inefficient memory usage can severely impact application perfor
   - LLVM Memory Sanitizers
 
 ### 3. Memory Leak Detection Techniques (2 weeks)
+[See details in 03_Memory_Leak_Detection_Techniques.md](02_Memory_Leak_Detection/03_Memory_Leak_Detection_Techniques.md)
 - **Static Analysis**
   - Compiler warnings
   - Static analyzer tools (Clang Analyzer, Coverity)
@@ -70,6 +73,7 @@ Memory leaks and inefficient memory usage can severely impact application perfor
   - Exception safety analysis
 
 ### 4. Memory Leak Diagnosis (2 weeks)
+[See details in 04_Memory_Leak_Diagnosis.md](02_Memory_Leak_Detection/04_Memory_Leak_Diagnosis.md)
 - **Understanding Leak Reports**
   - Allocation backtraces
   - Leak sizes and patterns
@@ -88,6 +92,7 @@ Memory leaks and inefficient memory usage can severely impact application perfor
   - External resource handling
 
 ### 5. Memory Optimization Techniques (2 weeks)
+[See details in 05_Memory_Optimization_Techniques.md](02_Memory_Leak_Detection/05_Memory_Optimization_Techniques.md)
 - **Memory Usage Reduction**
   - Compact data structures
   - Bit fields and compression
@@ -108,6 +113,7 @@ Memory leaks and inefficient memory usage can severely impact application perfor
   - Structure packing
 
 ### 6. Advanced Memory Management (2 weeks)
+[See details in 06_Advanced_Memory_Management.md](02_Memory_Leak_Detection/06_Advanced_Memory_Management.md)
 - **Lock-Free Memory Management**
   - Hazard pointers
   - Epoch-based reclamation
@@ -126,6 +132,7 @@ Memory leaks and inefficient memory usage can severely impact application perfor
   - Secure wiping of sensitive data
 
 ### 7. Platform-Specific Memory Tools (1 week)
+[See details in 07_Platform-Specific_Memory_Tools.md](02_Memory_Leak_Detection/07_Platform-Specific_Memory_Tools.md)
 - **Linux Tools**
   - /proc/meminfo and pmap
   - smem
@@ -146,24 +153,39 @@ Memory leaks and inefficient memory usage can severely impact application perfor
 ## Projects
 
 1. **Custom Memory Leak Detector**
+   [See project details in project_01_Custom_Memory_Leak_Detector.md](02_Memory_Leak_Detection/project_01_Custom_Memory_Leak_Detector.md)
    - Implement a simple memory tracking library
    - Create visualization tools for memory usage
 
+
+
 2. **Memory-Efficient Data Structure Library**
+   [See project details in project_02_Memory-Efficient_Data_Structure_Library.md](02_Memory_Leak_Detection/project_02_Memory-Efficient_Data_Structure_Library.md)
    - Design and implement cache-friendly containers
    - Benchmark against standard containers
 
+
+
 3. **Memory Optimization Case Study**
+   [See project details in project_03_Memory_Optimization_Case_Study.md](02_Memory_Leak_Detection/project_03_Memory_Optimization_Case_Study.md)
    - Analyze and optimize a memory-intensive application
    - Document improvements and techniques used
 
+
+
 4. **Leak Detection Tool Integration**
+   [See project details in project_04_Leak_Detection_Tool_Integration.md](02_Memory_Leak_Detection/project_04_Leak_Detection_Tool_Integration.md)
    - Create build system integration for leak detection tools
    - Automate leak detection in CI/CD pipeline
 
+
+
 5. **Custom Allocator Implementation**
+   [See project details in project_05_Custom_Allocator_Implementation.md](02_Memory_Leak_Detection/project_05_Custom_Allocator_Implementation.md)
    - Design a specialized allocator for a specific use case
    - Benchmark performance against standard allocators
+
+
 
 ## Resources
 

@@ -9,6 +9,7 @@ Machine learning frameworks provide the foundation for developing, training, and
 ## Learning Path
 
 ### 1. Machine Learning Fundamentals (2 weeks)
+[See details in 01_Machine_Learning_Fundamentals.md](01_ML_Frameworks/01_Machine_Learning_Fundamentals.md)
 - **Basic Concepts**
   - Supervised vs. unsupervised learning
   - Classification, regression, clustering
@@ -29,6 +30,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Transfer learning
 
 ### 2. TensorFlow Architecture and Basics (2 weeks)
+[See details in 02_TensorFlow_Architecture_and_Basics.md](01_ML_Frameworks/02_TensorFlow_Architecture_and_Basics.md)
 - **TensorFlow Overview**
   - Evolution (TF 1.x vs. TF 2.x)
   - Computation graph concept
@@ -52,6 +54,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Checkpoint files
 
 ### 3. TensorFlow Model Development (2 weeks)
+[See details in 03_TensorFlow_Model_Development.md](01_ML_Frameworks/03_TensorFlow_Model_Development.md)
 - **Keras API in TensorFlow**
   - Sequential and Functional APIs
   - Custom layers and models
@@ -74,6 +77,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Feature extraction
 
 ### 4. PyTorch Architecture and Basics (2 weeks)
+[See details in 04_PyTorch_Architecture_and_Basics.md](01_ML_Frameworks/04_PyTorch_Architecture_and_Basics.md)
 - **PyTorch Overview**
   - Dynamic computation graph
   - Eager execution by default
@@ -97,6 +101,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Serialization formats
 
 ### 5. PyTorch Model Development (2 weeks)
+[See details in 05_PyTorch_Model_Development.md](01_ML_Frameworks/05_PyTorch_Model_Development.md)
 - **nn.Module System**
   - Creating custom modules
   - Layer composition
@@ -120,6 +125,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Quantization
 
 ### 6. ONNX and Model Interoperability (1 week)
+[See details in 06_ONNX_and_Model_Interoperability.md](01_ML_Frameworks/06_ONNX_and_Model_Interoperability.md)
 - **ONNX Format**
   - Open Neural Network Exchange
   - Operator sets
@@ -142,6 +148,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Performance implications
 
 ### 7. Model Optimization Techniques (2 weeks)
+[See details in 07_Model_Optimization_Techniques.md](01_ML_Frameworks/07_Model_Optimization_Techniques.md)
 - **Quantization**
   - Post-training quantization
   - Quantization-aware training
@@ -164,6 +171,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Tensor decomposition
 
 ### 8. Hardware Acceleration Frameworks (3 weeks)
+[See details in 08_Hardware_Acceleration_Frameworks.md](01_ML_Frameworks/08_Hardware_Acceleration_Frameworks.md)
 - **TensorRT**
   - NVIDIA's inference optimizer
   - Network definition and optimization
@@ -194,6 +202,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Memory optimization
 
 ### 9. Edge AI Deployment (2 weeks)
+[See details in 09_Edge_AI_Deployment.md](01_ML_Frameworks/09_Edge_AI_Deployment.md)
 - **TensorFlow Lite**
   - Model conversion
   - Interpreter API
@@ -217,6 +226,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Power efficiency techniques
 
 ### 10. CUDA Programming for ML (2 weeks)
+[See details in 10_CUDA_Programming_for_ML.md](01_ML_Frameworks/10_CUDA_Programming_for_ML.md)
 - **CUDA Basics for ML**
   - GPU architecture for ML
   - CUDA programming model
@@ -239,6 +249,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Performance profiling
 
 ### 11. Modern ML Model Architectures (3 weeks)
+[See details in 11_Modern_ML_Model_Architectures.md](01_ML_Frameworks/11_Modern_ML_Model_Architectures.md)
 - **Transformer Models**
   - Self-attention mechanism
   - Multi-head attention
@@ -266,6 +277,7 @@ Machine learning frameworks provide the foundation for developing, training, and
   - Generative capabilities
 
 ### 12. ML Engineering and Production (2 weeks)
+[See details in 12_ML_Engineering_and_Production.md](01_ML_Frameworks/12_ML_Engineering_and_Production.md)
 - **ML Pipeline Design**
   - Data preprocessing
   - Feature engineering
@@ -291,26 +303,31 @@ Machine learning frameworks provide the foundation for developing, training, and
 ## Projects
 
 1. **Custom Model Training and Deployment**
+   [See project details in project_01_Custom_Model_Training_and_Deployment.md](01_ML_Frameworks/project_01_Custom_Model_Training_and_Deployment.md)
    - Train a model with TensorFlow or PyTorch
    - Convert to an optimized format (ONNX, TFLite)
    - Deploy with a C++ inference engine
 
 2. **Hardware-Accelerated Inference**
+   [See project details in project_02_Hardware-Accelerated_Inference.md](01_ML_Frameworks/project_02_Hardware-Accelerated_Inference.md)
    - Optimize a model for edge deployment
    - Implement quantization and pruning
    - Benchmark on different hardware targets
 
 3. **Multi-Framework Integration**
+   [See project details in project_03_Multi-Framework_Integration.md](01_ML_Frameworks/project_03_Multi-Framework_Integration.md)
    - Create a system using models from different frameworks
    - Implement common preprocessing and postprocessing
    - Optimize for production deployment
 
 4. **Custom CUDA Kernel for ML**
+   [See project details in project_04_Custom_CUDA_Kernel_for_ML.md](01_ML_Frameworks/project_04_Custom_CUDA_Kernel_for_ML.md)
    - Implement a specialized operation in CUDA
    - Integrate with a ML framework
    - Benchmark against standard implementations
 
 5. **LLM Fine-tuning and Optimization**
+   [See project details in project_05_LLM_Fine-tuning_and_Optimization.md](01_ML_Frameworks/project_05_LLM_Fine-tuning_and_Optimization.md)
    - Fine-tune a LLM for a specific task
    - Optimize for inference (quantization, pruning)
    - Create a deployment pipeline

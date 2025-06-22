@@ -6,36 +6,42 @@ BRPC (Baidu RPC) and Apache Thrift are powerful RPC (Remote Procedure Call) fram
 ## Learning Path
 
 ### 1. RPC Fundamentals (1 week)
+[See details in 01_RPC_Fundamentals.md](06_BRPC_Thrift/01_RPC_Fundamentals.md)
 - Understand RPC concepts and architecture
 - Compare RPC to REST and other communication methods
 - Study serialization and deserialization techniques
 - Learn about service discovery in RPC systems
 
 ### 2. Apache Thrift Basics (2 weeks)
+[See details in 02_Apache_Thrift_Basics.md](06_BRPC_Thrift/02_Apache_Thrift_Basics.md)
 - Master Thrift IDL (Interface Definition Language)
 - Learn about Thrift type system
 - Study code generation for multiple languages
 - Implement basic Thrift services
 
 ### 3. Thrift Advanced Features (2 weeks)
+[See details in 03_Thrift_Advanced_Features.md](06_BRPC_Thrift/03_Thrift_Advanced_Features.md)
 - Understand Thrift transport layers
 - Learn about Thrift protocols (Binary, Compact, JSON)
 - Study server types (Simple, Threaded, Thread Pool)
 - Implement advanced Thrift services
 
 ### 4. BRPC Fundamentals (2 weeks)
+[See details in 04_BRPC_Fundamentals.md](06_BRPC_Thrift/04_BRPC_Fundamentals.md)
 - Master BRPC service definition
 - Learn about BRPC's protocol support
 - Study BRPC client/server architecture
 - Implement basic BRPC services
 
 ### 5. BRPC Advanced Features (2 weeks)
+[See details in 05_BRPC_Advanced_Features.md](06_BRPC_Thrift/05_BRPC_Advanced_Features.md)
 - Understand BRPC's load balancing strategies
 - Learn about BRPC's service governance features
 - Study builtin services and debugging tools
 - Implement advanced BRPC applications
 
 ### 6. Performance Optimization (1 week)
+[See details in 06_Performance_Optimization.md](06_BRPC_Thrift/06_Performance_Optimization.md)
 - Master latency optimization techniques
 - Learn about throughput improvements
 - Study memory and CPU efficiency
@@ -44,30 +50,35 @@ BRPC (Baidu RPC) and Apache Thrift are powerful RPC (Remote Procedure Call) fram
 ## Projects
 
 1. **Multi-language Service Ecosystem**
+   [See project details in project_01_Multi-language_Service_Ecosystem.md](06_BRPC_Thrift/project_01_Multi-language_Service_Ecosystem.md)
    - Build services in different languages (C++, Java, Python)
    - Implement RPC communication between them
    - Create service discovery mechanism
    - Measure cross-language performance
 
 2. **High-throughput Data Processing Pipeline**
+   [See project details in project_02_High-throughput_Data_Processing_Pipeline.md](06_BRPC_Thrift/project_02_High-throughput_Data_Processing_Pipeline.md)
    - Develop a system for processing large datasets
    - Implement parallel processing with RPC
    - Create monitoring and metrics collection
    - Optimize for maximum throughput
 
 3. **Fault-tolerant Distributed Application**
+   [See project details in project_03_Fault-tolerant_Distributed_Application.md](06_BRPC_Thrift/project_03_Fault-tolerant_Distributed_Application.md)
    - Build a system with automatic failover
    - Implement timeout and retry mechanisms
    - Create circuit breaker patterns
    - Test resilience under various failure conditions
 
 4. **RPC Gateway Service**
+   [See project details in project_04_RPC_Gateway_Service.md](06_BRPC_Thrift/project_04_RPC_Gateway_Service.md)
    - Develop a gateway for multiple backend services
    - Implement protocol translation
    - Create request routing and load balancing
    - Add monitoring and request tracing
 
 5. **Benchmarking Suite**
+   [See project details in project_05_Benchmarking_Suite.md](06_BRPC_Thrift/project_05_Benchmarking_Suite.md)
    - Build tools to compare different RPC frameworks
    - Implement various testing scenarios
    - Create performance visualization

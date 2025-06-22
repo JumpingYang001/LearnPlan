@@ -6,72 +6,84 @@ Real-time systems are computing systems that must respond to events or process d
 ## Learning Path
 
 ### 1. Real-Time Systems Fundamentals (2 weeks)
+[See details in 01_Real-Time_Systems_Fundamentals.md](05_Real_Time_Systems/01_Real-Time_Systems_Fundamentals.md)
 - Understand real-time system characteristics and requirements
 - Learn about hard, soft, and firm real-time constraints
 - Study determinism, predictability, and responsiveness
 - Grasp the differences between real-time and general-purpose systems
 
 ### 2. Real-Time Operating Systems (RTOS) (2 weeks)
+[See details in 02_Real-Time_Operating_Systems.md](05_Real_Time_Systems/02_Real-Time_Operating_Systems.md)
 - Master RTOS architecture and components
 - Learn about task management and scheduling
 - Study memory management in RTOS environments
 - Compare popular RTOS options (FreeRTOS, VxWorks, QNX, etc.)
 
 ### 3. Real-Time Scheduling Algorithms (2 weeks)
+[See details in 03_Real-Time_Scheduling_Algorithms.md](05_Real_Time_Systems/03_Real-Time_Scheduling_Algorithms.md)
 - Understand rate-monotonic scheduling
 - Learn about earliest deadline first (EDF) scheduling
 - Study priority inversion and priority inheritance
 - Implement and analyze scheduling algorithms
 
 ### 4. Inter-Process Communication in Real-Time Systems (2 weeks)
+[See details in 04_Inter-Process_Communication_in_Real-Time_Systems.md](05_Real_Time_Systems/04_Inter-Process_Communication_in_Real-Time_Systems.md)
 - Master semaphores and mutexes for real-time
 - Learn about message queues and mailboxes
 - Study shared memory with deterministic access
 - Implement IPC mechanisms in real-time applications
 
 ### 5. Real-Time System Design Patterns (2 weeks)
+[See details in 05_Real-Time_System_Design_Patterns.md](05_Real_Time_Systems/05_Real-Time_System_Design_Patterns.md)
 - Understand cyclic executive pattern
 - Learn about time-triggered architecture
 - Study event-triggered systems
 - Implement different real-time design patterns
 
 ### 6. Timing Analysis and Verification (2 weeks)
+[See details in 06_Timing_Analysis_and_Verification.md](05_Real_Time_Systems/06_Timing_Analysis_and_Verification.md)
 - Master worst-case execution time (WCET) analysis
 - Learn about static timing analysis techniques
 - Study schedulability analysis
 - Implement timing verification for real-time systems
 
 ### 7. Real-Time Communication Protocols (2 weeks)
+[See details in 07_Real-Time_Communication_Protocols.md](05_Real_Time_Systems/07_Real-Time_Communication_Protocols.md)
 - Understand real-time communication requirements
 - Learn about CAN, FlexRay, and Time-Triggered Ethernet
 - Study deterministic networking protocols
 - Implement real-time communication systems
 
 ### 8. Real-Time Linux (2 weeks)
+[See details in 08_Real-Time_Linux.md](05_Real_Time_Systems/08_Real-Time_Linux.md)
 - Master PREEMPT_RT patch and its capabilities
 - Learn about Xenomai and RTAI
 - Study Linux task scheduling for real-time
 - Implement real-time applications on Linux
 
 ### 9. FreeRTOS Programming (2 weeks)
+[See details in 09_FreeRTOS_Programming.md](05_Real_Time_Systems/09_FreeRTOS_Programming.md)
 - Understand FreeRTOS architecture and API
 - Learn about task creation and management
 - Study synchronization and communication primitives
 - Implement applications with FreeRTOS
 
 ### 10. QNX and Commercial RTOS (1 week)
+[See details in 10_QNX_and_Commercial_RTOS.md](05_Real_Time_Systems/10_QNX_and_Commercial_RTOS.md)
 - Master QNX architecture and capabilities
 - Learn about commercial RTOS features
 - Study certification requirements (DO-178C, ISO 26262)
 - Explore commercial RTOS development
 
 ### 11. Real-Time Systems for Robotics (2 weeks)
+[See details in 11_Real-Time_Systems_for_Robotics.md](05_Real_Time_Systems/11_Real-Time_Systems_for_Robotics.md)
 - Understand robotics control timing requirements
 - Learn about sensor fusion in real-time
 - Study motion planning with time constraints
 - Implement real-time robotic control systems
 
 ### 12. Fault Tolerance in Real-Time Systems (2 weeks)
+[See details in 12_Fault_Tolerance_in_Real-Time_Systems.md](05_Real_Time_Systems/12_Fault_Tolerance_in_Real-Time_Systems.md)
 - Master redundancy and fault detection techniques
 - Learn about recovery mechanisms
 - Study formal methods for critical systems
@@ -80,26 +92,31 @@ Real-time systems are computing systems that must respond to events or process d
 ## Projects
 
 1. **Real-Time Control System**
+   [See project details in project_01_Real-Time_Control_System.md](05_Real_Time_Systems/project_01_Real-Time_Control_System.md)
    - Build a control system with strict timing requirements
    - Implement multiple control loops with different priorities
    - Create timing analysis and verification tools
 
 2. **Real-Time Communication Framework**
+   [See project details in project_02_Real-Time_Communication_Framework.md](05_Real_Time_Systems/project_02_Real-Time_Communication_Framework.md)
    - Develop a deterministic communication system
    - Implement protocols with bounded latency
    - Create monitoring and analysis tools
 
 3. **Embedded RTOS Application**
+   [See project details in project_03_Embedded_RTOS_Application.md](05_Real_Time_Systems/project_03_Embedded_RTOS_Application.md)
    - Build an application on an embedded platform with RTOS
    - Implement resource management and scheduling
    - Create performance and timing analysis
 
 4. **Real-Time Linux Extension**
+   [See project details in project_04_Real-Time_Linux_Extension.md](05_Real_Time_Systems/project_04_Real-Time_Linux_Extension.md)
    - Develop kernel modules or extensions for real-time Linux
    - Implement improved scheduling or synchronization
    - Create benchmarking and comparison tools
 
 5. **Fault-Tolerant Real-Time System**
+   [See project details in project_05_Fault-Tolerant_Real-Time_System.md](05_Real_Time_Systems/project_05_Fault-Tolerant_Real-Time_System.md)
    - Build a system with redundancy and fault detection
    - Implement recovery mechanisms
    - Create fault injection and testing tools

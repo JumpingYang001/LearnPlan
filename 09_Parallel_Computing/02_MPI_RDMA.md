@@ -9,6 +9,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
 ## Learning Path
 
 ### 1. MPI Fundamentals (2 weeks)
+[See details in 01_MPI_Fundamentals.md](02_MPI_RDMA/01_MPI_Fundamentals.md)
 - **MPI Overview**
   - History and evolution
   - Implementation standards (MPI-1, MPI-2, MPI-3, MPI-4)
@@ -31,6 +32,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Process naming
 
 ### 2. Advanced MPI Point-to-Point Communication (2 weeks)
+[See details in 02_Advanced_MPI_Point-to-Point_Communication.md](02_MPI_RDMA/02_Advanced_MPI_Point-to-Point_Communication.md)
 - **Non-blocking Communication**
   - MPI_Isend and MPI_Irecv
   - Request objects
@@ -51,6 +53,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Memory requirements
 
 ### 3. MPI Collective Communication (2 weeks)
+[See details in 03_MPI_Collective_Communication.md](02_MPI_RDMA/03_MPI_Collective_Communication.md)
 - **Basic Collective Operations**
   - Barriers (MPI_Barrier)
   - Broadcast (MPI_Bcast)
@@ -73,6 +76,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Hardware acceleration
 
 ### 4. MPI Derived Datatypes (1 week)
+[See details in 04_MPI_Derived_Datatypes.md](02_MPI_RDMA/04_MPI_Derived_Datatypes.md)
 - **Basic Type Construction**
   - Contiguous types
   - Vector types
@@ -95,6 +99,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Hardware acceleration
 
 ### 5. MPI Process Topology and Groups (1 week)
+[See details in 05_MPI_Process_Topology_and_Groups.md](02_MPI_RDMA/05_MPI_Process_Topology_and_Groups.md)
 - **Communicator Management**
   - Communicator creation
   - Communicator splitting
@@ -117,6 +122,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Custom topology implementations
 
 ### 6. Advanced MPI Features (2 weeks)
+[See details in 06_Advanced_MPI_Features.md](02_MPI_RDMA/06_Advanced_MPI_Features.md)
 - **One-sided Communication (RMA)**
   - Memory windows
   - Put, get, and accumulate operations
@@ -139,6 +145,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Progress threads
 
 ### 7. RDMA Fundamentals (2 weeks)
+[See details in 07_RDMA_Fundamentals.md](02_MPI_RDMA/07_RDMA_Fundamentals.md)
 - **RDMA Concept and Architecture**
   - Zero-copy data transfer
   - Kernel bypass
@@ -161,6 +168,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Queue Pair states
 
 ### 8. RDMA Programming Interfaces (2 weeks)
+[See details in 08_RDMA_Programming_Interfaces.md](02_MPI_RDMA/08_RDMA_Programming_Interfaces.md)
 - **Verbs API**
   - Connection management
   - Memory registration
@@ -183,6 +191,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Connection teardown
 
 ### 9. RDMA Communication Patterns (2 weeks)
+[See details in 09_RDMA_Communication_Patterns.md](02_MPI_RDMA/09_RDMA_Communication_Patterns.md)
 - **Two-sided Communication**
   - Send/Receive semantics
   - Scatter/Gather operations
@@ -205,6 +214,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - XRC (eXtended Reliable Connection)
 
 ### 10. GPU-Accelerated MPI and RDMA (2 weeks)
+[See details in 10_GPU-Accelerated_MPI_and_RDMA.md](02_MPI_RDMA/10_GPU-Accelerated_MPI_and_RDMA.md)
 - **CUDA-Aware MPI**
   - Direct GPU buffer access
   - Implementation specifics
@@ -227,6 +237,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Multi-GPU systems
 
 ### 11. Performance Analysis and Optimization (2 weeks)
+[See details in 11_Performance_Analysis_and_Optimization.md](02_MPI_RDMA/11_Performance_Analysis_and_Optimization.md)
 - **MPI Performance Analysis**
   - MPI profiling interface (PMPI)
   - Profiling tools (mpiP, TAU, Scalasca)
@@ -249,6 +260,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Network topology considerations
 
 ### 12. Advanced Applications and Case Studies (1 week)
+[See details in 12_Advanced_Applications_and_Case_Studies.md](02_MPI_RDMA/12_Advanced_Applications_and_Case_Studies.md)
 - **HPC Applications**
   - Scientific computing
   - Computational fluid dynamics
@@ -273,26 +285,31 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
 ## Projects
 
 1. **Distributed Matrix Multiplication**
+   [See project details in project_01_Distributed_Matrix_Multiplication.md](02_MPI_RDMA/project_01_Distributed_Matrix_Multiplication.md)
    - Implement parallel matrix multiplication with MPI
    - Optimize communication patterns
    - Benchmark against sequential implementation
 
 2. **RDMA-based Key-Value Store**
+   [See project details in project_02_RDMA-based_Key-Value_Store.md](02_MPI_RDMA/project_02_RDMA-based_Key-Value_Store.md)
    - Create a simple key-value store using RDMA
    - Implement both two-sided and one-sided operations
    - Benchmark performance characteristics
 
 3. **GPU-Accelerated N-Body Simulation**
+   [See project details in project_03_GPU-Accelerated_N-Body_Simulation.md](02_MPI_RDMA/project_03_GPU-Accelerated_N-Body_Simulation.md)
    - Develop an N-body simulation using CUDA and MPI
    - Use GPU Direct RDMA for inter-node communication
    - Analyze scaling behavior
 
 4. **Custom Collective Operation**
+   [See project details in project_04_Custom_Collective_Operation.md](02_MPI_RDMA/project_04_Custom_Collective_Operation.md)
    - Implement a specialized collective algorithm
    - Optimize for specific network topologies
    - Compare with standard MPI collectives
 
 5. **High-Performance Data Pipeline**
+   [See project details in project_05_High-Performance_Data_Pipeline.md](02_MPI_RDMA/project_05_High-Performance_Data_Pipeline.md)
    - Build a data processing pipeline with RDMA
    - Implement zero-copy data flow
    - Measure throughput and latency
