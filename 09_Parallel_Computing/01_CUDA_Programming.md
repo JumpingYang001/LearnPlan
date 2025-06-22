@@ -290,31 +290,31 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
 ## Projects
 
 1. **Image Processing Application**
-   [See project details in project_01_Image_Processing_Application.md](01_CUDA_Programming\Projects\01_Image_Processing_Application.md)
+   [See project details in 01_Image_Processing_Application.md](01_CUDA_Programming\Projects\01_Image_Processing_Application.md)
    - Implement various image filters with CUDA
    - Create a pipeline for real-time processing
    - Compare performance with CPU implementation
 
 2. **N-Body Simulation**
-   [See project details in project_02_N-Body_Simulation.md](01_CUDA_Programming\Projects\02_N_Body_Simulation.md)
+   [See project details in 02_N_Body_Simulation.md](01_CUDA_Programming\Projects\02_N_Body_Simulation.md)
    - Create a CUDA-accelerated n-body simulation
    - Implement different algorithms (direct, Barnes-Hut)
    - Visualize results with OpenGL interop
 
 3. **Custom Deep Learning Framework**
-   [See project details in project_03_Custom_Deep_Learning_Framework.md](01_CUDA_Programming\Projects\03_Custom_Deep_Learning_Framework.md)
+   [See project details in 03_Custom_Deep_Learning_Framework.md](01_CUDA_Programming\Projects\03_Custom_Deep_Learning_Framework.md)
    - Implement basic neural network layers in CUDA
    - Create forward and backward passes
    - Benchmark against established frameworks
 
 4. **Video Processing System**
-   [See project details in project_04_Video_Processing_System.md](01_CUDA_Programming\Projects\04_Video_Processing_System.md)
+   [See project details in 04_Video_Processing_System.md](01_CUDA_Programming\Projects\04_Video_Processing_System.md)
    - Build a real-time video processing pipeline
    - Implement motion detection and tracking
    - Optimize for low latency
 
 5. **Scientific Computing Application**
-   [See project details in project_05_Scientific_Computing_Application.md](01_CUDA_Programming\Projects\05_Scientific_Computing_Application.md)
+   [See project details in 05_Scientific_Computing_Application.md](01_CUDA_Programming\Projects\05_Scientific_Computing_Application.md)
    - Create a fluid dynamics or electromagnetic simulation
    - Implement domain-specific algorithms in CUDA
    - Visualize and analyze results
