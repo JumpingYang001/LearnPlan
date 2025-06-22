@@ -6,21 +6,21 @@ The Semiconductor Equipment Communications Standard (SECS) and Generic Equipment
 ## Learning Path
 
 ### 1. SECS/GEM Fundamentals (2 weeks)
-[See details in 01_SECSGEM_Fundamentals.md](01_SECS_GEM/01_SECSGEM_Fundamentals.md)
+[See details in 01_SECS_GEM_Fundamentals.md](01_SECS_GEM/01_SECS_GEM_Fundamentals.md)
 - Understand the history and purpose of SECS/GEM
 - Learn about the semiconductor manufacturing environment
 - Study the equipment automation framework
 - Grasp the basic structure of SECS messages
 
 ### 2. SECS-I and SECS-II Protocols (3 weeks)
-[See details in 02_SECS-I_and_SECS-II_Protocols.md](01_SECS_GEM/02_SECS-I_and_SECS-II_Protocols.md)
+[See details in 02_SECS_I_II_Protocols.md](01_SECS_GEM/02_SECS_I_II_Protocols.md)
 - Master SECS-I (SEMI E4) communication protocol
 - Learn SECS-II (SEMI E5) message structure
 - Study SECS-II data item formats
 - Implement basic SECS message handling
 
 ### 3. Generic Equipment Model (GEM) (3 weeks)
-[See details in 03_Generic_Equipment_Model.md](01_SECS_GEM/03_Generic_Equipment_Model.md)
+[See details in 03_GEM_Model.md](01_SECS_GEM/03_GEM_Model.md)
 - Understand GEM (SEMI E30) standard
 - Learn about equipment states and state transitions
 - Study collection events and data variables
@@ -48,7 +48,7 @@ The Semiconductor Equipment Communications Standard (SECS) and Generic Equipment
 - Implement Interface A data collection
 
 ### 7. High-Speed SECS Message Services (HSMS) (2 weeks)
-[See details in 07_High-Speed_SECS_Message_Services.md](01_SECS_GEM/07_High-Speed_SECS_Message_Services.md)
+[See details in 07_HSMS_Protocol.md](01_SECS_GEM/07_HSMS_Protocol.md)
 - Master HSMS (SEMI E37) protocol
 - Learn about TCP/IP-based SECS communication
 - Study connection management and message exchange
@@ -64,31 +64,31 @@ The Semiconductor Equipment Communications Standard (SECS) and Generic Equipment
 ## Projects
 
 1. **SECS/GEM Equipment Simulator**
-   [See project details in project_01_SECSGEM_Equipment_Simulator.md](01_SECS_GEM/project_01_SECSGEM_Equipment_Simulator.md)
+   [See details in Project_01_Equipment_Simulator.md](01_SECS_GEM/Project_01_Equipment_Simulator.md)
    - Build a simulator for semiconductor equipment
    - Implement SECS-II message handling
    - Create GEM compliance with all required capabilities
 
 2. **Equipment Data Collection System**
-   [See project details in project_02_Equipment_Data_Collection_System.md](01_SECS_GEM/project_02_Equipment_Data_Collection_System.md)
+   [See details in Project_02_Data_Collection_System.md](01_SECS_GEM/Project_02_Data_Collection_System.md)
    - Develop a system to collect and analyze equipment data
    - Implement Interface A data collection
    - Create dashboards for equipment monitoring
 
 3. **Recipe Management System**
-   [See project details in project_03_Recipe_Management_System.md](01_SECS_GEM/project_03_Recipe_Management_System.md)
+   [See details in Project_03_Recipe_Management.md](01_SECS_GEM/Project_03_Recipe_Management.md)
    - Build a recipe management system using GEM300
    - Implement recipe validation and distribution
    - Create recipe versioning and audit trail
 
 4. **Equipment Integration Platform**
-   [See project details in project_04_Equipment_Integration_Platform.md](01_SECS_GEM/project_04_Equipment_Integration_Platform.md)
+   [See details in Project_04_Integration_Platform.md](01_SECS_GEM/Project_04_Integration_Platform.md)
    - Develop a platform to integrate multiple equipment types
    - Implement adapters for different protocols
    - Create unified equipment monitoring and control
 
 5. **Fault Detection and Classification System**
-   [See project details in project_05_Fault_Detection_and_Classification_System.md](01_SECS_GEM/project_05_Fault_Detection_and_Classification_System.md)
+   [See details in Project_05_Fault_Detection.md](01_SECS_GEM/Project_05_Fault_Detection.md)
    - Build a system for detecting equipment faults
    - Implement statistical process control
    - Create maintenance prediction algorithms

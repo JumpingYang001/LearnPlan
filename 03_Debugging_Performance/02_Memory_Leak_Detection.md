@@ -132,7 +132,7 @@ Memory leaks and inefficient memory usage can severely impact application perfor
   - Secure wiping of sensitive data
 
 ### 7. Platform-Specific Memory Tools (1 week)
-[See details in 07_Platform-Specific_Memory_Tools.md](02_Memory_Leak_Detection/07_Platform-Specific_Memory_Tools.md)
+[See details in 07_Platform_Specific_Memory_Tools.md](02_Memory_Leak_Detection/07_Platform_Specific_Memory_Tools.md)
 - **Linux Tools**
   - /proc/meminfo and pmap
   - smem
@@ -160,7 +160,7 @@ Memory leaks and inefficient memory usage can severely impact application perfor
 
 
 2. **Memory-Efficient Data Structure Library**
-   [See project details in project_02_Memory-Efficient_Data_Structure_Library.md](02_Memory_Leak_Detection/project_02_Memory-Efficient_Data_Structure_Library.md)
+   [See details in Project_02_Memory_Efficient_Data_Structure_Library.md](02_Memory_Leak_Detection/Project_02_Memory_Efficient_Data_Structure_Library.md)
    - Design and implement cache-friendly containers
    - Benchmark against standard containers
 

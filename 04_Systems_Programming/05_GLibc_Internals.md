@@ -88,7 +88,7 @@ The GNU C Library (glibc) is the GNU Project's implementation of the C standard 
 
 
 4. **System Call Tracer and Analyzer**
-   [See project details in project_04_System_Call_Tracer_and_Analyzer.md](05_GLibc_Internals/project_04_System_Call_Tracer_and_Analyzer.md)
+   [See details in Project_04_System_Call_Tracer.md](05_GLibc_Internals/Project_04_System_Call_Tracer.md)
    - Build a tool similar to strace but with specialized features
    - Implement performance analysis capabilities
    - Create system call statistics and visualization

@@ -48,42 +48,42 @@ DuiLib (also known as DirectUI Library) is a lightweight, high-performance UI fr
 - Implement advanced DuiLib applications
 
 ### 7. Qt Quick and QML (2 weeks)
-[See details in 07_Qt_Quick_and_QML.md](04_DuiLib_UI_Frameworks/07_Qt_Quick_and_QML.md)
+[See details in 07_Qt_Quick_QML.md](04_DuiLib_UI_Frameworks/07_Qt_Quick_QML.md)
 - Understand Qt Quick architecture
 - Learn about QML language and syntax
 - Study integration with C++
 - Compare with DuiLib approach
 
 ### 8. Windows Presentation Foundation (WPF) (2 weeks)
-[See details in 08_Windows_Presentation_Foundation.md](04_DuiLib_UI_Frameworks/08_Windows_Presentation_Foundation.md)
+[See details in 08_WPF.md](04_DuiLib_UI_Frameworks/08_WPF.md)
 - Master XAML and WPF architecture
 - Learn about data binding and MVVM
 - Study styling and templating
 - Compare with DirectUI approaches
 
 ### 9. Windows UI Library (WinUI) (1 week)
-[See details in 09_Windows_UI_Library.md](04_DuiLib_UI_Frameworks/09_Windows_UI_Library.md)
+[See details in 09_WinUI.md](04_DuiLib_UI_Frameworks/09_WinUI.md)
 - Understand WinUI 3 architecture
 - Learn about Fluent Design implementation
 - Study XAML Islands for Win32 apps
 - Explore modern Windows UI development
 
 ### 10. Electron for Desktop Apps (1 week)
-[See details in 10_Electron_for_Desktop_Apps.md](04_DuiLib_UI_Frameworks/10_Electron_for_Desktop_Apps.md)
+[See details in 10_Electron.md](04_DuiLib_UI_Frameworks/10_Electron.md)
 - Master Electron framework concepts
 - Learn about web technologies for desktop apps
 - Study IPC and native integration
 - Compare with native UI frameworks
 
 ### 11. Flutter for Desktop (1 week)
-[See details in 11_Flutter_for_Desktop.md](04_DuiLib_UI_Frameworks/11_Flutter_for_Desktop.md)
+[See details in 11_Flutter_Desktop.md](04_DuiLib_UI_Frameworks/11_Flutter_Desktop.md)
 - Understand Flutter desktop support
 - Learn about widget-based UI development
 - Study cross-platform capabilities
 - Compare with Windows-specific frameworks
 
 ### 12. UI Framework Selection and Integration (1 week)
-[See details in 12_UI_Framework_Selection_and_Integration.md](04_DuiLib_UI_Frameworks/12_UI_Framework_Selection_and_Integration.md)
+[See details in 12_UI_Framework_Selection_Integration.md](04_DuiLib_UI_Frameworks/12_UI_Framework_Selection_Integration.md)
 - Master criteria for UI framework selection
 - Learn about integration between frameworks
 - Study migration strategies
@@ -92,31 +92,31 @@ DuiLib (also known as DirectUI Library) is a lightweight, high-performance UI fr
 ## Projects
 
 1. **Custom UI Component Library**
-   [See project details in project_01_Custom_UI_Component_Library.md](04_DuiLib_UI_Frameworks/project_01_Custom_UI_Component_Library.md)
+   [See details in Project_Custom_UI_Component_Library.md](04_DuiLib_UI_Frameworks/Project_Custom_UI_Component_Library.md)
    - Build a reusable library of UI components using DuiLib
    - Implement consistent styling and behavior
    - Create documentation and examples
 
 2. **XML Designer for DuiLib**
-   [See project details in project_02_XML_Designer_for_DuiLib.md](04_DuiLib_UI_Frameworks/project_02_XML_Designer_for_DuiLib.md)
+   [See details in Project_XML_Designer.md](04_DuiLib_UI_Frameworks/Project_XML_Designer.md)
    - Develop a visual designer for DuiLib XML files
    - Implement drag-and-drop control placement
    - Create property editors and live preview
 
 3. **Theme Switching Application**
-   [See project details in project_03_Theme_Switching_Application.md](04_DuiLib_UI_Frameworks/project_03_Theme_Switching_Application.md)
+   [See details in Project_Theme_Switching_Application.md](04_DuiLib_UI_Frameworks/Project_Theme_Switching_Application.md)
    - Build an application with comprehensive theme support
    - Implement runtime theme switching
    - Create customizable color schemes and layouts
 
 4. **Multi-platform UI Framework**
-   [See project details in project_04_Multi-platform_UI_Framework.md](04_DuiLib_UI_Frameworks/project_04_Multi-platform_UI_Framework.md)
+   [See details in Project_MultiPlatform_UI_Framework.md](04_DuiLib_UI_Frameworks/Project_MultiPlatform_UI_Framework.md)
    - Develop an abstraction layer over multiple UI frameworks
    - Implement common interface for UI operations
    - Create examples of cross-framework compatibility
 
 5. **Modern Windows Application**
-   [See project details in project_05_Modern_Windows_Application.md](04_DuiLib_UI_Frameworks/project_05_Modern_Windows_Application.md)
+   [See details in Project_Modern_Windows_Application.md](04_DuiLib_UI_Frameworks/Project_Modern_Windows_Application.md)
    - Build a full-featured application with modern UI
    - Implement Fluent Design principles
    - Create adaptive layouts for different screen sizes

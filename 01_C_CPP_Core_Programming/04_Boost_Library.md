@@ -17,7 +17,7 @@ The Boost C++ Libraries are a collection of open-source libraries that extend th
 - Documentation and resources
 
 ### 2. Smart Pointers and Memory Management (1 week)
-[See details in 02_Smart_Pointers_and_Memory_Management.md](04_Boost_Library/02_Smart_Pointers_and_Memory_Management.md)
+[See details in 02_Smart_Pointers_Memory_Management.md](04_Boost_Library/02_Smart_Pointers_Memory_Management.md)
 - boost::shared_ptr (pre-C++11)
 - boost::intrusive_ptr
 - boost::scoped_ptr
@@ -25,7 +25,7 @@ The Boost C++ Libraries are a collection of open-source libraries that extend th
 - Comparison with std smart pointers
 
 ### 3. Containers and Data Structures (2 weeks)
-[See details in 03_Containers_and_Data_Structures.md](04_Boost_Library/03_Containers_and_Data_Structures.md)
+[See details in 03_Containers_Data_Structures.md](04_Boost_Library/03_Containers_Data_Structures.md)
 - **Boost.Container**
   - flat_map, flat_set
   - small_vector
@@ -43,7 +43,7 @@ The Boost C++ Libraries are a collection of open-source libraries that extend th
   - Applications in streaming data
 
 ### 4. String Processing and Text Handling (1 week)
-[See details in 04_String_Processing_and_Text_Handling.md](04_Boost_Library/04_String_Processing_and_Text_Handling.md)
+[See details in 04_String_Processing_Text_Handling.md](04_Boost_Library/04_String_Processing_Text_Handling.md)
 - **Boost.Regex**
   - Advanced regular expressions
   - Perl-compatible regex syntax
@@ -58,7 +58,7 @@ The Boost C++ Libraries are a collection of open-source libraries that extend th
   - Positional and named parameters
 
 ### 5. Date and Time Utilities (1 week)
-[See details in 05_Date_and_Time_Utilities.md](04_Boost_Library/05_Date_and_Time_Utilities.md)
+[See details in 05_Date_Time_Utilities.md](04_Boost_Library/05_Date_Time_Utilities.md)
 - **Boost.DateTime**
   - Date and time representation
   - Time zone handling
@@ -77,7 +77,7 @@ The Boost C++ Libraries are a collection of open-source libraries that extend th
   - Comparison with std::filesystem
 
 ### 7. Concurrency and Multithreading (2 weeks)
-[See details in 07_Concurrency_and_Multithreading.md](04_Boost_Library/07_Concurrency_and_Multithreading.md)
+[See details in 07_Concurrency_Multithreading.md](04_Boost_Library/07_Concurrency_Multithreading.md)
 - **Boost.Thread**
   - Thread management
   - Synchronization primitives

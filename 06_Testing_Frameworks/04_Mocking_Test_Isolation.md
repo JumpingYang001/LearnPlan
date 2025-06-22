@@ -34,21 +34,21 @@ Mocking and test isolation techniques are essential for effective unit testing b
 - Implement testable code using dependency injection
 
 ### 5. Google Mock (gmock) Framework (2 weeks)
-[See details in 05_Google_Mock.md](04_Mocking_Test_Isolation/05_Google_Mock.md)
+[See details in 05_Google_Mock_Framework.md](04_Mocking_Test_Isolation/05_Google_Mock_Framework.md)
 - Understand gmock concepts and syntax
 - Learn about expectations and actions
 - Study matchers and argument verification
 - Implement tests using Google Mock
 
 ### 6. Mockito for Java/Kotlin (1 week)
-[See details in 06_Mockito_for_JavaKotlin.md](04_Mocking_Test_Isolation/06_Mockito_for_JavaKotlin.md)
+[See details in 06_Mockito_for_Java_Kotlin.md](04_Mocking_Test_Isolation/06_Mockito_for_Java_Kotlin.md)
 - Master Mockito's core features
 - Learn about stubbing and verification
 - Study argument matchers and callbacks
 - Implement tests using Mockito
 
 ### 7. Mock Frameworks for .NET (1 week)
-[See details in 07_Mock_Frameworks_for_NET.md](04_Mocking_Test_Isolation/07_Mock_Frameworks_for_NET.md)
+[See details in 07_Mock_Frameworks_for_DotNet.md](04_Mocking_Test_Isolation/07_Mock_Frameworks_for_DotNet.md)
 - Understand Moq and NSubstitute
 - Learn about behavior specification
 - Study verification and callbacks
@@ -62,7 +62,7 @@ Mocking and test isolation techniques are essential for effective unit testing b
 - Implement tests using Python mocking tools
 
 ### 9. JavaScript/TypeScript Mocking (1 week)
-[See details in 09_JavaScriptTypeScript_Mocking.md](04_Mocking_Test_Isolation/09_JavaScriptTypeScript_Mocking.md)
+[See details in 09_JavaScript_TypeScript_Mocking.md](04_Mocking_Test_Isolation/09_JavaScript_TypeScript_Mocking.md)
 - Understand Jest mocks and Sinon.js
 - Learn about module and function mocking
 - Study timer mocks and XHR/fetch mocking

@@ -116,7 +116,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Extending GCC
 
 ### 6. Clang/LLVM Extensions and Internals (2 weeks)
-[See details in 06_ClangLLVM_Extensions_and_Internals.md](01_GCC_LLVM/06_ClangLLVM_Extensions_and_Internals.md)
+[See details in 06_Clang_LLVM_Extensions_and_Internals.md](01_GCC_LLVM/06_Clang_LLVM_Extensions_and_Internals.md)
 - **Clang Language Extensions**
   - Attributes
   - Pragmas
@@ -138,7 +138,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Pass registration and execution
 
 ### 7. Cross-Compilation and Toolchains (1 week)
-[See details in 07_Cross-Compilation_and_Toolchains.md](01_GCC_LLVM/07_Cross-Compilation_and_Toolchains.md)
+[See details in 07_Cross_Compilation_and_Toolchains.md](01_GCC_LLVM/07_Cross_Compilation_and_Toolchains.md)
 - **Cross-Compilation Concepts**
   - Target triples
   - Sysroot configuration
@@ -183,7 +183,7 @@ GCC (GNU Compiler Collection) and LLVM are two of the most important compiler in
   - Result filtering and reporting
 
 ### 9. Just-In-Time Compilation (1 week)
-[See details in 09_Just-In-Time_Compilation.md](01_GCC_LLVM/09_Just-In-Time_Compilation.md)
+[See details in 09_Just_In_Time_Compilation.md](01_GCC_LLVM/09_Just_In_Time_Compilation.md)
 - **JIT Compilation Concepts**
   - Dynamic code generation
   - Lazy compilation

@@ -34,7 +34,7 @@ GPU Direct and hardware acceleration technologies enable direct and efficient co
 - Implement applications leveraging GPU Direct Storage
 
 ### 5. Multi-GPU Communication (2 weeks)
-[See details in 05_Multi-GPU_Communication.md](04_GPU_Direct_Hardware_Acceleration/05_Multi-GPU_Communication.md)
+[See details in 05_Multi_GPU_Communication.md](04_GPU_Direct_Hardware_Acceleration/05_Multi_GPU_Communication.md)
 - Master NVIDIA NCCL (NVIDIA Collective Communications Library)
 - Learn about P2P (peer-to-peer) communication between GPUs
 - Study multi-GPU synchronization and coordination
@@ -78,19 +78,19 @@ GPU Direct and hardware acceleration technologies enable direct and efficient co
 ## Projects
 
 1. **High-Performance Deep Learning Pipeline**
-   [See project details in project_01_High-Performance_Deep_Learning_Pipeline.md](04_GPU_Direct_Hardware_Acceleration/project_01_High-Performance_Deep_Learning_Pipeline.md)
+   [See details in Project_01_High_Performance_Deep_Learning_Pipeline.md](04_GPU_Direct_Hardware_Acceleration/Project_01_High_Performance_Deep_Learning_Pipeline.md)
    - Build an end-to-end pipeline leveraging GPU Direct technologies
    - Implement efficient data loading from storage to GPU
    - Create optimized multi-GPU training system
 
 2. **Real-time Video Analytics Platform**
-   [See project details in project_02_Real-time_Video_Analytics_Platform.md](04_GPU_Direct_Hardware_Acceleration/project_02_Real-time_Video_Analytics_Platform.md)
+   [See details in Project_02_Real_time_Video_Analytics_Platform.md](04_GPU_Direct_Hardware_Acceleration/Project_02_Real_time_Video_Analytics_Platform.md)
    - Develop a platform using GPU Direct for Video
    - Implement video processing and analysis algorithms
    - Create real-time visualization and alerting
 
 3. **High-Performance Computing Simulation**
-   [See project details in project_03_High-Performance_Computing_Simulation.md](04_GPU_Direct_Hardware_Acceleration/project_03_High-Performance_Computing_Simulation.md)
+   [See details in Project_03_High_Performance_Computing_Simulation.md](04_GPU_Direct_Hardware_Acceleration/Project_03_High_Performance_Computing_Simulation.md)
    - Build a scientific simulation using GPU Direct RDMA
    - Implement efficient multi-node communication
    - Create performance analysis and visualization tools

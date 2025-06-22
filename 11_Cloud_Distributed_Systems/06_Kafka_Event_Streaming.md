@@ -34,7 +34,7 @@ Apache Kafka is a distributed event streaming platform capable of handling trill
 - Implement data pipelines using Kafka Connect
 
 ### 5. Event-Driven Architecture with Kafka (2 weeks)
-[See details in 05_Event-Driven_Architecture_with_Kafka.md](06_Kafka_Event_Streaming/05_Event-Driven_Architecture_with_Kafka.md)
+[See details in 05_Event_Driven_Architecture_with_Kafka.md](06_Kafka_Event_Streaming/05_Event_Driven_Architecture_with_Kafka.md)
 - Understand event-driven architecture principles
 - Learn event sourcing and CQRS with Kafka
 - Study domain events and integration events
@@ -50,13 +50,13 @@ Apache Kafka is a distributed event streaming platform capable of handling trill
 ## Projects
 
 1. **Real-time Analytics Dashboard**
-   [See project details in project_01_Real-time_Analytics_Dashboard.md](06_Kafka_Event_Streaming/project_01_Real-time_Analytics_Dashboard.md)
+   [See details in Project_01_Real_time_Analytics_Dashboard.md](06_Kafka_Event_Streaming/Project_01_Real_time_Analytics_Dashboard.md)
    - Build a system that processes real-time data streams
    - Implement stream processing with Kafka Streams
    - Create real-time visualization of metrics
 
 2. **Event-Sourced Microservices Platform**
-   [See project details in project_02_Event-Sourced_Microservices_Platform.md](06_Kafka_Event_Streaming/project_02_Event-Sourced_Microservices_Platform.md)
+   [See details in Project_02_Event_Sourced_Microservices_Platform.md](06_Kafka_Event_Streaming/Project_02_Event_Sourced_Microservices_Platform.md)
    - Develop a system using Kafka as an event store
    - Implement event sourcing and CQRS patterns
    - Create event-driven workflows between services
@@ -74,7 +74,7 @@ Apache Kafka is a distributed event streaming platform capable of handling trill
    - Create alerting and monitoring systems
 
 5. **Multi-Region Kafka Deployment**
-   [See project details in project_05_Multi-Region_Kafka_Deployment.md](06_Kafka_Event_Streaming/project_05_Multi-Region_Kafka_Deployment.md)
+   [See details in Project_05_Multi_Region_Kafka_Deployment.md](06_Kafka_Event_Streaming/Project_05_Multi_Region_Kafka_Deployment.md)
    - Build a multi-datacenter Kafka cluster
    - Implement disaster recovery procedures
    - Create monitoring and failover mechanisms

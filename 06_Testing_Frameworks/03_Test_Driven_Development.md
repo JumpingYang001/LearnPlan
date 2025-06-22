@@ -13,70 +13,70 @@ Test-Driven Development (TDD) is a software development approach where tests are
 - Grasp the mindset shift required for effective TDD
 
 ### 2. Unit Testing Basics for TDD (1 week)
-[See details in 02_Unit_Testing_Basics_for_TDD.md](03_Test_Driven_Development/02_Unit_Testing_Basics_for_TDD.md)
+[See details in 02_Unit_Testing_Basics.md](03_Test_Driven_Development/02_Unit_Testing_Basics.md)
 - Master unit test structure and organization
 - Learn about test assertions and matchers
 - Study test naming conventions and readability
 - Implement basic unit tests for TDD
 
 ### 3. TDD in Practice - Basic Examples (2 weeks)
-[See details in 03_TDD_in_Practice_-_Basic_Examples.md](03_Test_Driven_Development/03_TDD_in_Practice_-_Basic_Examples.md)
+[See details in 03_TDD_in_Practice.md](03_Test_Driven_Development/03_TDD_in_Practice.md)
 - Understand how to write the first test
 - Learn about implementing the minimal code
 - Study refactoring techniques while preserving behavior
 - Implement TDD for simple algorithms and functions
 
 ### 4. TDD for Object-Oriented Design (2 weeks)
-[See details in 04_TDD_for_Object-Oriented_Design.md](03_Test_Driven_Development/04_TDD_for_Object-Oriented_Design.md)
+[See details in 04_TDD_Object_Oriented_Design.md](03_Test_Driven_Development/04_TDD_Object_Oriented_Design.md)
 - Master TDD for class design and interfaces
 - Learn about responsibility-driven design
 - Study interface segregation and dependency inversion
 - Implement TDD for class hierarchies and relationships
 
 ### 5. Test Doubles and Isolation (2 weeks)
-[See details in 05_Test_Doubles_and_Isolation.md](03_Test_Driven_Development/05_Test_Doubles_and_Isolation.md)
+[See details in 05_Test_Doubles_Isolation.md](03_Test_Driven_Development/05_Test_Doubles_Isolation.md)
 - Understand stubs, mocks, fakes, and spies
 - Learn about dependency injection for testability
 - Study isolation techniques for unit testing
 - Implement TDD with test doubles
 
 ### 6. TDD for Legacy Code (2 weeks)
-[See details in 06_TDD_for_Legacy_Code.md](03_Test_Driven_Development/06_TDD_for_Legacy_Code.md)
+[See details in 06_TDD_Legacy_Code.md](03_Test_Driven_Development/06_TDD_Legacy_Code.md)
 - Master techniques for adding tests to untested code
 - Learn about characterization tests
 - Study refactoring legacy code safely
 - Implement TDD in brownfield projects
 
 ### 7. Acceptance Test-Driven Development (ATDD) (2 weeks)
-[See details in 07_Acceptance_Test-Driven_Development.md](03_Test_Driven_Development/07_Acceptance_Test-Driven_Development.md)
+[See details in 07_ATDD.md](03_Test_Driven_Development/07_ATDD.md)
 - Understand the ATDD workflow and benefits
 - Learn about acceptance criteria and scenarios
 - Study tools for ATDD (Cucumber, SpecFlow, etc.)
 - Implement ATDD for feature development
 
 ### 8. Behavior-Driven Development (BDD) (2 weeks)
-[See details in 08_Behavior-Driven_Development.md](03_Test_Driven_Development/08_Behavior-Driven_Development.md)
+[See details in 08_BDD.md](03_Test_Driven_Development/08_BDD.md)
 - Master BDD concepts and terminology
 - Learn about Gherkin language and scenarios
 - Study collaboration between business and development
 - Implement BDD with appropriate tools
 
 ### 9. TDD for Specific Domains (2 weeks)
-[See details in 09_TDD_for_Specific_Domains.md](03_Test_Driven_Development/09_TDD_for_Specific_Domains.md)
+[See details in 09_TDD_Specific_Domains.md](03_Test_Driven_Development/09_TDD_Specific_Domains.md)
 - Understand TDD for web applications
 - Learn about TDD for database-driven applications
 - Study TDD for asynchronous and event-driven systems
 - Implement TDD for specific domains
 
 ### 10. Continuous Testing and Integration (1 week)
-[See details in 10_Continuous_Testing_and_Integration.md](03_Test_Driven_Development/10_Continuous_Testing_and_Integration.md)
+[See details in 10_Continuous_Testing_Integration.md](03_Test_Driven_Development/10_Continuous_Testing_Integration.md)
 - Master continuous testing workflows
 - Learn about test automation in CI/CD pipelines
 - Study test reporting and monitoring
 - Implement continuous testing environments
 
 ### 11. Advanced TDD Patterns and Practices (2 weeks)
-[See details in 11_Advanced_TDD_Patterns_and_Practices.md](03_Test_Driven_Development/11_Advanced_TDD_Patterns_and_Practices.md)
+[See details in 11_Advanced_TDD_Patterns.md](03_Test_Driven_Development/11_Advanced_TDD_Patterns.md)
 - Understand test-driven architectural patterns
 - Learn about outside-in development (London school)
 - Study Detroit/classicist approach to TDD
@@ -85,31 +85,31 @@ Test-Driven Development (TDD) is a software development approach where tests are
 ## Projects
 
 1. **TDD Kata Collection**
-   [See project details in project_01_TDD_Kata_Collection.md](03_Test_Driven_Development/project_01_TDD_Kata_Collection.md)
+   [See details in Project_TDD_Kata_Collection.md](03_Test_Driven_Development/Project_TDD_Kata_Collection.md)
    - Implement a series of programming exercises using TDD
    - Create documentation of the TDD process for each kata
    - Build a repository of TDD solutions and lessons learned
 
 2. **Full-stack Application with TDD**
-   [See project details in project_02_Full-stack_Application_with_TDD.md](03_Test_Driven_Development/project_02_Full-stack_Application_with_TDD.md)
+   [See details in Project_Fullstack_Application_TDD.md](03_Test_Driven_Development/Project_Fullstack_Application_TDD.md)
    - Develop a web application using TDD for all layers
    - Implement both unit and integration tests
    - Create documentation of the TDD workflow
 
 3. **Legacy Code Transformation**
-   [See project details in project_03_Legacy_Code_Transformation.md](03_Test_Driven_Development/project_03_Legacy_Code_Transformation.md)
+   [See details in Project_Legacy_Code_Transformation.md](03_Test_Driven_Development/Project_Legacy_Code_Transformation.md)
    - Take an existing codebase with minimal testing
    - Apply TDD techniques to add tests and refactor
    - Document the transformation process and improvements
 
 4. **BDD-Driven Feature Development**
-   [See project details in project_04_BDD-Driven_Feature_Development.md](03_Test_Driven_Development/project_04_BDD-Driven_Feature_Development.md)
+   [See details in Project_BDD_Feature_Development.md](03_Test_Driven_Development/Project_BDD_Feature_Development.md)
    - Implement features using Behavior-Driven Development
    - Create Gherkin scenarios for requirements
    - Build a testing framework that supports BDD
 
 5. **TDD Training Workshop Materials**
-   [See project details in project_05_TDD_Training_Workshop_Materials.md](03_Test_Driven_Development/project_05_TDD_Training_Workshop_Materials.md)
+   [See details in Project_TDD_Training_Workshop.md](03_Test_Driven_Development/Project_TDD_Training_Workshop.md)
    - Develop materials for teaching TDD to others
    - Implement example projects with step-by-step TDD guidance
    - Create exercises and solutions for TDD practice

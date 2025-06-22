@@ -13,14 +13,14 @@ BRPC (Baidu RPC) and Apache Thrift are powerful RPC (Remote Procedure Call) fram
 - Learn about service discovery in RPC systems
 
 ### 2. Apache Thrift Basics (2 weeks)
-[See details in 02_Apache_Thrift_Basics.md](06_BRPC_Thrift/02_Apache_Thrift_Basics.md)
+[See details in 02_Thrift_Basics.md](06_BRPC_Thrift/02_Thrift_Basics.md)
 - Master Thrift IDL (Interface Definition Language)
 - Learn about Thrift type system
 - Study code generation for multiple languages
 - Implement basic Thrift services
 
 ### 3. Thrift Advanced Features (2 weeks)
-[See details in 03_Thrift_Advanced_Features.md](06_BRPC_Thrift/03_Thrift_Advanced_Features.md)
+[See details in 03_Thrift_Advanced.md](06_BRPC_Thrift/03_Thrift_Advanced.md)
 - Understand Thrift transport layers
 - Learn about Thrift protocols (Binary, Compact, JSON)
 - Study server types (Simple, Threaded, Thread Pool)
@@ -34,7 +34,7 @@ BRPC (Baidu RPC) and Apache Thrift are powerful RPC (Remote Procedure Call) fram
 - Implement basic BRPC services
 
 ### 5. BRPC Advanced Features (2 weeks)
-[See details in 05_BRPC_Advanced_Features.md](06_BRPC_Thrift/05_BRPC_Advanced_Features.md)
+[See details in 05_BRPC_Advanced.md](06_BRPC_Thrift/05_BRPC_Advanced.md)
 - Understand BRPC's load balancing strategies
 - Learn about BRPC's service governance features
 - Study builtin services and debugging tools

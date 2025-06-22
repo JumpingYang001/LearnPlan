@@ -9,7 +9,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
 ## Learning Path
 
 ### 1. ROS/ROS2 Fundamentals (2 weeks)
-[See details in 01_ROSROS2_Fundamentals.md](01_ROS_ROS2/01_ROSROS2_Fundamentals.md)
+[See details in 01_Fundamentals.md](01_ROS_ROS2/01_Fundamentals.md)
 - **ROS Architecture**
   - ROS 1 vs. ROS 2 architecture
   - Nodes and the computation graph
@@ -31,7 +31,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
   - Namespaces and remapping
 
 ### 2. ROS/ROS2 Communication (2 weeks)
-[See details in 02_ROSROS2_Communication.md](01_ROS_ROS2/02_ROSROS2_Communication.md)
+[See details in 02_Communication.md](01_ROS_ROS2/02_Communication.md)
 - **Publisher-Subscriber Pattern**
   - Creating publishers and subscribers
   - Message types and definitions
@@ -55,7 +55,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
   - Parameter validation
 
 ### 3. ROS Development Tools (1 week)
-[See details in 03_ROS_Development_Tools.md](01_ROS_ROS2/03_ROS_Development_Tools.md)
+[See details in 03_Development_Tools.md](01_ROS_ROS2/03_Development_Tools.md)
 - **RViz**
   - Visualization concepts
   - Display types
@@ -79,7 +79,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
   - Performance analysis
 
 ### 4. ROS Programming in C++ (2 weeks)
-[See details in 04_ROS_Programming_in_C.md](01_ROS_ROS2/04_ROS_Programming_in_C.md)
+[See details in 04_CPP_Programming.md](01_ROS_ROS2/04_CPP_Programming.md)
 - **ROS C++ Client Library (roscpp/rclcpp)**
   - Node handles and contexts
   - Publisher and subscriber creation
@@ -103,7 +103,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
   - Log file management
 
 ### 5. ROS Programming in Python (1 week)
-[See details in 05_ROS_Programming_in_Python.md](01_ROS_ROS2/05_ROS_Programming_in_Python.md)
+[See details in 05_Python_Programming.md](01_ROS_ROS2/05_Python_Programming.md)
 - **ROS Python Client Library (rospy/rclpy)**
   - Node initialization
   - Publishers and subscribers
@@ -122,7 +122,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
   - Use case selection
 
 ### 6. Message and Interface Definition (1 week)
-[See details in 06_Message_and_Interface_Definition.md](01_ROS_ROS2/06_Message_and_Interface_Definition.md)
+[See details in 06_Message_Interface.md](01_ROS_ROS2/06_Message_Interface.md)
 - **Message Definition Language**
   - Standard message types
   - Custom message definition
@@ -143,7 +143,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
   - Interface evolution
 
 ### 7. Transforms and Geometry (2 weeks)
-[See details in 07_Transforms_and_Geometry.md](01_ROS_ROS2/07_Transforms_and_Geometry.md)
+[See details in 07_Transforms_Geometry.md](01_ROS_ROS2/07_Transforms_Geometry.md)
 - **tf/tf2 Library**
   - Transform tree
   - Static and dynamic transforms
@@ -190,7 +190,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
   - Obstacle avoidance
 
 ### 9. Perception in ROS (2 weeks)
-[See details in 09_Perception_in_ROS.md](01_ROS_ROS2/09_Perception_in_ROS.md)
+[See details in 09_Perception.md](01_ROS_ROS2/09_Perception.md)
 - **Sensor Integration**
   - Camera interfaces
   - Lidar and point cloud processing
@@ -213,7 +213,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
   - Kalman and particle filters
 
 ### 10. ROS 2 Specific Features (2 weeks)
-[See details in 10_ROS_2_Specific_Features.md](01_ROS_ROS2/10_ROS_2_Specific_Features.md)
+[See details in 10_ROS2_Specific.md](01_ROS_ROS2/10_ROS2_Specific.md)
 - **DDS Middleware**
   - DDS concepts
   - Quality of Service (QoS)
@@ -236,7 +236,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
   - System composition
 
 ### 11. Multi-robot Systems (1 week)
-[See details in 11_Multi-robot_Systems.md](01_ROS_ROS2/11_Multi-robot_Systems.md)
+[See details in 11_Multi_Robot.md](01_ROS_ROS2/11_Multi_Robot.md)
 - **Namespace Management**
   - Robot-specific namespaces
   - Topic remapping
@@ -259,7 +259,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
   - Network considerations
 
 ### 12. ROS Integration and Deployment (2 weeks)
-[See details in 12_ROS_Integration_and_Deployment.md](01_ROS_ROS2/12_ROS_Integration_and_Deployment.md)
+[See details in 12_Integration_Deployment.md](01_ROS_ROS2/12_Integration_Deployment.md)
 - **Integration with External Systems**
   - Web interfaces (rosbridge)
   - Database connectivity
@@ -298,7 +298,7 @@ Robot Operating System (ROS) is a flexible framework for writing robot software.
    - Build a pick-and-place demonstration
 
 3. **Multi-robot Coordination**
-   [See project details in project_03_Multi-robot_Coordination.md](01_ROS_ROS2/project_03_Multi-robot_Coordination.md)
+   [See details in Project_03_Multi_Robot_Coordination.md](01_ROS_ROS2/Project_03_Multi_Robot_Coordination.md)
    - Design a multi-robot system
    - Implement inter-robot communication
    - Create coordination algorithms

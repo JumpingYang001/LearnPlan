@@ -27,7 +27,7 @@ Bazel is an open-source build and test tool that enables fast, reproducible buil
 - Implement projects with complex dependencies
 
 ### 4. Bazel for C/C++ (2 weeks)
-[See details in 04_Bazel_for_CC.md](03_Bazel_Other_Build_Tools/04_Bazel_for_CC.md)
+[See details in 04_Bazel_for_C_CPP.md](03_Bazel_Other_Build_Tools/04_Bazel_for_C_CPP.md)
 - Master C/C++ rules and toolchains
 - Learn about compilation flags and libraries
 - Study linking and binary creation

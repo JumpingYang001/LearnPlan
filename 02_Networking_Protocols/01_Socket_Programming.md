@@ -17,7 +17,7 @@ Socket programming is the foundation of network communications, enabling applica
 - Error handling in socket programming
 
 ### 2. TCP Socket Programming (2 weeks)
-[See details in 02_TCP_Socket_Programming.md](01_Socket_Programming/02_TCP_Socket_Programming.md)
+[See details in 02_TCP_Client_Programming.md](01_Socket_Programming/02_TCP_Client_Programming.md)
 - **Client-Side TCP Programming**  
   - Creating TCP sockets
   - Connecting to servers
@@ -32,7 +32,7 @@ Socket programming is the foundation of network communications, enabling applica
   - Server scaling patterns
 
 ### 3. UDP Socket Programming (1 week)
-[See details in 03_UDP_Socket_Programming.md](01_Socket_Programming/03_UDP_Socket_Programming.md)
+[See details in 03_TCP_Server_Programming.md](01_Socket_Programming/03_TCP_Server_Programming.md)
 - Creating UDP sockets
 - Sending and receiving datagrams
 - Connectionless communication patterns
@@ -40,7 +40,7 @@ Socket programming is the foundation of network communications, enabling applica
 - Implementing reliability over UDP
 
 ### 4. Socket I/O Models (2 weeks)
-[See details in 04_Socket_IO_Models.md](01_Socket_Programming/04_Socket_IO_Models.md)
+[See details in 04_UDP_Socket_Programming.md](01_Socket_Programming/04_UDP_Socket_Programming.md)
 - **Blocking I/O**
   - Synchronous communication patterns
   - Timeout handling
@@ -58,7 +58,7 @@ Socket programming is the foundation of network communications, enabling applica
   - Event notification mechanisms
 
 ### 5. Advanced Socket Topics (2 weeks)
-[See details in 05_Advanced_Socket_Topics.md](01_Socket_Programming/05_Advanced_Socket_Topics.md)
+[See details in 05_Socket_IO_Models.md](01_Socket_Programming/05_Socket_IO_Models.md)
 - **Socket Options**
   - Performance tuning
   - Buffer sizes
@@ -77,7 +77,7 @@ Socket programming is the foundation of network communications, enabling applica
   - Packet sniffing and injection
 
 ### 6. Cross-Platform Socket Programming (1 week)
-[See details in 06_Cross-Platform_Socket_Programming.md](01_Socket_Programming/06_Cross-Platform_Socket_Programming.md)
+[See details in 06_Advanced_Socket_Topics.md](01_Socket_Programming/06_Advanced_Socket_Topics.md)
 - Windows Socket API (Winsock)
 - POSIX socket API
 - Abstraction layers for portability
@@ -85,7 +85,7 @@ Socket programming is the foundation of network communications, enabling applica
 - Error code handling across platforms
 
 ### 7. Socket Programming Patterns (2 weeks)
-[See details in 07_Socket_Programming_Patterns.md](01_Socket_Programming/07_Socket_Programming_Patterns.md)
+[See details in 07_Cross_Platform_Socket_Programming.md](01_Socket_Programming/07_Cross_Platform_Socket_Programming.md)
 - **Client Patterns**
   - Reconnection strategies
   - Connection pooling
@@ -101,7 +101,7 @@ Socket programming is the foundation of network communications, enabling applica
   - Protocol translation
 
 ### 8. Security Considerations (1 week)
-[See details in 08_Security_Considerations.md](01_Socket_Programming/08_Security_Considerations.md)
+[See details in 08_Socket_Programming_Patterns.md](01_Socket_Programming/08_Socket_Programming_Patterns.md)
 - Socket vulnerabilities
 - Preventing buffer overflows
 - Input validation

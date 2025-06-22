@@ -90,7 +90,7 @@ The Standard Template Library (STL) is a powerful set of C++ template classes to
 - String conversions
 
 ### 7. Utilities (1 week)
-[See details in 07_Utilities.md](03_STL/07_Utilities.md)
+[See details in 07_STL_Utilities.md](03_STL/07_STL_Utilities.md)
 - std::pair and std::tuple
 - std::optional, std::variant, std::any (C++17)
 - Smart pointers

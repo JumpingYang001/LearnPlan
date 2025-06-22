@@ -52,7 +52,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Producer-consumer patterns
 
 ### 3. System V IPC Mechanisms (2 weeks)
-[See details in 03_System_V_IPC_Mechanisms.md](02_Linux_IPC_Mechanisms/03_System_V_IPC_Mechanisms.md)
+[See details in 03_SystemV_IPC.md](02_Linux_IPC_Mechanisms/03_SystemV_IPC.md)
 - **System V Message Queues**
   - Queue creation and access
   - Message sending and receiving
@@ -104,7 +104,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Persistence characteristics
 
 ### 5. Socket-Based IPC (2 weeks)
-[See details in 05_Socket-Based_IPC.md](02_Linux_IPC_Mechanisms/05_Socket-Based_IPC.md)
+[See details in 05_Socket_Based_IPC.md](02_Linux_IPC_Mechanisms/05_Socket_Based_IPC.md)
 - **Unix Domain Sockets**
   - Socket creation and addressing
   - Connection-oriented communication
@@ -129,7 +129,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - X Window System communication
 
 ### 6. Memory-Mapped Files (1 week)
-[See details in 06_Memory-Mapped_Files.md](02_Linux_IPC_Mechanisms/06_Memory-Mapped_Files.md)
+[See details in 06_Memory_Mapped_Files.md](02_Linux_IPC_Mechanisms/06_Memory_Mapped_Files.md)
 - **Basic Memory Mapping**
   - mmap() system call
   - File-backed vs. anonymous mappings
@@ -149,7 +149,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Swapping considerations
 
 ### 7. Futexes and Synchronization Primitives (1 week)
-[See details in 07_Futexes_and_Synchronization_Primitives.md](02_Linux_IPC_Mechanisms/07_Futexes_and_Synchronization_Primitives.md)
+[See details in 07_Futexes_and_Synchronization.md](02_Linux_IPC_Mechanisms/07_Futexes_and_Synchronization.md)
 - **Futex System Call**
   - Fast user-space mutex concept
   - futex() operations
@@ -190,7 +190,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Race conditions and reentrancy issues
 
 ### 9. Event Notification Mechanisms (1 week)
-[See details in 09_Event_Notification_Mechanisms.md](02_Linux_IPC_Mechanisms/09_Event_Notification_Mechanisms.md)
+[See details in 09_Event_Notification.md](02_Linux_IPC_Mechanisms/09_Event_Notification.md)
 - **File Descriptor Monitoring**
   - select() and poll()
   - epoll API
@@ -208,7 +208,7 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
   - Recursive monitoring
 
 ### 10. D-Bus and High-Level IPC (1 week)
-[See details in 10_D-Bus_and_High-Level_IPC.md](02_Linux_IPC_Mechanisms/10_D-Bus_and_High-Level_IPC.md)
+[See details in 10_DBus_and_High_Level_IPC.md](02_Linux_IPC_Mechanisms/10_DBus_and_High_Level_IPC.md)
 - **D-Bus Architecture**
   - Message bus daemon
   - System and session buses
@@ -259,13 +259,13 @@ Inter-Process Communication (IPC) is essential for allowing processes to communi
 
 
 2. **Lock-Free IPC Library**
-   [See project details in project_02_Lock-Free_IPC_Library.md](02_Linux_IPC_Mechanisms/project_02_Lock-Free_IPC_Library.md)
+   [See details in Project_02_Lock_Free_IPC_Library.md](02_Linux_IPC_Mechanisms/Project_02_Lock_Free_IPC_Library.md)
    - Create a shared memory IPC library using lock-free techniques
    - Ensure correct synchronization without mutexes
 
 
 3. **Multi-Process Application Framework**
-   [See project details in project_03_Multi-Process_Application_Framework.md](02_Linux_IPC_Mechanisms/project_03_Multi-Process_Application_Framework.md)
+   [See details in Project_03_Multi_Process_Framework.md](02_Linux_IPC_Mechanisms/Project_03_Multi_Process_Framework.md)
    - Design a framework for creating multi-process applications
    - Implement process management and communication facilities
 

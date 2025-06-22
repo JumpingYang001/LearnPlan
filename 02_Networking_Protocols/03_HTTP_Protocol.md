@@ -17,7 +17,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 - URI structure and components
 
 ### 2. HTTP/1.1 Protocol Details (2 weeks)
-[See details in 02_HTTP11_Protocol_Details.md](03_HTTP_Protocol/02_HTTP11_Protocol_Details.md)
+[See details in 02_HTTP1.1_Protocol_Details.md](03_HTTP_Protocol/02_HTTP1.1_Protocol_Details.md)
 - **Message Format**
   - Request line and response status line
   - Headers
@@ -41,7 +41,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
   - Custom headers
 
 ### 3. HTTP/1.1 Features (1 week)
-[See details in 03_HTTP11_Features.md](03_HTTP_Protocol/03_HTTP11_Features.md)
+[See details in 03_HTTP1.1_Features.md](03_HTTP_Protocol/03_HTTP1.1_Features.md)
 - Persistent connections (keep-alive)
 - Pipelining
 - Chunked transfer encoding
@@ -65,7 +65,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 - Migration strategies from HTTP/1.1
 
 ### 5. HTTP/3 and QUIC (1 week)
-[See details in 05_HTTP3_and_QUIC.md](03_HTTP_Protocol/05_HTTP3_and_QUIC.md)
+[See details in 05_HTTP3_QUIC.md](03_HTTP_Protocol/05_HTTP3_QUIC.md)
 - QUIC transport protocol
 - UDP-based implementation
 - Connection establishment
@@ -75,7 +75,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
 - Migration from HTTP/2
 
 ### 6. RESTful API Design with HTTP (2 weeks)
-[See details in 06_RESTful_API_Design_with_HTTP.md](03_HTTP_Protocol/06_RESTful_API_Design_with_HTTP.md)
+[See details in 06_RESTful_API_Design.md](03_HTTP_Protocol/06_RESTful_API_Design.md)
 - REST architectural principles
 - Resource identification with URIs
 - HTTP methods for CRUD operations
@@ -110,7 +110,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of data communication o
   - API keys
 
 ### 8. HTTP Implementations in C/C++ (2 weeks)
-[See details in 08_HTTP_Implementations_in_CC.md](03_HTTP_Protocol/08_HTTP_Implementations_in_CC.md)
+[See details in 08_HTTP_Implementation_C_CPP.md](03_HTTP_Protocol/08_HTTP_Implementation_C_CPP.md)
 - **HTTP Client Implementation**
   - Creating HTTP requests
   - Handling responses

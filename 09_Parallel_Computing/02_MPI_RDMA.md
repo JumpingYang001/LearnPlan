@@ -32,7 +32,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - Process naming
 
 ### 2. Advanced MPI Point-to-Point Communication (2 weeks)
-[See details in 02_Advanced_MPI_Point-to-Point_Communication.md](02_MPI_RDMA/02_Advanced_MPI_Point-to-Point_Communication.md)
+[See details in 02_Advanced_MPI_Point_to_Point.md](02_MPI_RDMA/02_Advanced_MPI_Point_to_Point.md)
 - **Non-blocking Communication**
   - MPI_Isend and MPI_Irecv
   - Request objects
@@ -214,7 +214,7 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
   - XRC (eXtended Reliable Connection)
 
 ### 10. GPU-Accelerated MPI and RDMA (2 weeks)
-[See details in 10_GPU-Accelerated_MPI_and_RDMA.md](02_MPI_RDMA/10_GPU-Accelerated_MPI_and_RDMA.md)
+[See details in 10_GPU_Accelerated_MPI_and_RDMA.md](02_MPI_RDMA/10_GPU_Accelerated_MPI_and_RDMA.md)
 - **CUDA-Aware MPI**
   - Direct GPU buffer access
   - Implementation specifics
@@ -285,31 +285,31 @@ Message Passing Interface (MPI) and Remote Direct Memory Access (RDMA) are criti
 ## Projects
 
 1. **Distributed Matrix Multiplication**
-   [See project details in project_01_Distributed_Matrix_Multiplication.md](02_MPI_RDMA/project_01_Distributed_Matrix_Multiplication.md)
+   [See details in Project_Distributed_Matrix_Multiplication.md](02_MPI_RDMA/Project_Distributed_Matrix_Multiplication.md)
    - Implement parallel matrix multiplication with MPI
    - Optimize communication patterns
    - Benchmark against sequential implementation
 
 2. **RDMA-based Key-Value Store**
-   [See project details in project_02_RDMA-based_Key-Value_Store.md](02_MPI_RDMA/project_02_RDMA-based_Key-Value_Store.md)
+   [See details in Project_RDMA_Key_Value_Store.md](02_MPI_RDMA/Project_RDMA_Key_Value_Store.md)
    - Create a simple key-value store using RDMA
    - Implement both two-sided and one-sided operations
    - Benchmark performance characteristics
 
 3. **GPU-Accelerated N-Body Simulation**
-   [See project details in project_03_GPU-Accelerated_N-Body_Simulation.md](02_MPI_RDMA/project_03_GPU-Accelerated_N-Body_Simulation.md)
+   [See details in Project_GPU_Accelerated_N_Body_Simulation.md](02_MPI_RDMA/Project_GPU_Accelerated_N_Body_Simulation.md)
    - Develop an N-body simulation using CUDA and MPI
    - Use GPU Direct RDMA for inter-node communication
    - Analyze scaling behavior
 
 4. **Custom Collective Operation**
-   [See project details in project_04_Custom_Collective_Operation.md](02_MPI_RDMA/project_04_Custom_Collective_Operation.md)
+   [See details in Project_Custom_Collective_Operation.md](02_MPI_RDMA/Project_Custom_Collective_Operation.md)
    - Implement a specialized collective algorithm
    - Optimize for specific network topologies
    - Compare with standard MPI collectives
 
 5. **High-Performance Data Pipeline**
-   [See project details in project_05_High-Performance_Data_Pipeline.md](02_MPI_RDMA/project_05_High-Performance_Data_Pipeline.md)
+   [See details in Project_High_Performance_Data_Pipeline.md](02_MPI_RDMA/Project_High_Performance_Data_Pipeline.md)
    - Build a data processing pipeline with RDMA
    - Implement zero-copy data flow
    - Measure throughput and latency

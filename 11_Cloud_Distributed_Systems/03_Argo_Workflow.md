@@ -6,7 +6,7 @@ Argo Workflow is a container-native workflow engine for orchestrating parallel j
 ## Learning Path
 
 ### 1. Argo Workflow Fundamentals (1 week)
-[See details in 01_Argo_Workflow_Fundamentals.md](03_Argo_Workflow/01_Argo_Workflow_Fundamentals.md)
+[See details in 01_Fundamentals.md](03_Argo_Workflow/01_Fundamentals.md)
 - Understand Argo Workflow architecture and components
 - Learn the basic concepts of workflows, templates, and steps
 - Study Kubernetes CRDs and operator pattern
@@ -20,7 +20,7 @@ Argo Workflow is a container-native workflow engine for orchestrating parallel j
 - Create basic workflows with multiple steps
 
 ### 3. Template Types and Execution Models (2 weeks)
-[See details in 03_Template_Types_and_Execution_Models.md](03_Argo_Workflow/03_Template_Types_and_Execution_Models.md)
+[See details in 03_Template_Types_Execution_Models.md](03_Argo_Workflow/03_Template_Types_Execution_Models.md)
 - Understand container, script, and resource templates
 - Learn about DAG templates for complex dependencies
 - Study suspend templates and human interaction
@@ -70,7 +70,7 @@ Argo Workflow is a container-native workflow engine for orchestrating parallel j
    - Create artifact management for data files
 
 2. **Machine Learning Training Pipeline**
-   [See project details in project_02_Machine_Learning_Training_Pipeline.md](03_Argo_Workflow/project_02_Machine_Learning_Training_Pipeline.md)
+   [See details in Project_02_ML_Training_Pipeline.md](03_Argo_Workflow/Project_02_ML_Training_Pipeline.md)
    - Develop a workflow for ML model training
    - Implement hyperparameter tuning with parallel runs
    - Create model versioning and artifact management

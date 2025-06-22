@@ -92,35 +92,35 @@ Windows system programming involves developing software that interacts directly 
 ## Projects
 
 1. **Advanced Process Explorer**
-   [See project details in project_01_Advanced_Process_Explorer.md](03_Windows_System_Programming/project_01_Advanced_Process_Explorer.md)
+   [See details in Project_Advanced_Process_Explorer.md](03_Windows_System_Programming/Project_Advanced_Process_Explorer.md)
    - Build a utility for monitoring and controlling processes
    - Implement detailed process and thread information display
    - Create process and memory manipulation tools
 
 
 2. **File System Monitor**
-   [See project details in project_02_File_System_Monitor.md](03_Windows_System_Programming/project_02_File_System_Monitor.md)
+   [See details in Project_File_System_Monitor.md](03_Windows_System_Programming/Project_File_System_Monitor.md)
    - Develop an application that monitors file system changes
    - Implement real-time notification of file operations
    - Create filtering and visualization features
 
 
 3. **High-Performance I/O Server**
-   [See project details in project_03_High-Performance_IO_Server.md](03_Windows_System_Programming/project_03_High-Performance_IO_Server.md)
+   [See details in Project_High_Performance_IO_Server.md](03_Windows_System_Programming/Project_High_Performance_IO_Server.md)
    - Build a server application using I/O completion ports
    - Implement efficient thread pooling and work distribution
    - Create performance benchmarking and optimization tools
 
 
 4. **System Service Manager**
-   [See project details in project_04_System_Service_Manager.md](03_Windows_System_Programming/project_04_System_Service_Manager.md)
+   [See details in Project_System_Service_Manager.md](03_Windows_System_Programming/Project_System_Service_Manager.md)
    - Develop a comprehensive service management application
    - Implement service installation, configuration, and control
    - Create monitoring and logging features
 
 
 5. **Inter-Process Communication Framework**
-   [See project details in project_05_Inter-Process_Communication_Framework.md](03_Windows_System_Programming/project_05_Inter-Process_Communication_Framework.md)
+   [See details in Project_Interprocess_Communication_Framework.md](03_Windows_System_Programming/Project_Interprocess_Communication_Framework.md)
    - Build a framework supporting multiple IPC mechanisms
    - Implement transparent serialization and message routing
    - Create secure and reliable communication channels

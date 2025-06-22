@@ -6,7 +6,7 @@ In-memory databases (IMDBs) store data primarily in system memory (RAM) rather t
 ## Learning Path
 
 ### 1. In-Memory Database Fundamentals (2 weeks)
-[See details in 01_In-Memory_Database_Fundamentals.md](07_In_Memory_Databases/01_In-Memory_Database_Fundamentals.md)
+[See details in 01_In_Memory_Database_Fundamentals.md](07_In_Memory_Databases/01_In_Memory_Database_Fundamentals.md)
 - Understand the architecture of in-memory databases
 - Compare in-memory vs. disk-based databases
 - Learn about memory management techniques
@@ -27,14 +27,14 @@ In-memory databases (IMDBs) store data primarily in system memory (RAM) rather t
 - Implement distributed caching solutions
 
 ### 4. Apache Ignite and In-Memory Data Grids (2 weeks)
-[See details in 04_Apache_Ignite_and_In-Memory_Data_Grids.md](07_In_Memory_Databases/04_Apache_Ignite_and_In-Memory_Data_Grids.md)
+[See details in 04_Apache_Ignite_and_In_Memory_Data_Grids.md](07_In_Memory_Databases/04_Apache_Ignite_and_In_Memory_Data_Grids.md)
 - Master Apache Ignite's architecture
 - Learn about distributed computing capabilities
 - Study SQL queries over in-memory data
 - Implement compute grid applications
 
 ### 5. In-Memory Databases for Analytics (2 weeks)
-[See details in 05_In-Memory_Databases_for_Analytics.md](07_In_Memory_Databases/05_In-Memory_Databases_for_Analytics.md)
+[See details in 05_In_Memory_Databases_for_Analytics.md](07_In_Memory_Databases/05_In_Memory_Databases_for_Analytics.md)
 - Understand columnar in-memory storage
 - Learn about SAP HANA and similar technologies
 - Study real-time analytics patterns
@@ -50,31 +50,31 @@ In-memory databases (IMDBs) store data primarily in system memory (RAM) rather t
 ## Projects
 
 1. **Distributed Caching System**
-   [See project details in project_01_Distributed_Caching_System.md](07_In_Memory_Databases/project_01_Distributed_Caching_System.md)
+   [See details in Project_Distributed_Caching_System.md](07_In_Memory_Databases/Project_Distributed_Caching_System.md)
    - Build a multi-tier caching system with Redis
    - Implement cache invalidation strategies
    - Create monitoring and management tools
 
 2. **Real-time Analytics Platform**
-   [See project details in project_02_Real-time_Analytics_Platform.md](07_In_Memory_Databases/project_02_Real-time_Analytics_Platform.md)
+   [See details in Project_Real_time_Analytics_Platform.md](07_In_Memory_Databases/Project_Real_time_Analytics_Platform.md)
    - Develop a system for real-time data processing
    - Implement time-series data storage
    - Create dashboards for live analytics
 
 3. **Session Store for Web Applications**
-   [See project details in project_03_Session_Store_for_Web_Applications.md](07_In_Memory_Databases/project_03_Session_Store_for_Web_Applications.md)
+   [See details in Project_Session_Store_for_Web_Applications.md](07_In_Memory_Databases/Project_Session_Store_for_Web_Applications.md)
    - Build a distributed session storage solution
    - Implement session replication
    - Create high-availability configuration
 
 4. **In-Memory Data Grid Application**
-   [See project details in project_04_In-Memory_Data_Grid_Application.md](07_In_Memory_Databases/project_04_In-Memory_Data_Grid_Application.md)
+   [See details in Project_In_Memory_Data_Grid_Application.md](07_In_Memory_Databases/Project_In_Memory_Data_Grid_Application.md)
    - Develop a distributed computing application
    - Implement data partitioning strategies
    - Create fault-tolerant processing pipelines
 
 5. **Hybrid Storage System**
-   [See project details in project_05_Hybrid_Storage_System.md](07_In_Memory_Databases/project_05_Hybrid_Storage_System.md)
+   [See details in Project_Hybrid_Storage_System.md](07_In_Memory_Databases/Project_Hybrid_Storage_System.md)
    - Build a system combining in-memory and disk storage
    - Implement tiered storage policies
    - Create data lifecycle management

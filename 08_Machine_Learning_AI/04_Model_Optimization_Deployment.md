@@ -20,7 +20,7 @@ Model optimization and deployment are critical aspects of machine learning engin
 - Implement quantized models with minimal accuracy loss
 
 ### 3. Model Pruning and Sparsity (2 weeks)
-[See details in 03_Model_Pruning_and_Sparsity.md](04_Model_Optimization_Deployment/03_Model_Pruning_and_Sparsity.md)
+[See details in 03_Model_Pruning_Sparsity.md](04_Model_Optimization_Deployment/03_Model_Pruning_Sparsity.md)
 - Understand weight and activation pruning
 - Learn about structured vs. unstructured sparsity
 - Study magnitude-based and importance-based pruning
@@ -41,7 +41,7 @@ Model optimization and deployment are critical aspects of machine learning engin
 - Implement efficient model architectures
 
 ### 6. Compilation and Operator Fusion (2 weeks)
-[See details in 06_Compilation_and_Operator_Fusion.md](04_Model_Optimization_Deployment/06_Compilation_and_Operator_Fusion.md)
+[See details in 06_Compilation_Operator_Fusion.md](04_Model_Optimization_Deployment/06_Compilation_Operator_Fusion.md)
 - Master intermediate representations for ML models
 - Learn about operator fusion and graph optimization
 - Study just-in-time compilation for ML
@@ -55,7 +55,7 @@ Model optimization and deployment are critical aspects of machine learning engin
 - Implement cloud-based ML serving systems
 
 ### 8. Edge and Mobile Deployment (2 weeks)
-[See details in 08_Edge_and_Mobile_Deployment.md](04_Model_Optimization_Deployment/08_Edge_and_Mobile_Deployment.md)
+[See details in 08_Edge_Mobile_Deployment.md](04_Model_Optimization_Deployment/08_Edge_Mobile_Deployment.md)
 - Master edge-specific constraints and solutions
 - Learn about mobile frameworks (TFLite, CoreML, ONNX Runtime)
 - Study battery and thermal considerations
@@ -69,21 +69,21 @@ Model optimization and deployment are critical aspects of machine learning engin
 - Implement high-performance model servers
 
 ### 10. Monitoring and Observability (1 week)
-[See details in 10_Monitoring_and_Observability.md](04_Model_Optimization_Deployment/10_Monitoring_and_Observability.md)
+[See details in 10_Monitoring_Observability.md](04_Model_Optimization_Deployment/10_Monitoring_Observability.md)
 - Master metrics for ML systems
 - Learn about feature and prediction drift
 - Study logging and tracing for ML systems
 - Implement comprehensive monitoring solutions
 
 ### 11. CI/CD for Machine Learning (1 week)
-[See details in 11_CICD_for_Machine_Learning.md](04_Model_Optimization_Deployment/11_CICD_for_Machine_Learning.md)
+[See details in 11_CICD_for_ML.md](04_Model_Optimization_Deployment/11_CICD_for_ML.md)
 - Understand MLOps principles
 - Learn about model versioning and registry
 - Study automated testing for ML models
 - Implement CI/CD pipelines for ML systems
 
 ### 12. A/B Testing and Deployment Patterns (1 week)
-[See details in 12_AB_Testing_and_Deployment_Patterns.md](04_Model_Optimization_Deployment/12_AB_Testing_and_Deployment_Patterns.md)
+[See details in 12_AB_Testing_Deployment_Patterns.md](04_Model_Optimization_Deployment/12_AB_Testing_Deployment_Patterns.md)
 - Master canary deployments and blue-green deployments
 - Learn about shadow mode deployment
 - Study A/B testing for ML models
@@ -92,31 +92,31 @@ Model optimization and deployment are critical aspects of machine learning engin
 ## Projects
 
 1. **Optimized Model Library**
-   [See project details in project_01_Optimized_Model_Library.md](04_Model_Optimization_Deployment/project_01_Optimized_Model_Library.md)
+   [See details in Project_Optimized_Model_Library.md](04_Model_Optimization_Deployment/Project_Optimized_Model_Library.md)
    - Build a suite of optimized models for different constraints
    - Implement various optimization techniques
    - Create benchmarking tools for comparison
 
 2. **Model Serving Platform**
-   [See project details in project_02_Model_Serving_Platform.md](04_Model_Optimization_Deployment/project_02_Model_Serving_Platform.md)
+   [See details in Project_Model_Serving_Platform.md](04_Model_Optimization_Deployment/Project_Model_Serving_Platform.md)
    - Develop a scalable system for serving ML models
    - Implement batching and caching strategies
    - Create monitoring and alerting components
 
 3. **Edge ML Deployment Framework**
-   [See project details in project_03_Edge_ML_Deployment_Framework.md](04_Model_Optimization_Deployment/project_03_Edge_ML_Deployment_Framework.md)
+   [See details in Project_Edge_ML_Deployment_Framework.md](04_Model_Optimization_Deployment/Project_Edge_ML_Deployment_Framework.md)
    - Build tools for optimizing and deploying to edge devices
    - Implement device-specific optimizations
    - Create update mechanisms and management tools
 
 4. **MLOps Pipeline**
-   [See project details in project_04_MLOps_Pipeline.md](04_Model_Optimization_Deployment/project_04_MLOps_Pipeline.md)
+   [See details in Project_MLOps_Pipeline.md](04_Model_Optimization_Deployment/Project_MLOps_Pipeline.md)
    - Develop an end-to-end pipeline from training to deployment
    - Implement automated testing and validation
    - Create model registry and versioning system
 
 5. **Optimization AutoML System**
-   [See project details in project_05_Optimization_AutoML_System.md](04_Model_Optimization_Deployment/project_05_Optimization_AutoML_System.md)
+   [See details in Project_Optimization_AutoML_System.md](04_Model_Optimization_Deployment/Project_Optimization_AutoML_System.md)
    - Build a system that automatically optimizes models
    - Implement multiple optimization strategies
    - Create visualizations of tradeoff spaces

@@ -9,7 +9,7 @@ Multi-threading in C allows for concurrent execution of code, enabling efficient
 ## Learning Path
 
 ### 1. Fundamentals of Threading Concepts (1 week)
-[See details in 01_Fundamentals_of_Threading_Concepts.md](01_C_Multithreading/01_Fundamentals_of_Threading_Concepts.md)
+[See details in 01_Threading_Fundamentals.md](01_C_Multithreading/01_Threading_Fundamentals.md)
 - Process vs Thread
 - Thread creation and termination
 - Thread states and lifecycle
@@ -24,7 +24,7 @@ Multi-threading in C allows for concurrent execution of code, enabling efficient
 - Thread attributes
 
 ### 3. Thread Synchronization Mechanisms (2 weeks)
-[See details in 03_Thread_Synchronization_Mechanisms.md](01_C_Multithreading/03_Thread_Synchronization_Mechanisms.md)
+[See details in 03_Thread_Synchronization.md](01_C_Multithreading/03_Thread_Synchronization.md)
 - Race conditions and critical sections
 - Mutex locks (`pthread_mutex_t`)
   - Creation, locking, unlocking

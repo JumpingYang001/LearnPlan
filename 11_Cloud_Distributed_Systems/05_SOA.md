@@ -13,14 +13,14 @@ Service-Oriented Architecture (SOA) is an architectural pattern in computer soft
 - Compare SOA with other architectural styles
 
 ### 2. Service Design in SOA (2 weeks)
-[See details in 02_Service_Design_in_SOA.md](05_SOA/02_Service_Design_in_SOA.md)
+[See details in 02_Service_Design.md](05_SOA/02_Service_Design.md)
 - Master service granularity considerations
 - Learn about business services vs. technical services
 - Understand service reusability and composability
 - Implement effective service versioning strategies
 
 ### 3. SOA Governance and Management (2 weeks)
-[See details in 03_SOA_Governance_and_Management.md](05_SOA/03_SOA_Governance_and_Management.md)
+[See details in 03_Governance_Management.md](05_SOA/03_Governance_Management.md)
 - Learn about service lifecycle management
 - Understand service registry and repository
 - Study SOA governance frameworks
@@ -34,7 +34,7 @@ Service-Oriented Architecture (SOA) is an architectural pattern in computer soft
 - Implement various integration solutions
 
 ### 5. SOA Security (1 week)
-[See details in 05_SOA_Security.md](05_SOA/05_SOA_Security.md)
+[See details in 05_Security.md](05_SOA/05_Security.md)
 - Understand identity and access management in SOA
 - Learn about WS-Security and related standards
 - Study security patterns for SOA
@@ -67,7 +67,7 @@ Service-Oriented Architecture (SOA) is an architectural pattern in computer soft
    - Create monitoring and management solution
 
 5. **Multi-Channel Service Platform**
-   [See project details in project_05_Multi-Channel_Service_Platform.md](05_SOA/project_05_Multi-Channel_Service_Platform.md)
+   [See details in Project_05_Multi_Channel_Service_Platform.md](05_SOA/Project_05_Multi_Channel_Service_Platform.md)
    - Build services accessible through multiple channels
    - Implement service composition
    - Create adaptive interfaces for different clients

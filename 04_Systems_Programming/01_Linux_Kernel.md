@@ -9,7 +9,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
 ## Learning Path
 
 ### 1. Linux Kernel Fundamentals (2 weeks)
-[See details in 01_Linux_Kernel_Fundamentals.md](01_Linux_Kernel/01_Linux_Kernel_Fundamentals.md)
+[See details in 01_Kernel_Fundamentals.md](01_Linux_Kernel/01_Kernel_Fundamentals.md)
 - **Kernel Architecture**
   - Monolithic kernel design
   - Kernel space vs. user space
@@ -29,7 +29,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - Documentation system
 
 ### 2. Building and Booting the Kernel (1 week)
-[See details in 02_Building_and_Booting_the_Kernel.md](01_Linux_Kernel/02_Building_and_Booting_the_Kernel.md)
+[See details in 02_Building_and_Booting.md](01_Linux_Kernel/02_Building_and_Booting.md)
 - **Kernel Configuration**
   - menuconfig, xconfig, gconfig tools
   - Kconfig system
@@ -114,7 +114,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - Percpu counters
 
 ### 6. Kernel-User Space Interface (2 weeks)
-[See details in 06_Kernel-User_Space_Interface.md](01_Linux_Kernel/06_Kernel-User_Space_Interface.md)
+[See details in 06_Kernel_User_Space_Interface.md](01_Linux_Kernel/06_Kernel_User_Space_Interface.md)
 - **System Calls**
   - System call mechanism
   - System call table
@@ -228,7 +228,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - Futexes
 
 ### 10. Linux IPC Mechanisms (2 weeks)
-[See details in 10_Linux_IPC_Mechanisms.md](01_Linux_Kernel/10_Linux_IPC_Mechanisms.md)
+[See details in 10_IPC_Mechanisms.md](01_Linux_Kernel/10_IPC_Mechanisms.md)
 - **Traditional System V IPC**
   - Message queues
   - Semaphore arrays
@@ -256,7 +256,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
   - Huge pages
 
 ### 11. Kernel Debugging and Tracing (2 weeks)
-[See details in 11_Kernel_Debugging_and_Tracing.md](01_Linux_Kernel/11_Kernel_Debugging_and_Tracing.md)
+[See details in 11_Kernel_Debugging_Tracing.md](01_Linux_Kernel/11_Kernel_Debugging_Tracing.md)
 - **Kernel Debugging Tools**
   - kgdb
   - kdump/kexec
@@ -287,13 +287,13 @@ The Linux kernel is the core component of Linux operating systems, managing syst
 
 
 2. **Character Device Driver**
-   [See project details in project_02_Character_Device_Driver.md](01_Linux_Kernel/project_02_Character_Device_Driver.md)
+   [See details in Project_02_Char_Device_Driver.md](01_Linux_Kernel/Project_02_Char_Device_Driver.md)
    - Create a character device with read/write operations
    - Implement ioctl commands
 
 
 3. **Kernel Data Structure Implementation**
-   [See project details in project_03_Kernel_Data_Structure_Implementation.md](01_Linux_Kernel/project_03_Kernel_Data_Structure_Implementation.md)
+   [See details in Project_03_Kernel_Data_Structure.md](01_Linux_Kernel/Project_03_Kernel_Data_Structure.md)
    - Implement a specialized data structure for kernel use
    - Ensure proper synchronization and memory management
 
@@ -305,7 +305,7 @@ The Linux kernel is the core component of Linux operating systems, managing syst
 
 
 5. **IPC Mechanism Implementation**
-   [See project details in project_05_IPC_Mechanism_Implementation.md](01_Linux_Kernel/project_05_IPC_Mechanism_Implementation.md)
+   [See details in Project_05_IPC_Mechanism.md](01_Linux_Kernel/Project_05_IPC_Mechanism.md)
    - Design and implement a custom IPC mechanism
    - Benchmark against existing IPC methods
 

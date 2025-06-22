@@ -57,7 +57,7 @@ Chrome's architecture is built around a multi-process model with a sophisticated
 ## Projects
 
 1. **Chrome Extension with Performance Analysis**
-   [See project details in project_01_Chrome_Extension_with_Performance_Analysis.md](06_Chrome_Kernel_Architecture/project_01_Chrome_Extension_with_Performance_Analysis.md)
+   [See details in Project_01_Chrome_Extension_Performance_Analysis.md](06_Chrome_Kernel_Architecture/Project_01_Chrome_Extension_Performance_Analysis.md)
    - Build an extension that analyzes page performance
    - Implement visualization of rendering metrics
    - Create recommendations for optimization

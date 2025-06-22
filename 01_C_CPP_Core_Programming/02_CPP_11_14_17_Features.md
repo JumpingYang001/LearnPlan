@@ -9,7 +9,7 @@ Modern C++ (C++11, C++14, and C++17) introduced significant improvements to the 
 ## Learning Path
 
 ### 1. C++11 Core Language Features (2 weeks)
-[See details in 01_C11_Core_Language_Features.md](02_CPP_11_14_17_Features/01_C11_Core_Language_Features.md)
+[See details in 01_CPP11_Core_Language_Features.md](02_CPP_11_14_17_Features/01_CPP11_Core_Language_Features.md)
 - Auto type deduction
 - Range-based for loops
 - Lambda expressions
@@ -21,7 +21,7 @@ Modern C++ (C++11, C++14, and C++17) introduced significant improvements to the 
 - Uniform initialization
 
 ### 2. C++11 Move Semantics (2 weeks)
-[See details in 02_C11_Move_Semantics.md](02_CPP_11_14_17_Features/02_C11_Move_Semantics.md)
+[See details in 02_CPP11_Move_Semantics.md](02_CPP_11_14_17_Features/02_CPP11_Move_Semantics.md)
 - Rvalue references
 - Move constructors and move assignment operators
 - Perfect forwarding
@@ -29,7 +29,7 @@ Modern C++ (C++11, C++14, and C++17) introduced significant improvements to the 
 - Return value optimization
 
 ### 3. C++11 Smart Pointers (1 week)
-[See details in 03_C11_Smart_Pointers.md](02_CPP_11_14_17_Features/03_C11_Smart_Pointers.md)
+[See details in 03_CPP11_Smart_Pointers.md](02_CPP_11_14_17_Features/03_CPP11_Smart_Pointers.md)
 - std::unique_ptr
 - std::shared_ptr
 - std::weak_ptr
@@ -37,7 +37,7 @@ Modern C++ (C++11, C++14, and C++17) introduced significant improvements to the 
 - Best practices for memory management
 
 ### 4. C++11 Concurrency Support (2 weeks)
-[See details in 04_C11_Concurrency_Support.md](02_CPP_11_14_17_Features/04_C11_Concurrency_Support.md)
+[See details in 04_CPP11_Concurrency_Support.md](02_CPP_11_14_17_Features/04_CPP11_Concurrency_Support.md)
 - std::thread
 - Futures and promises (std::future, std::promise)
 - std::async
@@ -46,7 +46,7 @@ Modern C++ (C++11, C++14, and C++17) introduced significant improvements to the 
 - Mutexes and locks
 
 ### 5. C++11 Type Traits and Metaprogramming (1 week)
-[See details in 05_C11_Type_Traits_and_Metaprogramming.md](02_CPP_11_14_17_Features/05_C11_Type_Traits_and_Metaprogramming.md)
+[See details in 05_CPP11_Type_Traits_Metaprogramming.md](02_CPP_11_14_17_Features/05_CPP11_Type_Traits_Metaprogramming.md)
 - SFINAE (Substitution Failure Is Not An Error)
 - std::enable_if
 - Type traits library
@@ -54,7 +54,7 @@ Modern C++ (C++11, C++14, and C++17) introduced significant improvements to the 
 - Template metaprogramming techniques
 
 ### 6. C++14 Improvements (1 week)
-[See details in 06_C14_Improvements.md](02_CPP_11_14_17_Features/06_C14_Improvements.md)
+[See details in 06_CPP14_Improvements.md](02_CPP_11_14_17_Features/06_CPP14_Improvements.md)
 - Generic lambdas
 - Return type deduction for functions
 - Variable templates
@@ -71,7 +71,7 @@ Modern C++ (C++11, C++14, and C++17) introduced significant improvements to the 
 - Class template argument deduction
 - Guaranteed copy elision
 ### 7. C++17 Core Language Features (2 weeks)
-[See details in 07_C17_Core_Language_Features.md](02_CPP_11_14_17_Features/07_C17_Core_Language_Features.md)
+[See details in 07_CPP17_Core_Language_Features.md](02_CPP_11_14_17_Features/07_CPP17_Core_Language_Features.md)
 - Structured bindings
 - if constexpr
 - Inline variables
@@ -88,7 +88,7 @@ Modern C++ (C++11, C++14, and C++17) introduced significant improvements to the 
 - Guaranteed copy elision
 
 ### 8. C++17 Library Additions (2 weeks)
-[See details in 08_C17_Library_Additions.md](02_CPP_11_14_17_Features/08_C17_Library_Additions.md)
+[See details in 08_CPP17_Library_Additions.md](02_CPP_11_14_17_Features/08_CPP17_Library_Additions.md)
 - std::optional
 - std::variant
 - std::any

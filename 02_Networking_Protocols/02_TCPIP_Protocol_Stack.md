@@ -80,7 +80,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
   - Socket pairs
 
 ### 5. Application Layer Protocols Overview (1 week)
-[See details in 05_Application_Layer_Protocols_Overview.md](02_TCPIP_Protocol_Stack/05_Application_Layer_Protocols_Overview.md)
+[See details in 05_Application_Layer_Protocols.md](02_TCPIP_Protocol_Stack/05_Application_Layer_Protocols.md)
 - DNS (Domain Name System)
 - DHCP (Dynamic Host Configuration Protocol)
 - FTP (File Transfer Protocol)
@@ -104,7 +104,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental comm
   - Protocol control blocks
 
 ### 7. Network Diagnostics and Analysis (1 week)
-[See details in 07_Network_Diagnostics_and_Analysis.md](02_TCPIP_Protocol_Stack/07_Network_Diagnostics_and_Analysis.md)
+[See details in 07_Network_Diagnostics_Analysis.md](02_TCPIP_Protocol_Stack/07_Network_Diagnostics_Analysis.md)
 - **Diagnostic Tools**
   - ping
   - traceroute/tracert

@@ -265,7 +265,7 @@ CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platfo
   - Bottleneck identification
 
 ### 12. Advanced Topics and Emerging Trends (2 weeks)
-[See details in 12_Advanced_Topics_and_Emerging_Trends.md](01_CUDA_Programming/12_Advanced_Topics_and_Emerging_Trends.md)
+[See details in 12_Advanced_Topics_Emerging_Trends.md](01_CUDA_Programming/12_Advanced_Topics_Emerging_Trends.md)
 - **CUDA C++ Standard Library**
   - STL-like functionality
   - Parallel algorithms

@@ -6,7 +6,7 @@ GoogleTest is a C++ testing framework developed by Google. It provides a rich se
 ## Learning Path
 
 ### 1. GoogleTest Basics (1 week)
-[See details in 01_GoogleTest_Basics.md](01_GoogleTest/01_GoogleTest_Basics.md)
+[See details in 01_Basics.md](01_GoogleTest/01_Basics.md)
 - Understand the basic structure of GoogleTest
 - Learn to write simple assertions (ASSERT_* and EXPECT_*)
 - Understand the difference between fatal and non-fatal assertions
@@ -62,7 +62,7 @@ GoogleTest is a C++ testing framework developed by Google. It provides a rich se
    - Refactor as needed to improve testability
 
 3. **Test-Driven Development Project**
-   [See project details in project_03_Test-Driven_Development_Project.md](01_GoogleTest/project_03_Test-Driven_Development_Project.md)
+   [See details in Project_03_TDD_Project.md](01_GoogleTest/Project_03_TDD_Project.md)
    - Build a data structure or algorithm implementation using TDD
    - Write tests first, then implement the functionality
    - Achieve high test coverage and document the process

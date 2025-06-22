@@ -27,70 +27,70 @@ Understanding kernel internals of both Linux and Windows operating systems provi
 - Compare with Linux architectural approaches
 
 ### 4. Process Management in Linux (2 weeks)
-[See details in 04_Process_Management_in_Linux.md](04_Linux_Windows_Kernel_Internals/04_Process_Management_in_Linux.md)
+[See details in 04_Process_Management_Linux.md](04_Linux_Windows_Kernel_Internals/04_Process_Management_Linux.md)
 - Master Linux process representation and scheduling
 - Learn about task structures and process hierarchies
 - Study context switching and preemption
 - Implement custom schedulers or policies
 
 ### 5. Process Management in Windows (2 weeks)
-[See details in 05_Process_Management_in_Windows.md](04_Linux_Windows_Kernel_Internals/05_Process_Management_in_Windows.md)
+[See details in 05_Process_Management_Windows.md](04_Linux_Windows_Kernel_Internals/05_Process_Management_Windows.md)
 - Understand Windows process and thread objects
 - Learn about EPROCESS and ETHREAD structures
 - Study Windows scheduling algorithms
 - Compare with Linux process management
 
 ### 6. Memory Management in Linux (2 weeks)
-[See details in 06_Memory_Management_in_Linux.md](04_Linux_Windows_Kernel_Internals/06_Memory_Management_in_Linux.md)
+[See details in 06_Memory_Management_Linux.md](04_Linux_Windows_Kernel_Internals/06_Memory_Management_Linux.md)
 - Master Linux virtual memory system
 - Learn about page tables and TLB management
 - Study slab allocator and memory zones
 - Understand OOM killer and memory reclamation
 
 ### 7. Memory Management in Windows (2 weeks)
-[See details in 07_Memory_Management_in_Windows.md](04_Linux_Windows_Kernel_Internals/07_Memory_Management_in_Windows.md)
+[See details in 07_Memory_Management_Windows.md](04_Linux_Windows_Kernel_Internals/07_Memory_Management_Windows.md)
 - Understand Windows virtual memory manager
 - Learn about working sets and VAD trees
 - Study page fault handling and memory compression
 - Compare with Linux memory management
 
 ### 8. File Systems in Linux (2 weeks)
-[See details in 08_File_Systems_in_Linux.md](04_Linux_Windows_Kernel_Internals/08_File_Systems_in_Linux.md)
+[See details in 08_File_Systems_Linux.md](04_Linux_Windows_Kernel_Internals/08_File_Systems_Linux.md)
 - Master VFS layer and file system interfaces
 - Learn about inode structures and dentry cache
 - Study major Linux file systems (ext4, XFS, Btrfs)
 - Understand I/O scheduling and block layer
 
 ### 9. File Systems in Windows (2 weeks)
-[See details in 09_File_Systems_in_Windows.md](04_Linux_Windows_Kernel_Internals/09_File_Systems_in_Windows.md)
+[See details in 09_File_Systems_Windows.md](04_Linux_Windows_Kernel_Internals/09_File_Systems_Windows.md)
 - Understand NTFS architecture and features
 - Learn about ReFS and other Windows file systems
 - Study cache manager and memory-mapped files
 - Compare with Linux file system approaches
 
 ### 10. Device Drivers in Linux (2 weeks)
-[See details in 10_Device_Drivers_in_Linux.md](04_Linux_Windows_Kernel_Internals/10_Device_Drivers_in_Linux.md)
+[See details in 10_Device_Drivers_Linux.md](04_Linux_Windows_Kernel_Internals/10_Device_Drivers_Linux.md)
 - Master Linux driver model and interfaces
 - Learn about character, block, and network drivers
 - Study kernel modules and loading mechanisms
 - Implement simple Linux kernel modules
 
 ### 11. Device Drivers in Windows (2 weeks)
-[See details in 11_Device_Drivers_in_Windows.md](04_Linux_Windows_Kernel_Internals/11_Device_Drivers_in_Windows.md)
+[See details in 11_Device_Drivers_Windows.md](04_Linux_Windows_Kernel_Internals/11_Device_Drivers_Windows.md)
 - Understand Windows driver models (WDM, KMDF, UMDF)
 - Learn about driver objects and IRPs
 - Study PnP and power management
 - Compare with Linux driver approaches
 
 ### 12. System Boot and Initialization (1 week)
-[See details in 12_System_Boot_and_Initialization.md](04_Linux_Windows_Kernel_Internals/12_System_Boot_and_Initialization.md)
+[See details in 12_System_Boot_Initialization.md](04_Linux_Windows_Kernel_Internals/12_System_Boot_Initialization.md)
 - Master Linux boot process and init systems
 - Learn about Windows boot sequence
 - Study bootloaders and firmware interfaces
 - Compare initialization approaches
 
 ### 13. Kernel Debugging and Tracing (2 weeks)
-[See details in 13_Kernel_Debugging_and_Tracing.md](04_Linux_Windows_Kernel_Internals/13_Kernel_Debugging_and_Tracing.md)
+[See details in 13_Kernel_Debugging_Tracing.md](04_Linux_Windows_Kernel_Internals/13_Kernel_Debugging_Tracing.md)
 - Understand Linux kernel debugging techniques
 - Learn about Windows kernel debugging
 - Study tracing mechanisms (ftrace, eBPF, ETW)
@@ -106,7 +106,7 @@ Understanding kernel internals of both Linux and Windows operating systems provi
 ## Projects
 
 1. **Cross-Platform Kernel Module**
-   [See project details in project_01_Cross-Platform_Kernel_Module.md](04_Linux_Windows_Kernel_Internals/project_01_Cross-Platform_Kernel_Module.md)
+   [See details in Project_01_Cross_Platform_Kernel_Module.md](04_Linux_Windows_Kernel_Internals/Project_01_Cross_Platform_Kernel_Module.md)
    - Build modules/drivers that work on both Windows and Linux
    - Implement consistent functionality across platforms
    - Create abstraction layers for kernel differences

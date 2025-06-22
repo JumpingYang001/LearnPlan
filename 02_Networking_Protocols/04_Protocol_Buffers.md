@@ -27,7 +27,7 @@ Protocol Buffers (protobuf) is a language-neutral, platform-neutral, extensible 
 - Implement messages with different field types
 
 ### 4. Protocol Buffers in C++ (2 weeks)
-[See details in 04_Protocol_Buffers_in_C.md](04_Protocol_Buffers/04_Protocol_Buffers_in_C.md)
+[See details in 04_Protocol_Buffers_in_CPP.md](04_Protocol_Buffers/04_Protocol_Buffers_in_CPP.md)
 - Master Protocol Buffer compilation for C++
 - Learn about generated code structure
 - Study message manipulation in C++
@@ -41,7 +41,7 @@ Protocol Buffers (protobuf) is a language-neutral, platform-neutral, extensible 
 - Implement Python applications using Protocol Buffers
 
 ### 6. Protocol Buffers in Java/Kotlin (1 week)
-[See details in 06_Protocol_Buffers_in_JavaKotlin.md](04_Protocol_Buffers/06_Protocol_Buffers_in_JavaKotlin.md)
+[See details in 06_Protocol_Buffers_in_Java_Kotlin.md](04_Protocol_Buffers/06_Protocol_Buffers_in_Java_Kotlin.md)
 - Master Protocol Buffer usage in Java/Kotlin
 - Learn about Java-specific features
 - Study integration with Java applications

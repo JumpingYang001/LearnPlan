@@ -41,7 +41,7 @@ WinDbg is a powerful debugger for Windows applications and operating system comp
 - Implement debugging with extensions
 
 ### 6. WinDbg Preview and Time Travel Debugging (2 weeks)
-[See details in 06_WinDbg_Preview_and_Time_Travel_Debugging.md](04_WinDbg_Perfetto/06_WinDbg_Preview_and_Time_Travel_Debugging.md)
+[See details in 06_WinDbg_Preview_TTD.md](04_WinDbg_Perfetto/06_WinDbg_Preview_TTD.md)
 - Master the modern WinDbg Preview interface
 - Learn about Time Travel Debugging (TTD)
 - Study TTD trace recording and playback
@@ -107,7 +107,7 @@ WinDbg is a powerful debugger for Windows applications and operating system comp
 
 
 4. **Cross-Platform Debugging Toolkit**
-   [See project details in project_04_Cross-Platform_Debugging_Toolkit.md](04_WinDbg_Perfetto/project_04_Cross-Platform_Debugging_Toolkit.md)
+   [See details in Project_04_Cross_Platform_Debugging_Toolkit.md](04_WinDbg_Perfetto/Project_04_Cross_Platform_Debugging_Toolkit.md)
    - Develop a toolkit that integrates WinDbg and Perfetto
    - Implement common workflows for both platforms
    - Create unified reporting and visualization

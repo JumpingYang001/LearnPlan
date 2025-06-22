@@ -48,7 +48,7 @@ Industrial automation protocols are communication standards used in industrial s
 - Implement PROFIBUS device profiles
 
 ### 7. DeviceNet and ControlNet (1 week)
-[See details in 07_DeviceNet_and_ControlNet.md](03_Industrial_Automation_Protocols/07_DeviceNet_and_ControlNet.md)
+[See details in 07_DeviceNet_ControlNet.md](03_Industrial_Automation_Protocols/07_DeviceNet_ControlNet.md)
 - Understand DeviceNet and ControlNet architecture
 - Learn about CIP implementation differences
 - Study device profiles and configuration
@@ -62,14 +62,14 @@ Industrial automation protocols are communication standards used in industrial s
 - Implement IEC 61850 applications
 
 ### 9. Time-Sensitive Networking (TSN) (2 weeks)
-[See details in 09_Time-Sensitive_Networking.md](03_Industrial_Automation_Protocols/09_Time-Sensitive_Networking.md)
+[See details in 09_TSN.md](03_Industrial_Automation_Protocols/09_TSN.md)
 - Understand TSN standards and capabilities
 - Learn about time synchronization (IEEE 1588)
 - Study traffic scheduling and quality of service
 - Implement deterministic Ethernet applications
 
 ### 10. Protocol Integration and Gateways (2 weeks)
-[See details in 10_Protocol_Integration_and_Gateways.md](03_Industrial_Automation_Protocols/10_Protocol_Integration_and_Gateways.md)
+[See details in 10_Protocol_Integration_Gateways.md](03_Industrial_Automation_Protocols/10_Protocol_Integration_Gateways.md)
 - Master protocol conversion techniques
 - Learn about gateway architecture
 - Study data mapping and transformation
@@ -78,13 +78,13 @@ Industrial automation protocols are communication standards used in industrial s
 ## Projects
 
 1. **Modbus-Based SCADA System**
-   [See project details in project_01_Modbus-Based_SCADA_System.md](03_Industrial_Automation_Protocols/project_01_Modbus-Based_SCADA_System.md)
+   [See details in Project_01_Modbus_SCADA_System.md](03_Industrial_Automation_Protocols/Project_01_Modbus_SCADA_System.md)
    - Build a supervisory control system using Modbus
    - Implement data acquisition and control functions
    - Create visualization and alarm management
 
 2. **OPC UA Server for Manufacturing Equipment**
-   [See project details in project_02_OPC_UA_Server_for_Manufacturing_Equipment.md](03_Industrial_Automation_Protocols/project_02_OPC_UA_Server_for_Manufacturing_Equipment.md)
+   [See details in Project_02_OPC_UA_Server.md](03_Industrial_Automation_Protocols/Project_02_OPC_UA_Server.md)
    - Develop an OPC UA server for industrial equipment
    - Implement information modeling and address space
    - Create security features and user authentication
@@ -96,7 +96,7 @@ Industrial automation protocols are communication standards used in industrial s
    - Create configuration and monitoring interfaces
 
 4. **TSN-Enabled Control System**
-   [See project details in project_04_TSN-Enabled_Control_System.md](03_Industrial_Automation_Protocols/project_04_TSN-Enabled_Control_System.md)
+   [See details in Project_04_TSN_Control_System.md](03_Industrial_Automation_Protocols/Project_04_TSN_Control_System.md)
    - Develop a control system using Time-Sensitive Networking
    - Implement deterministic communication
    - Create performance monitoring and analysis tools

@@ -20,7 +20,7 @@ Data Distribution Service (DDS) is a middleware protocol and API standard for da
 - Implement basic publish-subscribe applications
 
 ### 3. Quality of Service Policies (2 weeks)
-[See details in 03_Quality_of_Service_Policies.md](03_DDS/03_Quality_of_Service_Policies.md)
+[See details in 03_QoS_Policies.md](03_DDS/03_QoS_Policies.md)
 - Master the different QoS policies available in DDS
 - Learn how to configure QoS for different requirements
 - Understand QoS compatibility between publishers and subscribers
@@ -64,7 +64,7 @@ Data Distribution Service (DDS) is a middleware protocol and API standard for da
 ## Projects
 
 1. **Real-time Monitoring System**
-   [See project details in project_01_Real-time_Monitoring_System.md](03_DDS/project_01_Real-time_Monitoring_System.md)
+   [See details in Project_01_Real_time_Monitoring_System.md](03_DDS/Project_01_Real_time_Monitoring_System.md)
    - Build a distributed monitoring system using DDS
    - Implement different QoS profiles for different data types
    - Create dashboards for visualizing real-time data
@@ -88,7 +88,7 @@ Data Distribution Service (DDS) is a middleware protocol and API standard for da
    - Ensure deterministic performance
 
 5. **Multi-robot Coordination System**
-   [See project details in project_05_Multi-robot_Coordination_System.md](03_DDS/project_05_Multi-robot_Coordination_System.md)
+   [See details in Project_05_Multi_robot_Coordination_System.md](03_DDS/Project_05_Multi_robot_Coordination_System.md)
    - Implement communication between multiple robots
    - Create shared world models using DDS
    - Develop coordination and task allocation algorithms

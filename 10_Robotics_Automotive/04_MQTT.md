@@ -20,7 +20,7 @@ MQTT (Message Queuing Telemetry Transport) is a lightweight publish-subscribe me
 - Implement topic design patterns
 
 ### 3. Quality of Service and Reliability (1 week)
-[See details in 03_Quality_of_Service_and_Reliability.md](04_MQTT/03_Quality_of_Service_and_Reliability.md)
+[See details in 03_QoS_and_Reliability.md](04_MQTT/03_QoS_and_Reliability.md)
 - Master the three QoS levels (0, 1, 2)
 - Understand delivery guarantees and limitations
 - Learn about session management
@@ -48,14 +48,14 @@ MQTT (Message Queuing Telemetry Transport) is a lightweight publish-subscribe me
 - Implement clients in multiple languages
 
 ### 7. MQTT 5.0 Features (1 week)
-[See details in 07_MQTT_50_Features.md](04_MQTT/07_MQTT_50_Features.md)
+[See details in 07_MQTT_5_Features.md](04_MQTT/07_MQTT_5_Features.md)
 - Understand the new features in MQTT 5.0
 - Learn about message expiry and user properties
 - Study shared subscriptions and topic aliases
 - Implement applications using MQTT 5.0 features
 
 ### 8. MQTT in Resource-Constrained Environments (1 week)
-[See details in 08_MQTT_in_Resource-Constrained_Environments.md](04_MQTT/08_MQTT_in_Resource-Constrained_Environments.md)
+[See details in 08_MQTT_Resource_Constrained.md](04_MQTT/08_MQTT_Resource_Constrained.md)
 - Learn techniques for minimizing bandwidth usage
 - Study power conservation strategies
 - Understand MQTT-SN (MQTT for Sensor Networks)
@@ -82,7 +82,7 @@ MQTT (Message Queuing Telemetry Transport) is a lightweight publish-subscribe me
    - Create alerting and notification systems
 
 4. **MQTT-Based Chat Application**
-   [See project details in project_04_MQTT-Based_Chat_Application.md](04_MQTT/project_04_MQTT-Based_Chat_Application.md)
+   [See details in Project_04_MQTT_Based_Chat_Application.md](04_MQTT/Project_04_MQTT_Based_Chat_Application.md)
    - Develop a simple chat application using MQTT
    - Implement presence detection and offline messaging
    - Create user authentication and private messaging

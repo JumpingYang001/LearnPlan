@@ -27,21 +27,21 @@ Compiler optimization techniques improve the efficiency of code by enhancing exe
 - Implement loop optimizations in practical code
 
 ### 4. Function and Procedure Optimizations (2 weeks)
-[See details in 04_Function_and_Procedure_Optimizations.md](04_Compiler_Optimization_Techniques/04_Function_and_Procedure_Optimizations.md)
+[See details in 04_Function_Procedure_Optimizations.md](04_Compiler_Optimization_Techniques/04_Function_Procedure_Optimizations.md)
 - Master inlining and procedure integration
 - Learn about tail call optimization
 - Study interprocedural optimization
 - Implement code leveraging function optimizations
 
 ### 5. Instruction-Level Parallelism (2 weeks)
-[See details in 05_Instruction-Level_Parallelism.md](04_Compiler_Optimization_Techniques/05_Instruction-Level_Parallelism.md)
+[See details in 05_Instruction_Level_Parallelism.md](04_Compiler_Optimization_Techniques/05_Instruction_Level_Parallelism.md)
 - Understand instruction scheduling
 - Learn about software pipelining
 - Study superscalar and VLIW architectures
 - Implement code that benefits from instruction parallelism
 
 ### 6. Data-Level Parallelism (2 weeks)
-[See details in 06_Data-Level_Parallelism.md](04_Compiler_Optimization_Techniques/06_Data-Level_Parallelism.md)
+[See details in 06_Data_Level_Parallelism.md](04_Compiler_Optimization_Techniques/06_Data_Level_Parallelism.md)
 - Master SIMD instruction generation
 - Learn about auto-vectorization
 - Study alignment and memory access patterns
@@ -55,14 +55,14 @@ Compiler optimization techniques improve the efficiency of code by enhancing exe
 - Implement memory-efficient data structures
 
 ### 8. GCC-Specific Optimizations (1 week)
-[See details in 08_GCC-Specific_Optimizations.md](04_Compiler_Optimization_Techniques/08_GCC-Specific_Optimizations.md)
+[See details in 08_GCC_Specific_Optimizations.md](04_Compiler_Optimization_Techniques/08_GCC_Specific_Optimizations.md)
 - Master GCC optimization flags and pragmas
 - Learn about GCC-specific attributes
 - Study link-time optimization (LTO)
 - Implement GCC-optimized code
 
 ### 9. LLVM/Clang Optimizations (1 week)
-[See details in 09_LLVMClang_Optimizations.md](04_Compiler_Optimization_Techniques/09_LLVMClang_Optimizations.md)
+[See details in 09_LLVM_Clang_Optimizations.md](04_Compiler_Optimization_Techniques/09_LLVM_Clang_Optimizations.md)
 - Understand LLVM optimization passes
 - Learn about Clang-specific features
 - Study profile-guided optimization (PGO)
@@ -76,14 +76,14 @@ Compiler optimization techniques improve the efficiency of code by enhancing exe
 - Implement MSVC-optimized code
 
 ### 11. Embedded and Real-time Optimizations (2 weeks)
-[See details in 11_Embedded_and_Real-time_Optimizations.md](04_Compiler_Optimization_Techniques/11_Embedded_and_Real-time_Optimizations.md)
+[See details in 11_Embedded_RealTime_Optimizations.md](04_Compiler_Optimization_Techniques/11_Embedded_RealTime_Optimizations.md)
 - Understand size optimizations
 - Learn about specialized embedded compiler features
 - Study deterministic execution optimizations
 - Implement optimized code for embedded systems
 
 ### 12. Compiler-Assisted Parallelism (2 weeks)
-[See details in 12_Compiler-Assisted_Parallelism.md](04_Compiler_Optimization_Techniques/12_Compiler-Assisted_Parallelism.md)
+[See details in 12_Compiler_Assisted_Parallelism.md](04_Compiler_Optimization_Techniques/12_Compiler_Assisted_Parallelism.md)
 - Master OpenMP and auto-parallelization
 - Learn about task-based parallelism
 - Study offloading to accelerators

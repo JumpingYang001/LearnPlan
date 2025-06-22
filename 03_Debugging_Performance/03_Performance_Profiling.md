@@ -25,7 +25,7 @@ Performance profiling and optimization are essential skills for developing effic
   - I/O operations
 
 ### 2. Profiling Tools on Linux (2 weeks)
-[See details in 02_Profiling_Tools_on_Linux.md](03_Performance_Profiling/02_Profiling_Tools_on_Linux.md)
+[See details in 02_Profiling_Tools_Linux.md](03_Performance_Profiling/02_Profiling_Tools_Linux.md)
 - **perf**
   - CPU performance counters
   - Event-based sampling
@@ -49,7 +49,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Off-CPU analysis
 
 ### 3. Profiling Tools on Windows (2 weeks)
-[See details in 03_Profiling_Tools_on_Windows.md](03_Performance_Profiling/03_Profiling_Tools_on_Windows.md)
+[See details in 03_Profiling_Tools_Windows.md](03_Performance_Profiling/03_Profiling_Tools_Windows.md)
 - **Windows Performance Analyzer (WPA)**
   - Event Tracing for Windows (ETW)
   - Collection and analysis workflows
@@ -72,7 +72,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Analysis with WPA
 
 ### 4. Cross-Platform Profiling Tools (1 week)
-[See details in 04_Cross-Platform_Profiling_Tools.md](03_Performance_Profiling/04_Cross-Platform_Profiling_Tools.md)
+[See details in 04_Cross_Platform_Profilers.md](03_Performance_Profiling/04_Cross_Platform_Profilers.md)
 - **Intel VTune Profiler**
   - Hotspot analysis
   - Microarchitecture analysis
@@ -137,7 +137,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Small object optimization
 
 ### 7. I/O and System Call Optimization (1 week)
-[See details in 07_IO_and_System_Call_Optimization.md](03_Performance_Profiling/07_IO_and_System_Call_Optimization.md)
+[See details in 07_IO_System_Call_Optimization.md](03_Performance_Profiling/07_IO_System_Call_Optimization.md)
 - **File I/O Optimization**
   - Buffering strategies
   - Memory-mapped I/O
@@ -173,7 +173,7 @@ Performance profiling and optimization are essential skills for developing effic
   - Memory barriers and ordering
 
 ### 9. Database and SQLite Optimization (1 week)
-[See details in 09_Database_and_SQLite_Optimization.md](03_Performance_Profiling/09_Database_and_SQLite_Optimization.md)
+[See details in 09_Database_SQLite_Optimization.md](03_Performance_Profiling/09_Database_SQLite_Optimization.md)
 - **SQLite Performance Tuning**
   - Indexing strategies
   - Query optimization

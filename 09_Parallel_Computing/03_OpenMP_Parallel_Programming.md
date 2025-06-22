@@ -78,31 +78,31 @@ OpenMP (Open Multi-Processing) is an API that supports multi-platform shared mem
 ## Projects
 
 1. **Parallel Image Processing Application**
-   [See project details in project_01_Parallel_Image_Processing_Application.md](03_OpenMP_Parallel_Programming/project_01_Parallel_Image_Processing_Application.md)
+   [See details in Project_Parallel_Image_Processing_Application.md](03_OpenMP_Parallel_Programming/Project_Parallel_Image_Processing_Application.md)
    - Build an image processing application using OpenMP
    - Implement different image filters and transformations
    - Optimize for performance and scalability
 
 2. **Parallel Numerical Solver**
-   [See project details in project_02_Parallel_Numerical_Solver.md](03_OpenMP_Parallel_Programming/project_02_Parallel_Numerical_Solver.md)
+   [See details in Project_Parallel_Numerical_Solver.md](03_OpenMP_Parallel_Programming/Project_Parallel_Numerical_Solver.md)
    - Develop a parallel solver for differential equations
    - Implement domain decomposition techniques
    - Create performance analysis and visualization
 
 3. **Task-Based Parallel Algorithm Library**
-   [See project details in project_03_Task-Based_Parallel_Algorithm_Library.md](03_OpenMP_Parallel_Programming/project_03_Task-Based_Parallel_Algorithm_Library.md)
+   [See details in Project_Task_Based_Parallel_Algorithm_Library.md](03_OpenMP_Parallel_Programming/Project_Task_Based_Parallel_Algorithm_Library.md)
    - Build a library of common algorithms using OpenMP tasks
    - Implement sorting, searching, and graph algorithms
    - Create benchmarking and comparison tools
 
 4. **Hybrid Parallel Simulation**
-   [See project details in project_04_Hybrid_Parallel_Simulation.md](03_OpenMP_Parallel_Programming/project_04_Hybrid_Parallel_Simulation.md)
+   [See details in Project_Hybrid_Parallel_Simulation.md](03_OpenMP_Parallel_Programming/Project_Hybrid_Parallel_Simulation.md)
    - Develop a simulation using OpenMP and MPI
    - Implement multi-level parallelism
    - Create performance scaling analysis
 
 5. **SIMD-Optimized Data Processing Pipeline**
-   [See project details in project_05_SIMD-Optimized_Data_Processing_Pipeline.md](03_OpenMP_Parallel_Programming/project_05_SIMD-Optimized_Data_Processing_Pipeline.md)
+   [See details in Project_SIMD_Optimized_Data_Processing_Pipeline.md](03_OpenMP_Parallel_Programming/Project_SIMD_Optimized_Data_Processing_Pipeline.md)
    - Build a data processing pipeline using OpenMP SIMD
    - Implement vectorized mathematical operations
    - Create performance comparison with non-vectorized code

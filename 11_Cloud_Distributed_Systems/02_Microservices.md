@@ -20,7 +20,7 @@ Microservices architecture is an approach to software development where a large 
 - Implement service design patterns
 
 ### 3. Inter-Service Communication (2 weeks)
-[See details in 03_Inter-Service_Communication.md](02_Microservices/03_Inter-Service_Communication.md)
+[See details in 03_Inter_Service_Communication.md](02_Microservices/03_Inter_Service_Communication.md)
 - Understand synchronous vs. asynchronous communication
 - Learn REST, gRPC, and message-based communication
 - Study API design for microservices
@@ -78,13 +78,13 @@ Microservices architecture is an approach to software development where a large 
 ## Projects
 
 1. **E-Commerce Microservices Application**
-   [See project details in project_01_E-Commerce_Microservices_Application.md](02_Microservices/project_01_E-Commerce_Microservices_Application.md)
+   [See details in Project_01_E_Commerce_Microservices_Application.md](02_Microservices/Project_01_E_Commerce_Microservices_Application.md)
    - Build a complete e-commerce system with multiple services
    - Implement product catalog, shopping cart, payment, and order services
    - Create API gateway and service discovery mechanism
 
 2. **Event-Driven Microservices System**
-   [See project details in project_02_Event-Driven_Microservices_System.md](02_Microservices/project_02_Event-Driven_Microservices_System.md)
+   [See details in Project_02_Event_Driven_Microservices_System.md](02_Microservices/Project_02_Event_Driven_Microservices_System.md)
    - Develop a system using event sourcing and CQRS
    - Implement message brokers for communication
    - Create event-driven workflows and processes

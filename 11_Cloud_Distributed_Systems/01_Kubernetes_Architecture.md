@@ -33,7 +33,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Troubleshooting basics
 
 ### 2. Kubernetes Cluster Architecture (2 weeks)
-[See details in 02_Kubernetes_Cluster_Architecture.md](01_Kubernetes_Architecture/02_Kubernetes_Cluster_Architecture.md)
+[See details in 02_Cluster_Architecture.md](01_Kubernetes_Architecture/02_Cluster_Architecture.md)
 - **Control Plane Components**
   - kube-apiserver
   - etcd
@@ -57,7 +57,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Failure domains
 
 ### 3. Kubernetes Networking (2 weeks)
-[See details in 03_Kubernetes_Networking.md](01_Kubernetes_Architecture/03_Kubernetes_Networking.md)
+[See details in 03_Networking.md](01_Kubernetes_Architecture/03_Networking.md)
 - **Kubernetes Network Model**
   - Pod network connectivity
   - Service networking
@@ -80,7 +80,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Traffic management patterns
 
 ### 4. Kubernetes Storage (1 week)
-[See details in 04_Kubernetes_Storage.md](01_Kubernetes_Architecture/04_Kubernetes_Storage.md)
+[See details in 04_Storage.md](01_Kubernetes_Architecture/04_Storage.md)
 - **Kubernetes Storage Concepts**
   - Volumes
   - PersistentVolumes
@@ -195,7 +195,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
   - Packet capture techniques
 
 ### 9. Multi-tenancy and Isolation (1 week)
-[See details in 09_Multi-tenancy_and_Isolation.md](01_Kubernetes_Architecture/09_Multi-tenancy_and_Isolation.md)
+[See details in 09_Multi_Tenancy_Isolation.md](01_Kubernetes_Architecture/09_Multi_Tenancy_Isolation.md)
 - **Namespace-based Isolation**
   - Namespace resource quotas
   - Network policies
@@ -289,7 +289,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
 ## Projects
 
 1. **Production-Grade Kubernetes Cluster**
-   [See project details in project_01_Production-Grade_Kubernetes_Cluster.md](01_Kubernetes_Architecture/project_01_Production-Grade_Kubernetes_Cluster.md)
+   [See details in Project_01_Production_Grade_Cluster.md](01_Kubernetes_Architecture/Project_01_Production_Grade_Cluster.md)
    - Design and deploy a highly available cluster
    - Implement security best practices
    - Set up monitoring and logging
@@ -303,7 +303,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
    - Establish developer self-service capabilities
 
 3. **Multi-tenant Kubernetes Environment**
-   [See project details in project_03_Multi-tenant_Kubernetes_Environment.md](01_Kubernetes_Architecture/project_03_Multi-tenant_Kubernetes_Environment.md)
+   [See details in Project_03_Multi_Tenant_Environment.md](01_Kubernetes_Architecture/Project_03_Multi_Tenant_Environment.md)
    - Design isolation mechanisms
    - Implement resource quotas and limits
    - Create tenant onboarding processes
@@ -317,7 +317,7 @@ Kubernetes (K8s) is an open-source container orchestration platform that automat
    - Test and package the operator
 
 5. **Kubernetes-based Data Platform**
-   [See project details in project_05_Kubernetes-based_Data_Platform.md](01_Kubernetes_Architecture/project_05_Kubernetes-based_Data_Platform.md)
+   [See details in Project_05_Kubernetes_Data_Platform.md](01_Kubernetes_Architecture/Project_05_Kubernetes_Data_Platform.md)
    - Deploy stateful services on Kubernetes
    - Implement backup and recovery
    - Create scaling mechanisms
