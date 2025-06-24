@@ -34,6 +34,75 @@ Before proceeding to the next section, ensure you can:
 □ Distinguish between different types of addresses (IP, MAC, Port)  
 □ Understand the relationship between MTU and packet size  
 
+## Concepts to Master
+
+### TCP/IP Model vs OSI Model
+
+#### TCP/IP 4-Layer Model
+The TCP/IP model consists of four layers, each with specific responsibilities:
+
+```
+┌─────────────────────────────────┐
+│     Application Layer           │  <- HTTP, FTP, SMTP, DNS, SSH
+├─────────────────────────────────┤
+│     Transport Layer             │  <- TCP, UDP
+├─────────────────────────────────┤
+│     Internet Layer              │  <- IP, ICMP, ARP
+├─────────────────────────────────┤
+│     Network Access Layer        │  <- Ethernet, WiFi, PPP
+└─────────────────────────────────┘
+```
+
+#### OSI 7-Layer Model vs TCP/IP Comparison
+
+| OSI Layer | OSI Name | TCP/IP Layer | TCP/IP Name | Protocols | Purpose |
+|-----------|----------|--------------|-------------|-----------|---------|
+| 7 | Application | 4 | Application | HTTP, FTP, SMTP, DNS | User interface, network services |
+| 6 | Presentation | 4 | Application | SSL/TLS, JPEG, GIF | Data formatting, encryption |
+| 5 | Session | 4 | Application | NetBIOS, RPC | Session management |
+| 4 | Transport | 3 | Transport | TCP, UDP | End-to-end communication |
+| 3 | Network | 2 | Internet | IP, ICMP, ARP | Routing, addressing |
+| 2 | Data Link | 1 | Network Access | Ethernet, WiFi | Frame formatting, MAC addressing |
+| 1 | Physical | 1 | Network Access | Cable, Radio | Physical transmission |
+
+#### Visual Layer Interaction
+```
+Application Data
+        ↓
+┌─────────────────────────────────┐
+│ Application Layer               │
+│ ┌─────────────────────────────┐ │
+│ │ HTTP Request/Response       │ │
+│ │ "GET /index.html HTTP/1.1"  │ │
+│ └─────────────────────────────┘ │
+└─────────────────────────────────┘
+        ↓ (Add TCP Header)
+┌─────────────────────────────────┐
+│ Transport Layer (TCP)           │
+│ ┌─────┬─────────────────────────┐ │
+│ │ TCP │ HTTP Data               │ │
+│ │ Hdr │                         │ │
+│ └─────┴─────────────────────────┘ │
+└─────────────────────────────────┘
+        ↓ (Add IP Header)
+┌─────────────────────────────────┐
+│ Internet Layer (IP)             │
+│ ┌────┬─────┬─────────────────────┐ │
+│ │ IP │ TCP │ HTTP Data           │ │
+│ │Hdr │ Hdr │                     │ │
+│ └────┴─────┴─────────────────────┘ │
+└─────────────────────────────────┘
+        ↓ (Add Ethernet Header)
+┌─────────────────────────────────┐
+│ Network Access (Ethernet)       │
+│ ┌────┬────┬─────┬─────────────────┐ │
+│ │ETH │ IP │ TCP │ HTTP Data       │ │
+│ │Hdr │Hdr │ Hdr │                 │ │
+│ └────┴────┴─────┴─────────────────┘ │
+└─────────────────────────────────┘
+        ↓ (Physical transmission)
+```
+
 ### Practical Exercises
 
 **Exercise 1: Header Analysis**
