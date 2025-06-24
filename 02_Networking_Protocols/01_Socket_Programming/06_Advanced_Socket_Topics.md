@@ -9,56 +9,252 @@ This module covers advanced socket programming topics including socket options, 
 ## Learning Objectives
 
 By the end of this module, you should be able to:
-- Configure socket options for performance optimization
-- Handle out-of-band data in TCP connections
-- Use Unix domain sockets for local IPC
-- Work with raw sockets for low-level networking
-- Implement custom protocols and packet analysis
+- Explain the purpose and effect of common socket options with real-world examples
+- Configure and benchmark socket options for performance optimization
+- Describe and implement out-of-band (OOB) data handling in TCP, including use cases and limitations
+- Use Unix domain sockets for secure, high-performance local IPC, and compare with TCP sockets
+- Create and use raw sockets for custom protocol development and packet analysis
+- Analyze and debug advanced socket behaviors using code and system tools
 
 ## Topics Covered
 
 ### 1. Socket Options
-- Performance tuning options
-- Buffer size configuration
-- Keep-alive settings
-- Nagle's algorithm and TCP_NODELAY
-- Socket behavior modification
+
+#### What Are Socket Options?
+Socket options are parameters you can set on a socket to control its behavior at runtime. They allow you to tune performance, reliability, and resource usage for your application.
+
+#### Why Tune Socket Options?
+- **Performance:** Increase throughput or reduce latency for demanding applications
+- **Reliability:** Ensure connections stay alive or recover quickly from failures
+- **Resource Management:** Control memory usage and system resource allocation
+
+#### Common Socket Options Explained
+
+| Option         | Purpose                                  | Typical Use Case                  |
+|---------------|------------------------------------------|-----------------------------------|
+| SO_SNDBUF     | Set send buffer size                     | High-throughput servers           |
+| SO_RCVBUF     | Set receive buffer size                  | High-volume data receivers        |
+| SO_KEEPALIVE  | Enable keep-alive probes                 | Long-lived TCP connections        |
+| TCP_NODELAY   | Disable Nagle's algorithm (low latency)  | Real-time or interactive systems  |
+| SO_REUSEADDR  | Allow address reuse                      | Fast server restarts              |
+| O_NONBLOCK    | Set non-blocking mode                    | Event-driven or async I/O         |
+
+#### Visual: Where Socket Options Apply
+```
+┌─────────────┐      ┌─────────────┐
+│ Application │─────▶│   Socket    │─────▶ Network
+└─────────────┘      └─────────────┘
+         ▲                ▲
+         │                │
+   setsockopt()      getsockopt()
+```
+
+#### Real-World Example: Low-Latency Trading System
+In high-frequency trading, every microsecond counts. Disabling Nagle's algorithm (`TCP_NODELAY`) ensures that small packets are sent immediately, reducing latency.
+
+#### Example: Setting Socket Options in C
+```c
+int sockfd = socket(AF_INET, SOCK_STREAM, 0);
+int flag = 1;
+setsockopt(sockfd, IPPROTO_TCP, TCP_NODELAY, &flag, sizeof(flag)); // Disable Nagle
+setsockopt(sockfd, SOL_SOCKET, SO_KEEPALIVE, &flag, sizeof(flag)); // Enable keep-alive
+```
+
+#### Best Practices
+- Always check return values of `setsockopt()` and `getsockopt()`
+- Profile your application before and after tuning options
+- Document why each option is set
+
+---
 
 ### 2. Out-of-Band Data
-- Understanding urgent data in TCP
-- Sending and receiving OOB data
-- Implementation patterns and usage scenarios
+
+#### What is Out-of-Band (OOB) Data?
+OOB data, also called **urgent data**, is a special feature of TCP that allows a sender to mark some data as urgent. This is useful for sending control signals (like interrupts) alongside normal data.
+
+#### How OOB Data Works
+- TCP OOB data is delivered out-of-band, but only one byte is truly urgent (the rest is in-band)
+- The receiver is notified via a signal (e.g., `SIGURG`)
+- Used for things like telnet's Ctrl+C (interrupt)
+
+#### Visual: OOB Data Flow
+```
+Normal Data:   [A][B][C][D][E][F][G]
+OOB Data:                 ^
+                    (urgent pointer)
+```
+
+#### Example Use Case
+- Remote shell: Send an interrupt signal to stop a running command
+
+#### Caution
+- OOB data is rarely used in modern protocols; use with care
+- Not supported on all platforms the same way
+
+#### Example: Sending and Receiving OOB Data
+See code in the next section for a full implementation.
+
+---
 
 ### 3. Unix Domain Sockets
-- Local inter-process communication
-- Datagram vs stream Unix sockets
-- Performance advantages over TCP sockets
+
+#### What Are Unix Domain Sockets?
+Unix domain sockets provide fast, secure communication between processes on the same machine. They use the file system as their address namespace.
+
+#### Types
+- **SOCK_STREAM:** Reliable, connection-oriented (like TCP)
+- **SOCK_DGRAM:** Unreliable, message-oriented (like UDP)
+
+#### Visual: Unix Domain Socket vs TCP Socket
+```
+┌─────────────┐      ┌─────────────┐
+│ Process A   │─────▶│   Kernel    │─────▶│ Process B │
+└─────────────┘      └─────────────┘      └─────────────┘
+      │                │
+      │   /tmp/sock    │
+      ▼                ▼
+   Unix Domain      TCP/IP Stack
+```
+
+#### Why Use Unix Domain Sockets?
+- Much faster than TCP for local IPC (no network stack)
+- No need for IP addresses or ports
+- File system permissions control access
+
+#### Example Use Cases
+- Local microservices communication
+- Database clients (e.g., PostgreSQL, MySQL)
+
+#### Example: Creating a Unix Domain Socket
+See code in the next section for a full implementation.
+
+---
 
 ### 4. Raw Sockets
-- Direct protocol access
-- Custom protocol implementation
-- Packet sniffing and injection
-- Network analysis tools
+
+#### What Are Raw Sockets?
+Raw sockets allow direct access to lower-level network protocols. You can send and receive packets with custom headers, bypassing the normal TCP/UDP stack.
+
+#### Why Use Raw Sockets?
+- Build custom protocols (e.g., for research or security)
+- Implement packet sniffers and network analyzers
+- Send custom-crafted packets for testing
+
+#### Visual: Raw Socket Data Flow
+```
+┌─────────────┐      ┌─────────────┐
+│ Application │─────▶│   Kernel    │─────▶ Network
+└─────────────┘      └─────────────┘
+         ▲                ▲
+         │                │
+   Custom headers     Raw packets
+```
+
+#### Security Note
+- Raw sockets require root/admin privileges
+- Can be dangerous—improper use can disrupt networks
+
+#### Example: Packet Sniffer
+See code in the next section for a full implementation.
+
+---
 
 ## Practical Exercises
 
 1. **Socket Option Benchmarking**
-   - Compare performance with different socket options
-   - Measure throughput and latency impacts
+   - Write a program to toggle `TCP_NODELAY` and measure latency for small messages
+   - Experiment with different buffer sizes (`SO_SNDBUF`, `SO_RCVBUF`) and plot throughput
 
 2. **Out-of-Band Data Handler**
-   - Implement urgent data processing
-   - Create interrupt-style communication
+   - Implement a TCP server/client that sends and receives OOB data (simulate a remote interrupt)
+   - Log and explain the order of OOB and normal data arrival
 
 3. **Unix Domain Socket IPC**
-   - Replace TCP sockets with Unix sockets
-   - Benchmark performance improvements
+   - Replace a TCP-based local client/server with Unix domain sockets
+   - Benchmark and compare performance (latency, throughput)
+   - Experiment with file permissions and security
 
 4. **Network Packet Analyzer**
-   - Build a simple packet capture tool
-   - Analyze different protocol headers
+   - Build a packet sniffer using raw sockets (capture and print IP/TCP/UDP headers)
+   - Extend to filter for specific protocols or ports
+   - Analyze packet structure and discuss security implications
 
 ## Code Examples
+---
+## In-Depth Explanations and Visuals
+
+### Socket Options: Tuning for Performance
+
+**Scenario:** You are building a chat server. By default, small messages may be delayed due to Nagle's algorithm. Disabling it with `TCP_NODELAY` ensures instant delivery:
+
+```c
+int flag = 1;
+setsockopt(sockfd, IPPROTO_TCP, TCP_NODELAY, &flag, sizeof(flag));
+```
+
+**Diagram:**
+```
+┌─────────────┐      ┌─────────────┐
+│  Client     │─────▶│   Server    │
+└─────────────┘      └─────────────┘
+   (no delay)         (no delay)
+```
+
+**Tip:** Always measure before and after changing options!
+
+---
+
+### Out-of-Band Data: When and Why?
+
+**Scenario:** A remote shell needs to send an interrupt (Ctrl+C) to stop a command. OOB data lets you send this signal without waiting for normal data to finish.
+
+**Diagram:**
+```
+Normal Data:   [A][B][C][D][E][F][G]
+OOB Data:                 ^
+                    (urgent pointer)
+```
+
+**Caution:** OOB data is not truly "out-of-band"—only one byte is urgent. Use for legacy protocols or special cases.
+
+---
+
+### Unix Domain Sockets: Local IPC Power
+
+**Scenario:** Two processes on the same machine need to exchange data quickly. Unix domain sockets are much faster than TCP because they avoid the network stack.
+
+**Diagram:**
+```
+┌─────────────┐      ┌─────────────┐
+│ Process A   │─────▶│ Process B   │
+└─────────────┘      └─────────────┘
+      │                │
+      │   /tmp/sock    │
+      ▼                ▼
+   Unix Domain      TCP/IP Stack
+```
+
+**Security:** File permissions on the socket file control access.
+
+---
+
+### Raw Sockets: Custom Protocols and Sniffing
+
+**Scenario:** You want to analyze all incoming TCP packets or build a custom ping tool. Raw sockets let you capture or craft packets at the IP layer.
+
+**Diagram:**
+```
+┌─────────────┐      ┌─────────────┐
+│ Application │─────▶│   Kernel    │─────▶ Network
+└─────────────┘      └─────────────┘
+         ▲                ▲
+         │                │
+   Custom headers     Raw packets
+```
+
+**Security:** Requires root/admin privileges. Use with care!
+
+---
 
 ### 1. Socket Options Configuration
 
