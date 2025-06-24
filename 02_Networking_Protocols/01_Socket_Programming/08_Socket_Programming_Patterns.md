@@ -6,6 +6,35 @@
 
 This module covers common socket programming patterns and architectural designs for building robust, scalable network applications. You'll learn proven patterns for client-server communication, server architectures, and specialized networking scenarios.
 
+---
+
+## What Are Socket Programming Patterns?
+
+Socket programming patterns are reusable solutions to common problems in network application design. They help you:
+- Build reliable and scalable clients and servers
+- Handle failures and network unreliability
+- Structure code for maintainability and performance
+
+**Why use patterns?**
+- Avoid reinventing the wheel
+- Learn from industry best practices
+- Make your code easier to understand and extend
+
+---
+
+## Visual Overview
+
+```
+┌────────────┐      ┌────────────┐      ┌────────────┐
+│  Client    │<--->│  Proxy     │<--->│  Server    │
+└────────────┘      └────────────┘      └────────────┘
+      │                  │                  │
+      ▼                  ▼                  ▼
+  [Client Patterns]  [Proxy Patterns]  [Server Patterns]
+```
+
+---
+
 ## Learning Objectives
 
 By the end of this module, you should be able to:
@@ -17,11 +46,32 @@ By the end of this module, you should be able to:
 
 ## Topics Covered
 
+
 ### 1. Client Patterns
-- Reconnection strategies and resilience
-- Connection pooling for efficiency
-- Heartbeat mechanisms for connection monitoring
-- Request-response correlation patterns
+
+Client-side patterns help you build robust, efficient, and reliable network clients. These patterns address common challenges such as connection loss, resource management, and keeping connections alive.
+
+#### Key Concepts
+- **Reconnection Strategies:** How to recover from lost connections automatically.
+- **Connection Pooling:** Efficiently reuse connections for high-throughput clients.
+- **Heartbeat Mechanisms:** Detect dead connections and maintain liveness.
+- **Request-Response Correlation:** Match responses to requests in asynchronous or pipelined protocols.
+
+#### When to Use
+- Building clients for unreliable networks
+- High-performance or high-frequency request scenarios
+- Long-lived connections (e.g., chat, games, trading)
+
+#### Visual: Client Resilience
+```
+┌────────────┐   lost   ┌────────────┐
+│  Client    │────────►│  Server    │
+└────────────┘         └────────────┘
+     ▲   │                ▲
+     │   └─reconnect──────┘
+```
+
+---
 
 ### 2. Server Patterns
 - Iterative servers for simple cases
@@ -68,6 +118,29 @@ By the end of this module, you should be able to:
 ```c
 #include <time.h>
 #include <math.h>
+
+// ---
+
+/**
+ * Reconnection with Exponential Backoff
+ *
+ * When a client loses connection to the server, it should not retry immediately in a tight loop.
+ * Exponential backoff increases the delay between retries, reducing server overload and network congestion.
+ *
+ * - Start with a small delay (e.g., 100ms)
+ * - Double the delay after each failure, up to a maximum (e.g., 30s)
+ * - Add random jitter to avoid "thundering herd" effect
+ *
+ * This pattern is used in real-world systems like HTTP clients, database drivers, and cloud SDKs.
+ *
+ * Visual:
+ *
+ *   Attempt 1   Attempt 2   Attempt 3   ...
+ *   |-----|--------|-------------|........
+ *
+ * Best Practice: Always log failures and give up after a maximum number of retries.
+ */
+
 
 typedef struct {
     socket_t sockfd;
@@ -201,6 +274,34 @@ int resilient_send(resilient_client_t* client, const void* data, size_t len) {
 ```c
 #define POOL_SIZE 10
 
+// ---
+
+/**
+ * Connection Pool Pattern
+ *
+ * For clients that make many short-lived or concurrent requests, creating a new connection for each request is inefficient.
+ * A connection pool maintains a set of open connections that can be reused, reducing latency and resource usage.
+ *
+ * - Acquire a connection from the pool before sending a request
+ * - Release it back to the pool after use
+ * - Idle connections are closed after a timeout
+ *
+ * Used in: Database clients, HTTP clients, microservices
+ *
+ * Visual:
+ *
+ *   ┌────────────┐
+ *   │ Connection │
+ *   │   Pool     │
+ *   └─────┬──────┘
+ *         │
+ *   ┌─────┴─────┐
+ *   │ Client(s) │
+ *   └───────────┘
+ *
+ * Best Practice: Limit pool size to avoid exhausting server resources.
+ */
+
 typedef struct {
     socket_t sockfd;
     int in_use;
@@ -304,6 +405,27 @@ void release_connection(connection_pool_t* pool, socket_t sockfd) {
 ```c
 typedef struct {
     socket_t sockfd;
+// ---
+
+/**
+ * Heartbeat Pattern
+ *
+ * In long-lived connections, network failures may not be detected immediately.
+ * Heartbeats are small periodic messages sent to check if the connection is still alive.
+ *
+ * - Client sends "HEARTBEAT" every N seconds
+ * - Server replies with "HEARTBEAT_ACK"
+ * - If no ACK is received within a timeout, the connection is considered dead
+ *
+ * Used in: Messaging systems, trading platforms, multiplayer games
+ *
+ * Visual:
+ *
+ *   [Client]──HEARTBEAT──►[Server]
+ *   [Client]◄─ACK─────────[Server]
+ *
+ * Best Practice: Tune heartbeat interval and timeout for your application's needs.
+ */
     time_t last_heartbeat_sent;
     time_t last_heartbeat_received;
     int heartbeat_interval;
@@ -350,10 +472,59 @@ void check_heartbeat_status(heartbeat_client_t* client) {
 
 ### 2. Server Patterns
 
+Server-side patterns help you design scalable, efficient, and robust servers. The right pattern depends on your application's concurrency, performance, and resource requirements.
+
+#### Key Concepts
+- **Iterative Server:** Handles one client at a time (simple, not scalable)
+- **Thread-per-Client:** Spawns a new thread for each client (easy, but can exhaust resources)
+- **Thread Pool:** Uses a fixed pool of worker threads to handle many clients (efficient, scalable)
+- **Event-driven:** Uses non-blocking I/O and event loops (best for very high concurrency)
+- **Hybrid:** Combines patterns for complex needs
+
+#### When to Use
+- High-load servers (web, chat, game, proxy)
+- When you need to control resource usage
+- When you want to avoid the overhead of creating/destroying threads for each client
+
+#### Visual: Thread Pool Server
+```
+┌────────────┐   accept   ┌────────────┐
+│  Clients   │──────────►│  Work Queue│
+└────────────┘           └─────┬──────┘
+                                   │
+                        ┌──────────┴──────────┐
+                        │ Worker Threads Pool │
+                        └─────────────────────┘
+```
+
+---
+
 #### Thread Pool Server Pattern
 ```c
 #include <pthread.h>
 #include <semaphore.h>
+
+// ---
+
+/**
+ * Thread Pool Server Pattern
+ *
+ * Instead of creating a new thread for every client (which can exhaust system resources),
+ * a thread pool server maintains a fixed number of worker threads. Incoming client requests
+ * are placed in a work queue, and worker threads pick up tasks as they become available.
+ *
+ * - Efficient for high-load servers
+ * - Controls concurrency and resource usage
+ * - Reduces thread creation/destruction overhead
+ *
+ * Used in: Web servers, chat servers, proxies, databases
+ *
+ * Visual:
+ *
+ *   [Client]───►[Work Queue]───►[Worker Thread]
+ *
+ * Best Practice: Tune the pool size based on CPU cores and expected load.
+ */
 
 #define MAX_THREADS 20
 #define QUEUE_SIZE 100
