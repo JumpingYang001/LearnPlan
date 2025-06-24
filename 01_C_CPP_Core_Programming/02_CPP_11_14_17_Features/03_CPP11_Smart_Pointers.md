@@ -1,7 +1,5 @@
 # C++11 Smart Pointers
 
-# C++11 Smart Pointers
-
 *Duration: 2 weeks*
 
 ## Overview
