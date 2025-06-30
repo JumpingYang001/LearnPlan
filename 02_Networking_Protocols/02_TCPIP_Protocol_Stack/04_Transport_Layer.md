@@ -1120,6 +1120,3 @@ iperf3 -c server_ip             # Run client test
 ulimit -n                       # Check file descriptor limit
 cat /proc/sys/net/core/somaxconn # Check socket backlog limit
 ```
-
-## Next Section
-[Application Layer Protocols](05_Application_Layer.md)
