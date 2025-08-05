@@ -1322,13 +1322,3 @@ pip install vllm tensorrt
 pip install flash-attn
 pip install triton
 ```
-
-## 7. Next Steps
-
-**Next Section:** [Deployment Architectures](12_Deployment_Architectures.md)
-
-**Related Topics:**
-- Hardware acceleration (GPUs, TPUs)
-- Quantization and compression
-- Distributed inference
-- Edge deployment optimization

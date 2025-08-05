@@ -1291,13 +1291,3 @@ pip install scikit-learn pandas numpy
 pip install transformers datasets
 pip install matplotlib seaborn plotly
 ```
-
-## 7. Next Steps
-
-**Next Section:** [Inference Optimization](11_Inference_Optimization.md)
-
-**Related Topics:**
-- Explainable AI and interpretability
-- Privacy-preserving NLP
-- Regulatory compliance (GDPR, AI Act)
-- Responsible AI governance frameworks

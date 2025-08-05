@@ -1554,13 +1554,3 @@ kubectl apply -f prometheus-operator.yaml
 kubectl apply -f grafana.yaml
 kubectl apply -f alertmanager.yaml
 ```
-
-## 8. Next Steps
-
-**Next Section:** [Project_Sentiment_Analysis_Pipeline.md](Project_Sentiment_Analysis_Pipeline.md)
-
-**Related Topics:**
-- Infrastructure as Code (Terraform, Ansible)
-- CI/CD pipelines for ML
-- Security and compliance
-- Cost optimization strategies

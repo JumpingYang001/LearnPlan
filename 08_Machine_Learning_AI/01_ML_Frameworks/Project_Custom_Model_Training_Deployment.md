@@ -2738,6 +2738,8 @@ if __name__ == "__main__":
     print("MONITORING SUMMARY")
     print("="*50)
     summary = monitor.get_summary()
+```
+
 ## Part 5: Project Summary and Learning Outcomes
 
 ### 5.1 Complete Project Structure

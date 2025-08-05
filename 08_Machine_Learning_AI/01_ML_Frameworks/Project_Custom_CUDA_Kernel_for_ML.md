@@ -1050,7 +1050,6 @@ python src/python_bindings/pytorch_ops.py
 1. **CUDA not found**: Ensure CUDA is in PATH
 2. **Compilation errors**: Check GCC/MSVC compatibility
 3. **Runtime errors**: Verify GPU compute capability
-```
 
 ## Project Milestones and Assessment
 
