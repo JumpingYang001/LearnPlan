@@ -81,6 +81,7 @@ from sklearn.datasets import make_regression
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import PolynomialFeatures
+from sklearn.model_selection import train_test_split
 
 # Generate sample regression data
 X, y = make_regression(n_samples=100, n_features=1, noise=10, random_state=42)
